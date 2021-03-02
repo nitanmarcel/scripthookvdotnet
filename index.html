@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Community Script Hook V .NET | Community Script Hook V .NET </title>
+    <title>Getting started with ScriptHookVDotNet | Community Script Hook V .NET </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Community Script Hook V .NET | Community Script Hook V .NET ">
+    <meta name="title" content="Getting started with ScriptHookVDotNet | Community Script Hook V .NET ">
     <meta name="generator" content="docfx 2.56.7.0">
     
     <link rel="shortcut icon" href="favicon.ico">
@@ -69,24 +69,88 @@
         <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="community-script-hook-v-net">Community Script Hook V .NET</h1>
+<h1 id="getting-started-with-scripthookvdotnet">Getting started with ScriptHookVDotNet</h1>
 
-<p><a href="https://ci.appveyor.com/project/crosire/scripthookvdotnet"><img src="https://ci.appveyor.com/api/projects/status/github/crosire/scripthookvdotnet?branch=master&amp;svg=true" alt="Build Status"></a></p>
-<p>This is an ASI plugin for Grand Theft Auto V, based on the C++ ScriptHook by Alexander Blade, which allows running scripts written in any .NET language in-game.</p>
-<p>The issues page should be primarily used for bug reports and enhancement ideas. Questions related to GTA V scripting in general are better off in forums dedicated to this purpose, like <a href="https://forums.gta5-mods.com/category/5/general-modding-discussion">gta5-mods.com</a> or <a href="https://gtaforums.com/forum/372-coding/">gtaforums.com</a>.</p>
-<h2 id="requirements">Requirements</h2>
+<p>Before you can start playing with ScriptHookVDotNet you need some prerequisites:</p>
 <ul>
-<li><a href="http://www.dev-c.com/gtav/scripthookv/">C++ ScriptHook by Alexander Blade</a></li>
-<li><a href="https://dotnet.microsoft.com/download/dotnet-framework/net48">.NET Framework ≥ 4.8</a></li>
-<li><a href="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads">Visual C++ Redistributable for Visual Studio 2019 x64</a></li>
+<li>GTA V</li>
+<li><a href="http://www.dev-c.com/gtav/scripthookv/">ScriptHookV</a></li>
+<li><a href="https://github.com/crosire/scripthookvdotnet">ScriptHookVDotNet SDK</a></li>
 </ul>
-<h2 id="downloads">Downloads</h2>
-<p>Pre-built binaries can be found on the <a href="https://github.com/crosire/scripthookvdotnet/releases">releases</a> page.</p>
-<h2 id="contributing">Contributing</h2>
-<p>You'll need Visual Studio 2017 or higher to open the project file and the <a href="http://www.dev-c.com/gtav/scripthookv/">Script Hook V SDK</a> extracted into <a href="/sdk">/sdk</a>.</p>
-<p>Any contributions to the project are welcomed, it's recommended to use GitHub <a href="https://help.github.com/articles/using-pull-requests/">pull requests</a>.</p>
-<h2 id="license">License</h2>
-<p>All the source code except for the Vector, Matrix and Quaternion classes, which are licensed separately, is licensed under the conditions of the <a href="LICENSE.txt">zlib license</a>.</p>
+<h1 id="how-to-install-scripthookvdotnet">How to install ScriptHookVDotNet</h1>
+<ol>
+<li>Download the latest GitHub revision and compile it using Microsoft Visual Studio.</li>
+<li>Copy <code>ScriptHookVDotNet.asi</code> and <code>ScriptHookVDotNet2/3.dll</code> to your GTA V directory.</li>
+<li>Create a <code>scripts</code> folder in your GTA V directory (if not already happened).</li>
+</ol>
+<p><strong>Hint</strong>: <em>ScriptHookVDotNet supports compiled assemblies as well as C# or VB source files which all have to be placed into the <code>scripts</code> folder in your GTA V directory.</em></p>
+<h1 id="basic-knowledge">Basic Knowledge</h1>
+<p>Every mod/script you write must inherit from the <code>Script</code> class. This class provides 3 events:</p>
+<ul>
+<li><code>Tick</code></li>
+<li><code>KeyUp</code></li>
+<li><code>KeyDown</code></li>
+</ul>
+<p>Those 3 events provides the basic work area you can perfectly work with.</p>
+<h1 id="speeding-up-development">Speeding up Development</h1>
+<p>To avoid needing to constantly stop and start GTA V, you can use the script reloader in the ScriptHookVDotNet.</p>
+<ul>
+<li>Start GTA</li>
+<li>Test out your scripts</li>
+<li>Alt-tab back to your development environment (Visual Studio)</li>
+<li>Make some changes</li>
+<li>Build the script again</li>
+<li>Copy the DLL file into the <code>scripts</code> folder in your GTA V directory</li>
+<li>Alt-tab back into the game</li>
+<li>And <strong>press Insert to load the new script dll</strong>.</li>
+</ul>
+<p><em><strong>Note</strong>: This also works with non compiled .cs or .vb files</em></p>
+<p>You may also want to set up a post build event in Visual Studio to copy the compiled DLL to your scripts folder automatically.</p>
+<h1 id="code-example">Code example</h1>
+<p>Below you can find a basic sample mod that creates a vehicle in front of the own character perfectly heading 90° to the character to get on the car like a sir when pressing <strong>Numpad1</strong>.</p>
+<p><strong>Note</strong>: This script is against SHVDN v3 API.</p>
+<pre><code class="lang-cs">using System;
+using System.Drawing;
+using System.Windows.Forms;
+using GTA;
+
+public class CreateVehicle : Script
+{
+    public CreateVehicle()
+    {
+        Tick += OnTick;
+        KeyUp += OnKeyUp;
+        KeyDown += OnKeyDown;
+    }
+
+    private void OnTick(object sender, EventArgs e)
+    {
+    }
+
+    private void OnKeyDown(object sender, KeyEventArgs e)
+    {
+    }
+
+    private void OnKeyUp(object sender, KeyEventArgs e)
+    {
+        if (e.KeyCode == Keys.NumPad1)
+        {
+            Vehicle vehicle = World.CreateVehicle(VehicleHash.Zentorno, Game.Player.Character.Position + Game.Player.Character.ForwardVector * 3.0f, Game.Player.Character.Heading + 90);
+            vehicle.CanTiresBurst = false;
+            vehicle.Mods.CustomPrimaryColor = Color.FromArgb(38, 38, 38);
+            vehicle.Mods.CustomSecondaryColor = Color.DarkOrange;
+            vehicle.PlaceOnGround();
+            vehicle.Mods.LicensePlate = &quot;SHVDN&quot;;
+        }
+    }
+}
+</code></pre>
+<h1 id="further-reading">Further Reading</h1>
+<p><a href="https://github.com/crosire/scripthookvdotnet/wiki/Code-Snippets">Code Snippets</a></p>
+<p><a href="https://github.com/crosire/scripthookvdotnet/wiki/How-Tos">How-To Guides</a></p>
+<p><a href="https://github.com/crosire/scripthookvdotnet/wiki/How-Tos#calling-native-c-hash-functions">Calling Native C++ Hash Functions</a></p>
+<hr>
+<p>Now feel free to try out new things. There is already so much powerful stuff to play with.</p>
 </article>
           </div>
           
@@ -121,7 +185,7 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright (C) 2015 crosire<br>Generated with <strong>DocFX</strong></span>
+            <span>Copyright (C) 2015 crosire -  <a href="license.html">zlib</a> <br>Generated with <strong>DocFX</strong></span>
             
           </div>
         </div>
