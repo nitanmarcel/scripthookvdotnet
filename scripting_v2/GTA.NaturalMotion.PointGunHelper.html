@@ -1,0 +1,718 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class PointGunHelper
+   | ScriptHookVDotNet </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class PointGunHelper
+   | ScriptHookVDotNet ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../-" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="GTA.NaturalMotion.PointGunHelper">
+  
+  
+  <h1 id="GTA_NaturalMotion_PointGunHelper" data-uid="GTA.NaturalMotion.PointGunHelper" class="text-break">Class PointGunHelper
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="GTA.NaturalMotion.Message.html">Message</a></div>
+    <div class="level2"><a class="xref" href="GTA.NaturalMotion.CustomHelper.html">CustomHelper</a></div>
+    <div class="level3"><span class="xref">PointGunHelper</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.CustomHelper.Start.html#GTA_NaturalMotion_CustomHelper_Start">CustomHelper.Start()</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.CustomHelper.Start.html#GTA_NaturalMotion_CustomHelper_Start_System_Int32_">CustomHelper.Start(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.CustomHelper.Stop.html#GTA_NaturalMotion_CustomHelper_Stop">CustomHelper.Stop()</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.CustomHelper.Abort.html#GTA_NaturalMotion_CustomHelper_Abort">CustomHelper.Abort()</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.Message.Abort.html#GTA_NaturalMotion_Message_Abort_GTA_Ped_">Message.Abort(Ped)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.Message.SendTo.html#GTA_NaturalMotion_Message_SendTo_GTA_Ped_">Message.SendTo(Ped)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.Message.SendTo.html#GTA_NaturalMotion_Message_SendTo_GTA_Ped_System_Int32_">Message.SendTo(Ped, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.Message.SetArgument.html#GTA_NaturalMotion_Message_SetArgument_System_String_System_Boolean_">Message.SetArgument(String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.Message.SetArgument.html#GTA_NaturalMotion_Message_SetArgument_System_String_System_Int32_">Message.SetArgument(String, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.Message.SetArgument.html#GTA_NaturalMotion_Message_SetArgument_System_String_System_Single_">Message.SetArgument(String, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.Message.SetArgument.html#GTA_NaturalMotion_Message_SetArgument_System_String_System_String_">Message.SetArgument(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.Message.SetArgument.html#GTA_NaturalMotion_Message_SetArgument_System_String_GTA_Math_Vector3_">Message.SetArgument(String, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.Message.ResetArguments.html#GTA_NaturalMotion_Message_ResetArguments">Message.ResetArguments()</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.Message.ToString.html#GTA_NaturalMotion_Message_ToString">Message.ToString()</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="GTA.NaturalMotion.html">GTA.NaturalMotion</a></h6>
+  <h6><strong>Assembly</strong>: ScriptHookVDotNet2.dll</h6>
+  <h5 id="GTA_NaturalMotion_PointGunHelper_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class PointGunHelper : CustomHelper</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper__ctor_GTA_Ped_" data-uid="GTA.NaturalMotion.PointGunHelper.#ctor(GTA.Ped)">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.-ctor.html#GTA_NaturalMotion_PointGunHelper__ctor_GTA_Ped_">PointGunHelper(Ped)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Creates a new Instance of the PointGunHelper for sending a PointGun <a class="xref" href="GTA.NaturalMotion.Message.html">Message</a> to a given <a class="xref" href="GTA.Ped.html">Ped</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_AcrossLimit" data-uid="GTA.NaturalMotion.PointGunHelper.AcrossLimit">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.AcrossLimit.html#GTA_NaturalMotion_PointGunHelper_AcrossLimit">AcrossLimit</a>
+        </td>
+        <td class="markdown level1 summary"><p>Max aiming angle(deg) sideways across body midline measured from chest forward that the character will try to point.  i.e. for rightHanded gun this is the angle left of the midline.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_Add2WeaponDistConnect" data-uid="GTA.NaturalMotion.PointGunHelper.Add2WeaponDistConnect">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.Add2WeaponDistConnect.html#GTA_NaturalMotion_PointGunHelper_Add2WeaponDistConnect">Add2WeaponDistConnect</a>
+        </td>
+        <td class="markdown level1 summary"><p>Add to weaponDistance for point2Connect neutral pointing (to straighten the arm).</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_Add2WeaponDistSide" data-uid="GTA.NaturalMotion.PointGunHelper.Add2WeaponDistSide">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.Add2WeaponDistSide.html#GTA_NaturalMotion_PointGunHelper_Add2WeaponDistSide">Add2WeaponDistSide</a>
+        </td>
+        <td class="markdown level1 summary"><p>Add to weaponDistance for point2Side neutral pointing (to straighten the arm).</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_AllowShotLooseness" data-uid="GTA.NaturalMotion.PointGunHelper.AllowShotLooseness">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.AllowShotLooseness.html#GTA_NaturalMotion_PointGunHelper_AllowShotLooseness">AllowShotLooseness</a>
+        </td>
+        <td class="markdown level1 summary"><p>Allow shot to set a lower arm muscleStiffness than pointGun normally would.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_AlwaysSupport" data-uid="GTA.NaturalMotion.PointGunHelper.AlwaysSupport">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.AlwaysSupport.html#GTA_NaturalMotion_PointGunHelper_AlwaysSupport">AlwaysSupport</a>
+        </td>
+        <td class="markdown level1 summary"><p>Support a non pointing gunHand i.e. if in zero pose (constrain as well  if constraint possible).</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_ArmDamping" data-uid="GTA.NaturalMotion.PointGunHelper.ArmDamping">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.ArmDamping.html#GTA_NaturalMotion_PointGunHelper_ArmDamping">ArmDamping</a>
+        </td>
+        <td class="markdown level1 summary"><p>Damping.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_ArmStiffness" data-uid="GTA.NaturalMotion.PointGunHelper.ArmStiffness">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.ArmStiffness.html#GTA_NaturalMotion_PointGunHelper_ArmStiffness">ArmStiffness</a>
+        </td>
+        <td class="markdown level1 summary"><p>Stiffness of the arm.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_ArmStiffnessDetSupport" data-uid="GTA.NaturalMotion.PointGunHelper.ArmStiffnessDetSupport">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.ArmStiffnessDetSupport.html#GTA_NaturalMotion_PointGunHelper_ArmStiffnessDetSupport">ArmStiffnessDetSupport</a>
+        </td>
+        <td class="markdown level1 summary"><p>Stiffness of the arm on pointing arm when a support arm is detached from a two-handed weapon.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_AwayLimit" data-uid="GTA.NaturalMotion.PointGunHelper.AwayLimit">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.AwayLimit.html#GTA_NaturalMotion_PointGunHelper_AwayLimit">AwayLimit</a>
+        </td>
+        <td class="markdown level1 summary"><p>Max aiming angle(deg) sideways away from body midline measured from chest forward that the character will try to point.  i.e. for rightHanded gun this is the angle right of the midline.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_BreakingStrength" data-uid="GTA.NaturalMotion.PointGunHelper.BreakingStrength">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.BreakingStrength.html#GTA_NaturalMotion_PointGunHelper_BreakingStrength">BreakingStrength</a>
+        </td>
+        <td class="markdown level1 summary"><p>For supportConstraint = 1: strength of the supporting hands constraint (kg m/s), -1 to ignore/disable.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_BrokenSupportTime" data-uid="GTA.NaturalMotion.PointGunHelper.BrokenSupportTime">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.BrokenSupportTime.html#GTA_NaturalMotion_PointGunHelper_BrokenSupportTime">BrokenSupportTime</a>
+        </td>
+        <td class="markdown level1 summary"><p>Once constraint is broken then do not try to reconnect/support for this amount of time.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_BrokenToSideProb" data-uid="GTA.NaturalMotion.PointGunHelper.BrokenToSideProb">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.BrokenToSideProb.html#GTA_NaturalMotion_PointGunHelper_BrokenToSideProb">BrokenToSideProb</a>
+        </td>
+        <td class="markdown level1 summary"><p>Probability that the when a constraint is broken that during brokenSupportTime a side pose will be selected.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_CheckNeutralPoint" data-uid="GTA.NaturalMotion.PointGunHelper.CheckNeutralPoint">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.CheckNeutralPoint.html#GTA_NaturalMotion_PointGunHelper_CheckNeutralPoint">CheckNeutralPoint</a>
+        </td>
+        <td class="markdown level1 summary"><p>Check the neutral pointing is pointable, if it isn't then choose a neutral pose instead.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_ClavicleBlend" data-uid="GTA.NaturalMotion.PointGunHelper.ClavicleBlend">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.ClavicleBlend.html#GTA_NaturalMotion_PointGunHelper_ClavicleBlend">ClavicleBlend</a>
+        </td>
+        <td class="markdown level1 summary"><p>How much of blend should come from incoming transforms 0(all IK) .. 1(all ITMs)   For pointing arms only.  (Support arm uses the IK solution as is for clavicles).</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_ConnectAfter" data-uid="GTA.NaturalMotion.PointGunHelper.ConnectAfter">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.ConnectAfter.html#GTA_NaturalMotion_PointGunHelper_ConnectAfter">ConnectAfter</a>
+        </td>
+        <td class="markdown level1 summary"><p>If gunArm has been controlled by other behaviors for this time when it could have been pointing but couldn't due to pointing only allowed if connected, change gunArm pose to something that could connect for connectFor seconds.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_ConnectFor" data-uid="GTA.NaturalMotion.PointGunHelper.ConnectFor">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.ConnectFor.html#GTA_NaturalMotion_PointGunHelper_ConnectFor">ConnectFor</a>
+        </td>
+        <td class="markdown level1 summary"><p>Time to try to reconnect for.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_ConstrainRifle" data-uid="GTA.NaturalMotion.PointGunHelper.ConstrainRifle">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.ConstrainRifle.html#GTA_NaturalMotion_PointGunHelper_ConstrainRifle">ConstrainRifle</a>
+        </td>
+        <td class="markdown level1 summary"><p>Use hard constraint to keep rifle stock against shoulder?.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_ConstraintMinDistance" data-uid="GTA.NaturalMotion.PointGunHelper.ConstraintMinDistance">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.ConstraintMinDistance.html#GTA_NaturalMotion_PointGunHelper_ConstraintMinDistance">ConstraintMinDistance</a>
+        </td>
+        <td class="markdown level1 summary"><p>For supportConstraint = 1: Support hand constraint distance will be slowly reduced until it hits this value.  This is for stability and also allows the pointing arm to lead a little.  Don't set lower than NM_MIN_STABLE_DISTANCECONSTRAINT_DISTANCE 0.001f.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_DisableArmCollisions" data-uid="GTA.NaturalMotion.PointGunHelper.DisableArmCollisions">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.DisableArmCollisions.html#GTA_NaturalMotion_PointGunHelper_DisableArmCollisions">DisableArmCollisions</a>
+        </td>
+        <td class="markdown level1 summary"><p>Disable collisions between right hand/forearm and the torso/legs.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_DisableRifleCollisions" data-uid="GTA.NaturalMotion.PointGunHelper.DisableRifleCollisions">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.DisableRifleCollisions.html#GTA_NaturalMotion_PointGunHelper_DisableRifleCollisions">DisableRifleCollisions</a>
+        </td>
+        <td class="markdown level1 summary"><p>Disable collisions between right hand/forearm and spine3/spine2 if in rifle mode.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_DownLimit" data-uid="GTA.NaturalMotion.PointGunHelper.DownLimit">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.DownLimit.html#GTA_NaturalMotion_PointGunHelper_DownLimit">DownLimit</a>
+        </td>
+        <td class="markdown level1 summary"><p>Max aiming angle(deg) downwards from body midline measured from chest forward that the character will try to point.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_ElbowAttitude" data-uid="GTA.NaturalMotion.PointGunHelper.ElbowAttitude">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.ElbowAttitude.html#GTA_NaturalMotion_PointGunHelper_ElbowAttitude">ElbowAttitude</a>
+        </td>
+        <td class="markdown level1 summary"><p>Controls arm twist. (except in pistolIK).</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_EnableLeft" data-uid="GTA.NaturalMotion.PointGunHelper.EnableLeft">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.EnableLeft.html#GTA_NaturalMotion_PointGunHelper_EnableLeft">EnableLeft</a>
+        </td>
+        <td class="markdown level1 summary"><p>Allow right hand to point/support?.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_EnableRight" data-uid="GTA.NaturalMotion.PointGunHelper.EnableRight">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.EnableRight.html#GTA_NaturalMotion_PointGunHelper_EnableRight">EnableRight</a>
+        </td>
+        <td class="markdown level1 summary"><p>Allow right hand to point/support?.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_ErrorThreshold" data-uid="GTA.NaturalMotion.PointGunHelper.ErrorThreshold">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.ErrorThreshold.html#GTA_NaturalMotion_PointGunHelper_ErrorThreshold">ErrorThreshold</a>
+        </td>
+        <td class="markdown level1 summary"><p>Angular difference between pointing direction and target direction above which feedback will be generated.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_FallingLimits" data-uid="GTA.NaturalMotion.PointGunHelper.FallingLimits">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.FallingLimits.html#GTA_NaturalMotion_PointGunHelper_FallingLimits">FallingLimits</a>
+        </td>
+        <td class="markdown level1 summary"><p>0= don't apply limits.  1=apply the limits below only when the character is falling.  2 =  always apply these limits (instead of applying maxAngleAcross and maxAngleAway which only limits the horizontal angle but implicity limits the updown (the limit shape is a vertical hinge).</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_FallingSupport" data-uid="GTA.NaturalMotion.PointGunHelper.FallingSupport">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.FallingSupport.html#GTA_NaturalMotion_PointGunHelper_FallingSupport">FallingSupport</a>
+        </td>
+        <td class="markdown level1 summary"><p>Allow supporting of a rifle(or two handed pistol) when falling. 0 = false, 1 = support if allowed, 2 = support until constraint not active (don't allow support to restart), 3 = support until constraint not effective (support hand to support distance must be less than 0.15 - don't allow support to restart).</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_FallingTypeSupport" data-uid="GTA.NaturalMotion.PointGunHelper.FallingTypeSupport">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.FallingTypeSupport.html#GTA_NaturalMotion_PointGunHelper_FallingTypeSupport">FallingTypeSupport</a>
+        </td>
+        <td class="markdown level1 summary"><p>What is considered a fall by fallingSupport). Apply fallingSupport 0=never(will support if allowed), 1 = falling, 2 = falling except if falling backwards, 3 = falling and collided, 4 = falling and collided except if falling backwards, 5 = falling except if falling backwards until collided.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_FireWeaponRelaxAmount" data-uid="GTA.NaturalMotion.PointGunHelper.FireWeaponRelaxAmount">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.FireWeaponRelaxAmount.html#GTA_NaturalMotion_PointGunHelper_FireWeaponRelaxAmount">FireWeaponRelaxAmount</a>
+        </td>
+        <td class="markdown level1 summary"><p>Relax multiplier following firing weapon. Recovers over relaxTime.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_FireWeaponRelaxDistance" data-uid="GTA.NaturalMotion.PointGunHelper.FireWeaponRelaxDistance">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.FireWeaponRelaxDistance.html#GTA_NaturalMotion_PointGunHelper_FireWeaponRelaxDistance">FireWeaponRelaxDistance</a>
+        </td>
+        <td class="markdown level1 summary"><p>Range of motion for ik-based recoil.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_FireWeaponRelaxTime" data-uid="GTA.NaturalMotion.PointGunHelper.FireWeaponRelaxTime">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.FireWeaponRelaxTime.html#GTA_NaturalMotion_PointGunHelper_FireWeaponRelaxTime">FireWeaponRelaxTime</a>
+        </td>
+        <td class="markdown level1 summary"><p>Duration of arms relax following firing weapon.  NB:This is clamped (0,5) in pointGun.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_GravityOpposition" data-uid="GTA.NaturalMotion.PointGunHelper.GravityOpposition">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.GravityOpposition.html#GTA_NaturalMotion_PointGunHelper_GravityOpposition">GravityOpposition</a>
+        </td>
+        <td class="markdown level1 summary"><p>Amount of gravity opposition on pointing arm.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_GravOppDetachedSupport" data-uid="GTA.NaturalMotion.PointGunHelper.GravOppDetachedSupport">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.GravOppDetachedSupport.html#GTA_NaturalMotion_PointGunHelper_GravOppDetachedSupport">GravOppDetachedSupport</a>
+        </td>
+        <td class="markdown level1 summary"><p>Amount of gravity opposition on pointing arm when a support arm is detached from a two-handed weapon.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_LeadTarget" data-uid="GTA.NaturalMotion.PointGunHelper.LeadTarget">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.LeadTarget.html#GTA_NaturalMotion_PointGunHelper_LeadTarget">LeadTarget</a>
+        </td>
+        <td class="markdown level1 summary"><p>NB: Only Applied to single handed weapons (some more work is required to have this tech on two handed weapons). Amount to lead target based on target velocity relative to the chest.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_LeftHandParentEffector" data-uid="GTA.NaturalMotion.PointGunHelper.LeftHandParentEffector">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.LeftHandParentEffector.html#GTA_NaturalMotion_PointGunHelper_LeftHandParentEffector">LeftHandParentEffector</a>
+        </td>
+        <td class="markdown level1 summary"><p>1 = Use leftShoulder. Effector from which the left hand pointing originates. Ie, point from this part to the target. -1 causes default offset for active weapon mode to be applied.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_LeftHandParentOffset" data-uid="GTA.NaturalMotion.PointGunHelper.LeftHandParentOffset">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.LeftHandParentOffset.html#GTA_NaturalMotion_PointGunHelper_LeftHandParentOffset">LeftHandParentOffset</a>
+        </td>
+        <td class="markdown level1 summary"><p>Pointing-from offset from parent effector, expressed in spine3's frame, x = back/forward, y = right/left, z = up/down.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_LeftHandTarget" data-uid="GTA.NaturalMotion.PointGunHelper.LeftHandTarget">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.LeftHandTarget.html#GTA_NaturalMotion_PointGunHelper_LeftHandTarget">LeftHandTarget</a>
+        </td>
+        <td class="markdown level1 summary"><p>Target for the left Hand.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_LeftHandTargetIndex" data-uid="GTA.NaturalMotion.PointGunHelper.LeftHandTargetIndex">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.LeftHandTargetIndex.html#GTA_NaturalMotion_PointGunHelper_LeftHandTargetIndex">LeftHandTargetIndex</a>
+        </td>
+        <td class="markdown level1 summary"><p>Index of the object that the left hand target is specified in, -1 is world space.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_MakeConstraintDistance" data-uid="GTA.NaturalMotion.PointGunHelper.MakeConstraintDistance">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.MakeConstraintDistance.html#GTA_NaturalMotion_PointGunHelper_MakeConstraintDistance">MakeConstraintDistance</a>
+        </td>
+        <td class="markdown level1 summary"><p>For supportConstraint = 1:  Minimum distance within which support hand constraint will be made.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_MassMultDetachedSupport" data-uid="GTA.NaturalMotion.PointGunHelper.MassMultDetachedSupport">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.MassMultDetachedSupport.html#GTA_NaturalMotion_PointGunHelper_MassMultDetachedSupport">MassMultDetachedSupport</a>
+        </td>
+        <td class="markdown level1 summary"><p>Amount of mass of weapon taken into account by gravity opposition on pointing arm when a support arm is detached from a two-handed weapon.  The lower the value the more the character doesn't know about the weapon mass and therefore is more affected by it.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_MaxAngleAcross" data-uid="GTA.NaturalMotion.PointGunHelper.MaxAngleAcross">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.MaxAngleAcross.html#GTA_NaturalMotion_PointGunHelper_MaxAngleAcross">MaxAngleAcross</a>
+        </td>
+        <td class="markdown level1 summary"><p>Max aiming angle(deg) sideways across body midline measured from chest forward that the character will try to point.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_MaxAngleAway" data-uid="GTA.NaturalMotion.PointGunHelper.MaxAngleAway">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.MaxAngleAway.html#GTA_NaturalMotion_PointGunHelper_MaxAngleAway">MaxAngleAway</a>
+        </td>
+        <td class="markdown level1 summary"><p>Max aiming angle(deg) sideways away from body midline measured from chest forward that the character will try to point.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_MeasureParentOffset" data-uid="GTA.NaturalMotion.PointGunHelper.MeasureParentOffset">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.MeasureParentOffset.html#GTA_NaturalMotion_PointGunHelper_MeasureParentOffset">MeasureParentOffset</a>
+        </td>
+        <td class="markdown level1 summary"><p>If useIncomingTransforms = true and measureParentOffset=true then measure the Pointing-from offset from parent effector, using itms - this should point the barrel of the gun to the target.  This is added to the rightHandParentOffset. NB NOT used if rightHandParentEffector LT 0.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_NeutralPoint4Pistols" data-uid="GTA.NaturalMotion.PointGunHelper.NeutralPoint4Pistols">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.NeutralPoint4Pistols.html#GTA_NaturalMotion_PointGunHelper_NeutralPoint4Pistols">NeutralPoint4Pistols</a>
+        </td>
+        <td class="markdown level1 summary"><p>NOT IMPLEMENTED YET KEEP=false - use pointing for neutral targets in pistol modes.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_NeutralPoint4Rifle" data-uid="GTA.NaturalMotion.PointGunHelper.NeutralPoint4Rifle">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.NeutralPoint4Rifle.html#GTA_NaturalMotion_PointGunHelper_NeutralPoint4Rifle">NeutralPoint4Rifle</a>
+        </td>
+        <td class="markdown level1 summary"><p>Use pointing for neutral targets in rifle mode.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_OneHandedPointing" data-uid="GTA.NaturalMotion.PointGunHelper.OneHandedPointing">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.OneHandedPointing.html#GTA_NaturalMotion_PointGunHelper_OneHandedPointing">OneHandedPointing</a>
+        </td>
+        <td class="markdown level1 summary"><p>0 = don't allow, 1= allow for kPistol(two handed pistol) only, 2 = allow for kRifle only, 3 = allow for kPistol and kRifle. Allow one handed pointing - no constraint if cant be supported .  If not allowed then gunHand does not try to point at target if it cannot be supported - the constraint will be controlled by always support.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_PistolNeutralType" data-uid="GTA.NaturalMotion.PointGunHelper.PistolNeutralType">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.PistolNeutralType.html#GTA_NaturalMotion_PointGunHelper_PistolNeutralType">PistolNeutralType</a>
+        </td>
+        <td class="markdown level1 summary"><p>0 = byFace, 1=acrossFront, 2=bySide.  NB: bySide is not connectible so be careful if combined with kPistol and oneHandedPointing = 0 or 2.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_Point2Connect" data-uid="GTA.NaturalMotion.PointGunHelper.Point2Connect">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.Point2Connect.html#GTA_NaturalMotion_PointGunHelper_Point2Connect">Point2Connect</a>
+        </td>
+        <td class="markdown level1 summary"><p>Side, up, back) side is left for left arm, right for rght arm mmmmtodo.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_Point2Side" data-uid="GTA.NaturalMotion.PointGunHelper.Point2Side">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.Point2Side.html#GTA_NaturalMotion_PointGunHelper_Point2Side">Point2Side</a>
+        </td>
+        <td class="markdown level1 summary"><p>Side, up, back) side is left for left arm, right for right arm mmmmtodo.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_PoseUnusedGunArm" data-uid="GTA.NaturalMotion.PointGunHelper.PoseUnusedGunArm">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.PoseUnusedGunArm.html#GTA_NaturalMotion_PointGunHelper_PoseUnusedGunArm">PoseUnusedGunArm</a>
+        </td>
+        <td class="markdown level1 summary"><p>Apply neutral pose when a gun arm isn't in use.  NB: at the moment Rifle hand is always controlled by pointGun.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_PoseUnusedOtherArm" data-uid="GTA.NaturalMotion.PointGunHelper.PoseUnusedOtherArm">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.PoseUnusedOtherArm.html#GTA_NaturalMotion_PointGunHelper_PoseUnusedOtherArm">PoseUnusedOtherArm</a>
+        </td>
+        <td class="markdown level1 summary"><p>Apply neutral pose to the non-gun arm (otherwise it is always under the control of other behaviors or not set). If the non-gun hand is a supporting hand it is not controlled by this parameter but by poseUnusedSupportArm.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_PoseUnusedSupportArm" data-uid="GTA.NaturalMotion.PointGunHelper.PoseUnusedSupportArm">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.PoseUnusedSupportArm.html#GTA_NaturalMotion_PointGunHelper_PoseUnusedSupportArm">PoseUnusedSupportArm</a>
+        </td>
+        <td class="markdown level1 summary"><p>Apply neutral pose when a support arm isn't in use.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_PrimaryHandWeaponDistance" data-uid="GTA.NaturalMotion.PointGunHelper.PrimaryHandWeaponDistance">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.PrimaryHandWeaponDistance.html#GTA_NaturalMotion_PointGunHelper_PrimaryHandWeaponDistance">PrimaryHandWeaponDistance</a>
+        </td>
+        <td class="markdown level1 summary"><p>Distance from the shoulder to hold the weapon. If -1 and useIncomingTransforms then weaponDistance is read from ITMs. WeaponDistance=primaryHandWeaponDistance clamped [0.2f:m_maxArmReach=0.65] if useIncomingTransforms = false. pistol 0.60383, rifle 0.336.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_ReduceConstraintLengthVel" data-uid="GTA.NaturalMotion.PointGunHelper.ReduceConstraintLengthVel">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.ReduceConstraintLengthVel.html#GTA_NaturalMotion_PointGunHelper_ReduceConstraintLengthVel">ReduceConstraintLengthVel</a>
+        </td>
+        <td class="markdown level1 summary"><p>For supportConstraint = 1:  Velocity at which to reduce the support hand constraint length.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_RifleConstraintMinDistance" data-uid="GTA.NaturalMotion.PointGunHelper.RifleConstraintMinDistance">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.RifleConstraintMinDistance.html#GTA_NaturalMotion_PointGunHelper_RifleConstraintMinDistance">RifleConstraintMinDistance</a>
+        </td>
+        <td class="markdown level1 summary"><p>Rifle constraint distance. Deliberately kept large to create a flat constraint surface where rifle meets the shoulder.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_RifleFall" data-uid="GTA.NaturalMotion.PointGunHelper.RifleFall">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.RifleFall.html#GTA_NaturalMotion_PointGunHelper_RifleFall">RifleFall</a>
+        </td>
+        <td class="markdown level1 summary"><p>Pose the rifle hand to reduce complications with collisions. 0 = false, 1 = always when falling, 2 = when falling except if falling backwards.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_RightHandParentEffector" data-uid="GTA.NaturalMotion.PointGunHelper.RightHandParentEffector">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.RightHandParentEffector.html#GTA_NaturalMotion_PointGunHelper_RightHandParentEffector">RightHandParentEffector</a>
+        </td>
+        <td class="markdown level1 summary"><p>1 = Use rightShoulder.. Effector from which the right hand pointing originates. Ie, point from this part to the target. -1 causes default offset for active weapon mode to be applied.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_RightHandParentOffset" data-uid="GTA.NaturalMotion.PointGunHelper.RightHandParentOffset">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.RightHandParentOffset.html#GTA_NaturalMotion_PointGunHelper_RightHandParentOffset">RightHandParentOffset</a>
+        </td>
+        <td class="markdown level1 summary"><p>Pointing-from offset from parent effector, expressed in spine3's frame, x = back/forward, y = right/left, z = up/down. This is added to the measured one if useIncomingTransforms=true and measureParentOffset=true.  NB NOT used if rightHandParentEffector LT 0.  Pistol(0,0,0) Rifle(0.0032, 0.0, -0.0).</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_RightHandTarget" data-uid="GTA.NaturalMotion.PointGunHelper.RightHandTarget">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.RightHandTarget.html#GTA_NaturalMotion_PointGunHelper_RightHandTarget">RightHandTarget</a>
+        </td>
+        <td class="markdown level1 summary"><p>Target for the right Hand.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_RightHandTargetIndex" data-uid="GTA.NaturalMotion.PointGunHelper.RightHandTargetIndex">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.RightHandTargetIndex.html#GTA_NaturalMotion_PointGunHelper_RightHandTargetIndex">RightHandTargetIndex</a>
+        </td>
+        <td class="markdown level1 summary"><p>Index of the object that the right hand target is specified in, -1 is world space.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_SupportConstraint" data-uid="GTA.NaturalMotion.PointGunHelper.SupportConstraint">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.SupportConstraint.html#GTA_NaturalMotion_PointGunHelper_SupportConstraint">SupportConstraint</a>
+        </td>
+        <td class="markdown level1 summary"><p>Type of constraint between the support hand and gun.  0=no constraint, 1=hard distance constraint, 2=Force based constraint, 3=hard spherical constraint.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_UpLimit" data-uid="GTA.NaturalMotion.PointGunHelper.UpLimit">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.UpLimit.html#GTA_NaturalMotion_PointGunHelper_UpLimit">UpLimit</a>
+        </td>
+        <td class="markdown level1 summary"><p>Max aiming angle(deg) upwards from body midline measured from chest forward that the character will try to point.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_UseHeadLook" data-uid="GTA.NaturalMotion.PointGunHelper.UseHeadLook">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.UseHeadLook.html#GTA_NaturalMotion_PointGunHelper_UseHeadLook">UseHeadLook</a>
+        </td>
+        <td class="markdown level1 summary"><p>Use head look to drive head?.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_UseIncomingTransforms" data-uid="GTA.NaturalMotion.PointGunHelper.UseIncomingTransforms">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.UseIncomingTransforms.html#GTA_NaturalMotion_PointGunHelper_UseIncomingTransforms">UseIncomingTransforms</a>
+        </td>
+        <td class="markdown level1 summary"><p>Use the incoming transforms to inform the pointGun of the primaryWeaponDistance, poleVector for the arm.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_UsePistolIK" data-uid="GTA.NaturalMotion.PointGunHelper.UsePistolIK">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.UsePistolIK.html#GTA_NaturalMotion_PointGunHelper_UsePistolIK">UsePistolIK</a>
+        </td>
+        <td class="markdown level1 summary"><p>Enable new ik for pistol pointing.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_UseSpineTwist" data-uid="GTA.NaturalMotion.PointGunHelper.UseSpineTwist">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.UseSpineTwist.html#GTA_NaturalMotion_PointGunHelper_UseSpineTwist">UseSpineTwist</a>
+        </td>
+        <td class="markdown level1 summary"><p>Use spine twist to orient chest?.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_PointGunHelper_UseTurnToTarget" data-uid="GTA.NaturalMotion.PointGunHelper.UseTurnToTarget">
+          <a class="xref" href="GTA.NaturalMotion.PointGunHelper.UseTurnToTarget.html#GTA_NaturalMotion_PointGunHelper_UseTurnToTarget">UseTurnToTarget</a>
+        </td>
+        <td class="markdown level1 summary"><p>Turn balancer to help gun point at target.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/crosire/scripthookvdotnet//new/master/apiSpec/new?filename=GTA_NaturalMotion_PointGunHelper.md&amp;value=---%0Auid%3A%20GTA.NaturalMotion.PointGunHelper%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/nitanmarcel/scripthookvdotnet/blob/main/source/scripting_v2/GTA.NaturalMotion/EuphoriaHelpers.cs/#L16103" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+                <script type="text/javascript" src="../styles/toggle-theme.js"></script>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

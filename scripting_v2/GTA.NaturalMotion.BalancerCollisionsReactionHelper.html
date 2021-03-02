@@ -1,0 +1,571 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BalancerCollisionsReactionHelper
+   | ScriptHookVDotNet </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BalancerCollisionsReactionHelper
+   | ScriptHookVDotNet ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../-" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper">
+  
+  
+  <h1 id="GTA_NaturalMotion_BalancerCollisionsReactionHelper" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper" class="text-break">Class BalancerCollisionsReactionHelper
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="GTA.NaturalMotion.Message.html">Message</a></div>
+    <div class="level2"><a class="xref" href="GTA.NaturalMotion.CustomHelper.html">CustomHelper</a></div>
+    <div class="level3"><span class="xref">BalancerCollisionsReactionHelper</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.CustomHelper.Start.html#GTA_NaturalMotion_CustomHelper_Start">CustomHelper.Start()</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.CustomHelper.Start.html#GTA_NaturalMotion_CustomHelper_Start_System_Int32_">CustomHelper.Start(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.CustomHelper.Stop.html#GTA_NaturalMotion_CustomHelper_Stop">CustomHelper.Stop()</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.CustomHelper.Abort.html#GTA_NaturalMotion_CustomHelper_Abort">CustomHelper.Abort()</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.Message.Abort.html#GTA_NaturalMotion_Message_Abort_GTA_Ped_">Message.Abort(Ped)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.Message.SendTo.html#GTA_NaturalMotion_Message_SendTo_GTA_Ped_">Message.SendTo(Ped)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.Message.SendTo.html#GTA_NaturalMotion_Message_SendTo_GTA_Ped_System_Int32_">Message.SendTo(Ped, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.Message.SetArgument.html#GTA_NaturalMotion_Message_SetArgument_System_String_System_Boolean_">Message.SetArgument(String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.Message.SetArgument.html#GTA_NaturalMotion_Message_SetArgument_System_String_System_Int32_">Message.SetArgument(String, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.Message.SetArgument.html#GTA_NaturalMotion_Message_SetArgument_System_String_System_Single_">Message.SetArgument(String, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.Message.SetArgument.html#GTA_NaturalMotion_Message_SetArgument_System_String_System_String_">Message.SetArgument(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.Message.SetArgument.html#GTA_NaturalMotion_Message_SetArgument_System_String_GTA_Math_Vector3_">Message.SetArgument(String, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.Message.ResetArguments.html#GTA_NaturalMotion_Message_ResetArguments">Message.ResetArguments()</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.Message.ToString.html#GTA_NaturalMotion_Message_ToString">Message.ToString()</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="GTA.NaturalMotion.html">GTA.NaturalMotion</a></h6>
+  <h6><strong>Assembly</strong>: ScriptHookVDotNet2.dll</h6>
+  <h5 id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class BalancerCollisionsReactionHelper : CustomHelper</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper__ctor_GTA_Ped_" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.#ctor(GTA.Ped)">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.-ctor.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper__ctor_GTA_Ped_">BalancerCollisionsReactionHelper(Ped)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Creates a new Instance of the BalancerCollisionsReactionHelper for sending a BalancerCollisionsReaction <a class="xref" href="GTA.NaturalMotion.Message.html">Message</a> to a given <a class="xref" href="GTA.Ped.html">Ped</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_BackFrictionMultRate" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.BackFrictionMultRate">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.BackFrictionMultRate.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_BackFrictionMultRate">BackFrictionMultRate</a>
+        </td>
+        <td class="markdown level1 summary"><p>Friction multiplier reduced by this amount every second after slump starts (only if character is not slumping).</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_BackFrictionMultStart" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.BackFrictionMultStart">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.BackFrictionMultStart.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_BackFrictionMultStart">BackFrictionMultStart</a>
+        </td>
+        <td class="markdown level1 summary"><p>Friction multiplier applied to back when slump starts.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_BraceWall" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.BraceWall">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.BraceWall.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_BraceWall">BraceWall</a>
+        </td>
+        <td class="markdown level1 summary"><p>Brace against wall if forwards impact(at the moment only if bodyBalance is running/in charge of arms).</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_ExclusionZone" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.ExclusionZone">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.ExclusionZone.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_ExclusionZone">ExclusionZone</a>
+        </td>
+        <td class="markdown level1 summary"><p>Steps are ihibited to not go closer to the wall than this (after impact).</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_FallOverHighWalls" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.FallOverHighWalls">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.FallOverHighWalls.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_FallOverHighWalls">FallOverHighWalls</a>
+        </td>
+        <td class="markdown level1 summary"><p>Trigger fall over wall if hit up to spine2 else only if hit up to spine1.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_FallOverWallDrape" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.FallOverWallDrape">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.FallOverWallDrape.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_FallOverWallDrape">FallOverWallDrape</a>
+        </td>
+        <td class="markdown level1 summary"><p>Use fallOverWall as the main drape reaction.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_FootFrictionMultRate" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.FootFrictionMultRate">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.FootFrictionMultRate.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_FootFrictionMultRate">FootFrictionMultRate</a>
+        </td>
+        <td class="markdown level1 summary"><p>Friction multiplier reduced by this amount every second after slump starts (only if character is not slumping).</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_FootFrictionMultStart" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.FootFrictionMultStart">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.FootFrictionMultStart.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_FootFrictionMultStart">FootFrictionMultStart</a>
+        </td>
+        <td class="markdown level1 summary"><p>Friction multiplier applied to feet when slump starts.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_ForwardMode" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.ForwardMode">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.ForwardMode.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_ForwardMode">ForwardMode</a>
+        </td>
+        <td class="markdown level1 summary"><p>0=slump, 1=fallToKnees if shot is running, otherwise slump.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_GlanceSpinDecayMult" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.GlanceSpinDecayMult">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.GlanceSpinDecayMult.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_GlanceSpinDecayMult">GlanceSpinDecayMult</a>
+        </td>
+        <td class="markdown level1 summary"><p>Multiplier used when decaying torque spin over time.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_GlanceSpinMag" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.GlanceSpinMag">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.GlanceSpinMag.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_GlanceSpinMag">GlanceSpinMag</a>
+        </td>
+        <td class="markdown level1 summary"><p>Magnitude of the glance torque.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_GlanceSpinTime" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.GlanceSpinTime">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.GlanceSpinTime.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_GlanceSpinTime">GlanceSpinTime</a>
+        </td>
+        <td class="markdown level1 summary"><p>Duration that the glance torque is applied for.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_IgnoreColMassBelow" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.IgnoreColMassBelow">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.IgnoreColMassBelow.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_IgnoreColMassBelow">IgnoreColMassBelow</a>
+        </td>
+        <td class="markdown level1 summary"><p>Collisions with non-fixed objects with mass below this will not set this behavior off (e.g. ignore guns).</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_IgnoreColVolumeBelow" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.IgnoreColVolumeBelow">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.IgnoreColVolumeBelow.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_IgnoreColVolumeBelow">IgnoreColVolumeBelow</a>
+        </td>
+        <td class="markdown level1 summary"><p>Collisions with non-fixed objects with volume below this will not set this behavior off.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_IgnoreColWithIndex" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.IgnoreColWithIndex">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.IgnoreColWithIndex.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_IgnoreColWithIndex">IgnoreColWithIndex</a>
+        </td>
+        <td class="markdown level1 summary"><p>Used so impact with the character that is pushing you over doesn't set off the behavior.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_ImpactExagTime" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.ImpactExagTime">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.ImpactExagTime.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_ImpactExagTime">ImpactExagTime</a>
+        </td>
+        <td class="markdown level1 summary"><p>Time that the character exaggerates impact with spine.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_ImpactLegStiffReduction" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.ImpactLegStiffReduction">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.ImpactLegStiffReduction.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_ImpactLegStiffReduction">ImpactLegStiffReduction</a>
+        </td>
+        <td class="markdown level1 summary"><p>Reduce the stiffness of the legs by this much as soon as an impact is detected.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_ImpactLoosenessAmount" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.ImpactLoosenessAmount">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.ImpactLoosenessAmount.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_ImpactLoosenessAmount">ImpactLoosenessAmount</a>
+        </td>
+        <td class="markdown level1 summary"><p>How loose the character is on impact. Between 0 and 1.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_ImpactWeaknessRampDuration" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.ImpactWeaknessRampDuration">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.ImpactWeaknessRampDuration.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_ImpactWeaknessRampDuration">ImpactWeaknessRampDuration</a>
+        </td>
+        <td class="markdown level1 summary"><p>Duration of the ramp to bring the character's upper body stiffness back to normal levels.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_ImpactWeaknessZeroDuration" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.ImpactWeaknessZeroDuration">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.ImpactWeaknessZeroDuration.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_ImpactWeaknessZeroDuration">ImpactWeaknessZeroDuration</a>
+        </td>
+        <td class="markdown level1 summary"><p>Duration for which the character's upper body stays at minimum stiffness (not quite zero).</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_NumStepsTillSlump" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.NumStepsTillSlump">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.NumStepsTillSlump.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_NumStepsTillSlump">NumStepsTillSlump</a>
+        </td>
+        <td class="markdown level1 summary"><p>Begin slump and stop stepping after this many steps.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_ObjectBehindVictim" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.ObjectBehindVictim">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.ObjectBehindVictim.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_ObjectBehindVictim">ObjectBehindVictim</a>
+        </td>
+        <td class="markdown level1 summary"><p>Detected an object behind a shot victim in the direction of a bullet?.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_ObjectBehindVictimNormal" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.ObjectBehindVictimNormal">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.ObjectBehindVictimNormal.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_ObjectBehindVictimNormal">ObjectBehindVictimNormal</a>
+        </td>
+        <td class="markdown level1 summary"><p>The normal of a detected object behind a shot victim in the direction of a bullet.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_ObjectBehindVictimPos" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.ObjectBehindVictimPos">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.ObjectBehindVictimPos.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_ObjectBehindVictimPos">ObjectBehindVictimPos</a>
+        </td>
+        <td class="markdown level1 summary"><p>The intersection pos of a detected object behind a shot victim in the direction of a bullet.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_ReactTime" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.ReactTime">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.ReactTime.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_ReactTime">ReactTime</a>
+        </td>
+        <td class="markdown level1 summary"><p>Time that the character reacts to the impact with ub flinch and writhe.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_ReboundForce" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.ReboundForce">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.ReboundForce.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_ReboundForce">ReboundForce</a>
+        </td>
+        <td class="markdown level1 summary"><p>If forwards impact only: cheat force to try to get the character away from the wall.  3 is a good value.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_ReboundMode" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.ReboundMode">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.ReboundMode.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_ReboundMode">ReboundMode</a>
+        </td>
+        <td class="markdown level1 summary"><p>0=fall2knees/slump if shot not running, 1=stumble, 2=slump, 3=restart.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_SlumpLegStiffRate" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.SlumpLegStiffRate">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.SlumpLegStiffRate.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_SlumpLegStiffRate">SlumpLegStiffRate</a>
+        </td>
+        <td class="markdown level1 summary"><p>Rate at which the stiffness of the legs is reduced during slump.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_SlumpLegStiffReduction" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.SlumpLegStiffReduction">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.SlumpLegStiffReduction.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_SlumpLegStiffReduction">SlumpLegStiffReduction</a>
+        </td>
+        <td class="markdown level1 summary"><p>Reduce the stiffness of the legs by this much as soon as slump starts.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_SlumpMode" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.SlumpMode">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.SlumpMode.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_SlumpMode">SlumpMode</a>
+        </td>
+        <td class="markdown level1 summary"><p>0=Normal slump(less movement then slump and movement LT small), 1=fast slump, 2=less movement then slump.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_Snap" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.Snap">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.Snap.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_Snap">Snap</a>
+        </td>
+        <td class="markdown level1 summary"><p>Add a Snap to when you hit a wall to emphasize the hit.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_SnapDirectionRandomness" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.SnapDirectionRandomness">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.SnapDirectionRandomness.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_SnapDirectionRandomness">SnapDirectionRandomness</a>
+        </td>
+        <td class="markdown level1 summary"><p>The character snaps in a prescribed way (decided by bullet direction) - Higher the value the more random this direction is.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_SnapHipType" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.SnapHipType">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.SnapHipType.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_SnapHipType">SnapHipType</a>
+        </td>
+        <td class="markdown level1 summary"><p>Type of hip reaction 0=none, 1=side2side 2=steplike.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_SnapLeftArm" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.SnapLeftArm">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.SnapLeftArm.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_SnapLeftArm">SnapLeftArm</a>
+        </td>
+        <td class="markdown level1 summary"><p>Snap the leftArm.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_SnapLeftLeg" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.SnapLeftLeg">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.SnapLeftLeg.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_SnapLeftLeg">SnapLeftLeg</a>
+        </td>
+        <td class="markdown level1 summary"><p>Snap the leftLeg.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_SnapMag" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.SnapMag">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.SnapMag.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_SnapMag">SnapMag</a>
+        </td>
+        <td class="markdown level1 summary"><p>The magnitude of the snap reaction.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_SnapNeck" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.SnapNeck">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.SnapNeck.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_SnapNeck">SnapNeck</a>
+        </td>
+        <td class="markdown level1 summary"><p>Snap the neck.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_SnapPhasedLegs" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.SnapPhasedLegs">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.SnapPhasedLegs.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_SnapPhasedLegs">SnapPhasedLegs</a>
+        </td>
+        <td class="markdown level1 summary"><p>Legs are either in phase with each other or not.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_SnapRightArm" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.SnapRightArm">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.SnapRightArm.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_SnapRightArm">SnapRightArm</a>
+        </td>
+        <td class="markdown level1 summary"><p>Snap the rightArm.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_SnapRightLeg" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.SnapRightLeg">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.SnapRightLeg.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_SnapRightLeg">SnapRightLeg</a>
+        </td>
+        <td class="markdown level1 summary"><p>Snap the rightLeg.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_SnapSpine" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.SnapSpine">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.SnapSpine.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_SnapSpine">SnapSpine</a>
+        </td>
+        <td class="markdown level1 summary"><p>Snap the spine.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_SnapUseTorques" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.SnapUseTorques">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.SnapUseTorques.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_SnapUseTorques">SnapUseTorques</a>
+        </td>
+        <td class="markdown level1 summary"><p>Use torques to make the snap otherwise use a change in the parts angular velocity.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_Stable2SlumpTime" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.Stable2SlumpTime">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.Stable2SlumpTime.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_Stable2SlumpTime">Stable2SlumpTime</a>
+        </td>
+        <td class="markdown level1 summary"><p>Time after becoming stable leaning against a wall that slump starts.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_TimeToForward" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.TimeToForward">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.TimeToForward.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_TimeToForward">TimeToForward</a>
+        </td>
+        <td class="markdown level1 summary"><p>Time after a forwards impact before forwardMode is called (leave sometime for a rebound or brace - the min of 0.1 is to ensure fallOverWall can start although it probably needs only 1or2 frames for the probes to return).</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_UnSnapInterval" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.UnSnapInterval">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.UnSnapInterval.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_UnSnapInterval">UnSnapInterval</a>
+        </td>
+        <td class="markdown level1 summary"><p>Interval before applying reverse snap.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_BalancerCollisionsReactionHelper_UnSnapRatio" data-uid="GTA.NaturalMotion.BalancerCollisionsReactionHelper.UnSnapRatio">
+          <a class="xref" href="GTA.NaturalMotion.BalancerCollisionsReactionHelper.UnSnapRatio.html#GTA_NaturalMotion_BalancerCollisionsReactionHelper_UnSnapRatio">UnSnapRatio</a>
+        </td>
+        <td class="markdown level1 summary"><p>The magnitude of the reverse snap.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/crosire/scripthookvdotnet//new/master/apiSpec/new?filename=GTA_NaturalMotion_BalancerCollisionsReactionHelper.md&amp;value=---%0Auid%3A%20GTA.NaturalMotion.BalancerCollisionsReactionHelper%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/nitanmarcel/scripthookvdotnet/blob/main/source/scripting_v2/GTA.NaturalMotion/EuphoriaHelpers.cs/#L8872" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+                <script type="text/javascript" src="../styles/toggle-theme.js"></script>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

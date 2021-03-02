@@ -1,0 +1,839 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Entity
+   | ScriptHookVDotNet </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Entity
+   | ScriptHookVDotNet ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../-" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="GTA.Entity">
+  
+  
+  <h1 id="GTA_Entity" data-uid="GTA.Entity" class="text-break">Class Entity
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="GTA.PoolObject.html">PoolObject</a></div>
+    <div class="level2"><span class="xref">Entity</span></div>
+      <div class="level3"><a class="xref" href="../scripting_v2/GTA.Ped.html">Ped</a></div>
+      <div class="level3"><a class="xref" href="../scripting_v2/GTA.Ped.html">Ped</a></div>
+      <div class="level3"><a class="xref" href="../scripting_v2/GTA.Prop.html">Prop</a></div>
+      <div class="level3"><a class="xref" href="../scripting_v2/GTA.Prop.html">Prop</a></div>
+      <div class="level3"><a class="xref" href="../scripting_v2/GTA.Vehicle.html">Vehicle</a></div>
+      <div class="level3"><a class="xref" href="../scripting_v2/GTA.Vehicle.html">Vehicle</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="GTA.Native.INativeValue.html">INativeValue</a></div>
+    <div><a class="xref" href="GTA.IDeletable.html">IDeletable</a></div>
+    <div><a class="xref" href="GTA.IExistable.html">IExistable</a></div>
+    <div><a class="xref" href="../scripting_v2/GTA.ISpatial.html">ISpatial</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="GTA.PoolObject.Handle.html#GTA_PoolObject_Handle">PoolObject.Handle</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.PoolObject.NativeValue.html#GTA_PoolObject_NativeValue">PoolObject.NativeValue</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="../scripting_v2/GTA.html">GTA</a></h6>
+  <h6><strong>Assembly</strong>: ScriptHookVDotNet3.dll</h6>
+  <h5 id="GTA_Entity_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class Entity : PoolObject, INativeValue, IDeletable, IExistable, ISpatial</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="GTA_Entity_AbovePosition" data-uid="GTA.Entity.AbovePosition">
+          <a class="xref" href="GTA.Entity.AbovePosition.html#GTA_Entity_AbovePosition">AbovePosition</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets a position directly above this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a></p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_AttachedBlip" data-uid="GTA.Entity.AttachedBlip">
+          <a class="xref" href="GTA.Entity.AttachedBlip.html#GTA_Entity_AttachedBlip">AttachedBlip</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets the <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a> attached to this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_AttachedBlips" data-uid="GTA.Entity.AttachedBlips">
+          <a class="xref" href="GTA.Entity.AttachedBlips.html#GTA_Entity_AttachedBlips">AttachedBlips</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets an <code>array</code> of all <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a>s attached to this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_AttachedEntity" data-uid="GTA.Entity.AttachedEntity">
+          <a class="xref" href="GTA.Entity.AttachedEntity.html#GTA_Entity_AttachedEntity">AttachedEntity</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets the <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a> this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a> is attached to.
+<remarks>returns <code>null</code> if this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a> isnt attached to any entity</remarks></p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_BelowPosition" data-uid="GTA.Entity.BelowPosition">
+          <a class="xref" href="GTA.Entity.BelowPosition.html#GTA_Entity_BelowPosition">BelowPosition</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets a position directly below this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a></p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_Bones" data-uid="GTA.Entity.Bones">
+          <a class="xref" href="GTA.Entity.Bones.html#GTA_Entity_Bones">Bones</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets a collection of the <a class="xref" href="GTA.EntityBone.html">EntityBone</a>s in this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_EntityType" data-uid="GTA.Entity.EntityType">
+          <a class="xref" href="GTA.Entity.EntityType.html#GTA_Entity_EntityType">EntityType</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets the type of the current <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_ForwardVector" data-uid="GTA.Entity.ForwardVector">
+          <a class="xref" href="../scripting_v2/GTA.Entity.ForwardVector.html#GTA_Entity_ForwardVector">ForwardVector</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_FrontPosition" data-uid="GTA.Entity.FrontPosition">
+          <a class="xref" href="GTA.Entity.FrontPosition.html#GTA_Entity_FrontPosition">FrontPosition</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets a position directly in front of this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a></p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_HasCollided" data-uid="GTA.Entity.HasCollided">
+          <a class="xref" href="GTA.Entity.HasCollided.html#GTA_Entity_HasCollided">HasCollided</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets a value indicating whether this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a> has collided with anything.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_HasGravity" data-uid="GTA.Entity.HasGravity">
+          <a class="xref" href="../scripting_v2/GTA.Entity.HasGravity.html#GTA_Entity_HasGravity">HasGravity</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_Heading" data-uid="GTA.Entity.Heading">
+          <a class="xref" href="../scripting_v2/GTA.Entity.Heading.html#GTA_Entity_Heading">Heading</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_Health" data-uid="GTA.Entity.Health">
+          <a class="xref" href="../scripting_v2/GTA.Entity.Health.html#GTA_Entity_Health">Health</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_HealthFloat" data-uid="GTA.Entity.HealthFloat">
+          <a class="xref" href="GTA.Entity.HealthFloat.html#GTA_Entity_HealthFloat">HealthFloat</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the health of this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a> as a <span class="xref">System.Single</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_HeightAboveGround" data-uid="GTA.Entity.HeightAboveGround">
+          <a class="xref" href="../scripting_v2/GTA.Entity.HeightAboveGround.html#GTA_Entity_HeightAboveGround">HeightAboveGround</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsAlive" data-uid="GTA.Entity.IsAlive">
+          <a class="xref" href="../scripting_v2/GTA.Entity.IsAlive.html#GTA_Entity_IsAlive">IsAlive</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsBulletProof" data-uid="GTA.Entity.IsBulletProof">
+          <a class="xref" href="../scripting_v2/GTA.Entity.IsBulletProof.html#GTA_Entity_IsBulletProof">IsBulletProof</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsCollisionEnabled" data-uid="GTA.Entity.IsCollisionEnabled">
+          <a class="xref" href="GTA.Entity.IsCollisionEnabled.html#GTA_Entity_IsCollisionEnabled">IsCollisionEnabled</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets a value indicating whether this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a> has collision.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsCollisionProof" data-uid="GTA.Entity.IsCollisionProof">
+          <a class="xref" href="../scripting_v2/GTA.Entity.IsCollisionProof.html#GTA_Entity_IsCollisionProof">IsCollisionProof</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsDead" data-uid="GTA.Entity.IsDead">
+          <a class="xref" href="../scripting_v2/GTA.Entity.IsDead.html#GTA_Entity_IsDead">IsDead</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsExplosionProof" data-uid="GTA.Entity.IsExplosionProof">
+          <a class="xref" href="../scripting_v2/GTA.Entity.IsExplosionProof.html#GTA_Entity_IsExplosionProof">IsExplosionProof</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsFireProof" data-uid="GTA.Entity.IsFireProof">
+          <a class="xref" href="../scripting_v2/GTA.Entity.IsFireProof.html#GTA_Entity_IsFireProof">IsFireProof</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsInAir" data-uid="GTA.Entity.IsInAir">
+          <a class="xref" href="../scripting_v2/GTA.Entity.IsInAir.html#GTA_Entity_IsInAir">IsInAir</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsInvincible" data-uid="GTA.Entity.IsInvincible">
+          <a class="xref" href="../scripting_v2/GTA.Entity.IsInvincible.html#GTA_Entity_IsInvincible">IsInvincible</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsInWater" data-uid="GTA.Entity.IsInWater">
+          <a class="xref" href="../scripting_v2/GTA.Entity.IsInWater.html#GTA_Entity_IsInWater">IsInWater</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsMeleeProof" data-uid="GTA.Entity.IsMeleeProof">
+          <a class="xref" href="../scripting_v2/GTA.Entity.IsMeleeProof.html#GTA_Entity_IsMeleeProof">IsMeleeProof</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsOccluded" data-uid="GTA.Entity.IsOccluded">
+          <a class="xref" href="../scripting_v2/GTA.Entity.IsOccluded.html#GTA_Entity_IsOccluded">IsOccluded</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsOnFire" data-uid="GTA.Entity.IsOnFire">
+          <a class="xref" href="../scripting_v2/GTA.Entity.IsOnFire.html#GTA_Entity_IsOnFire">IsOnFire</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsOnlyDamagedByPlayer" data-uid="GTA.Entity.IsOnlyDamagedByPlayer">
+          <a class="xref" href="../scripting_v2/GTA.Entity.IsOnlyDamagedByPlayer.html#GTA_Entity_IsOnlyDamagedByPlayer">IsOnlyDamagedByPlayer</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsOnScreen" data-uid="GTA.Entity.IsOnScreen">
+          <a class="xref" href="../scripting_v2/GTA.Entity.IsOnScreen.html#GTA_Entity_IsOnScreen">IsOnScreen</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsPersistent" data-uid="GTA.Entity.IsPersistent">
+          <a class="xref" href="../scripting_v2/GTA.Entity.IsPersistent.html#GTA_Entity_IsPersistent">IsPersistent</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsPositionFrozen" data-uid="GTA.Entity.IsPositionFrozen">
+          <a class="xref" href="GTA.Entity.IsPositionFrozen.html#GTA_Entity_IsPositionFrozen">IsPositionFrozen</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets a value indicating whether this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a> is frozen.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsRecordingCollisions" data-uid="GTA.Entity.IsRecordingCollisions">
+          <a class="xref" href="GTA.Entity.IsRecordingCollisions.html#GTA_Entity_IsRecordingCollisions">IsRecordingCollisions</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets a value indicating whether this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a> is recording collisions.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsRendered" data-uid="GTA.Entity.IsRendered">
+          <a class="xref" href="GTA.Entity.IsRendered.html#GTA_Entity_IsRendered">IsRendered</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets a value indicating whether this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a> is rendered.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsSmokeProof" data-uid="GTA.Entity.IsSmokeProof">
+          <a class="xref" href="GTA.Entity.IsSmokeProof.html#GTA_Entity_IsSmokeProof">IsSmokeProof</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets a value indicating whether this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a> is smoke proof.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsSteamProof" data-uid="GTA.Entity.IsSteamProof">
+          <a class="xref" href="GTA.Entity.IsSteamProof.html#GTA_Entity_IsSteamProof">IsSteamProof</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets a value indicating whether this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a> is steam proof.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsUpright" data-uid="GTA.Entity.IsUpright">
+          <a class="xref" href="../scripting_v2/GTA.Entity.IsUpright.html#GTA_Entity_IsUpright">IsUpright</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsUpsideDown" data-uid="GTA.Entity.IsUpsideDown">
+          <a class="xref" href="../scripting_v2/GTA.Entity.IsUpsideDown.html#GTA_Entity_IsUpsideDown">IsUpsideDown</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsVisible" data-uid="GTA.Entity.IsVisible">
+          <a class="xref" href="../scripting_v2/GTA.Entity.IsVisible.html#GTA_Entity_IsVisible">IsVisible</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsWaterCannonProof" data-uid="GTA.Entity.IsWaterCannonProof">
+          <a class="xref" href="GTA.Entity.IsWaterCannonProof.html#GTA_Entity_IsWaterCannonProof">IsWaterCannonProof</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets a value indicating whether this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a> is water cannon proof.
+<a class="xref" href="../scripting_v2/GTA.Ped.html">Ped</a>s does not get ragdolled by the water jet from fire hydrants when this property is set to <code>true</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_LeftPosition" data-uid="GTA.Entity.LeftPosition">
+          <a class="xref" href="GTA.Entity.LeftPosition.html#GTA_Entity_LeftPosition">LeftPosition</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets a position directly to the left of this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a></p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_LodDistance" data-uid="GTA.Entity.LodDistance">
+          <a class="xref" href="../scripting_v2/GTA.Entity.LodDistance.html#GTA_Entity_LodDistance">LodDistance</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_MaterialCollidingWith" data-uid="GTA.Entity.MaterialCollidingWith">
+          <a class="xref" href="GTA.Entity.MaterialCollidingWith.html#GTA_Entity_MaterialCollidingWith">MaterialCollidingWith</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets the material this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a> is pushing up against.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_Matrix" data-uid="GTA.Entity.Matrix">
+          <a class="xref" href="GTA.Entity.Matrix.html#GTA_Entity_Matrix">Matrix</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a>s matrix which stores position and rotation information.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_MaxHealth" data-uid="GTA.Entity.MaxHealth">
+          <a class="xref" href="../scripting_v2/GTA.Entity.MaxHealth.html#GTA_Entity_MaxHealth">MaxHealth</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_MaxHealthFloat" data-uid="GTA.Entity.MaxHealthFloat">
+          <a class="xref" href="GTA.Entity.MaxHealthFloat.html#GTA_Entity_MaxHealthFloat">MaxHealthFloat</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the maximum health of this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a> in float.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_MaxSpeed" data-uid="GTA.Entity.MaxSpeed">
+          <a class="xref" href="../scripting_v2/GTA.Entity.MaxSpeed.html#GTA_Entity_MaxSpeed">MaxSpeed</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_MemoryAddress" data-uid="GTA.Entity.MemoryAddress">
+          <a class="xref" href="../scripting_v2/GTA.Entity.MemoryAddress.html#GTA_Entity_MemoryAddress">MemoryAddress</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_Model" data-uid="GTA.Entity.Model">
+          <a class="xref" href="../scripting_v2/GTA.Entity.Model.html#GTA_Entity_Model">Model</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_Opacity" data-uid="GTA.Entity.Opacity">
+          <a class="xref" href="GTA.Entity.Opacity.html#GTA_Entity_Opacity">Opacity</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets how opaque this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a> is.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_Position" data-uid="GTA.Entity.Position">
+          <a class="xref" href="../scripting_v2/GTA.Entity.Position.html#GTA_Entity_Position">Position</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_PositionNoOffset" data-uid="GTA.Entity.PositionNoOffset">
+          <a class="xref" href="../scripting_v2/GTA.Entity.PositionNoOffset.html#GTA_Entity_PositionNoOffset">PositionNoOffset</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_Quaternion" data-uid="GTA.Entity.Quaternion">
+          <a class="xref" href="../scripting_v2/GTA.Entity.Quaternion.html#GTA_Entity_Quaternion">Quaternion</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_RearPosition" data-uid="GTA.Entity.RearPosition">
+          <a class="xref" href="GTA.Entity.RearPosition.html#GTA_Entity_RearPosition">RearPosition</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets a position directly behind this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a></p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_RightPosition" data-uid="GTA.Entity.RightPosition">
+          <a class="xref" href="GTA.Entity.RightPosition.html#GTA_Entity_RightPosition">RightPosition</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets a position directly to the right of this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a></p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_RightVector" data-uid="GTA.Entity.RightVector">
+          <a class="xref" href="../scripting_v2/GTA.Entity.RightVector.html#GTA_Entity_RightVector">RightVector</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_Rotation" data-uid="GTA.Entity.Rotation">
+          <a class="xref" href="../scripting_v2/GTA.Entity.Rotation.html#GTA_Entity_Rotation">Rotation</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_RotationVelocity" data-uid="GTA.Entity.RotationVelocity">
+          <a class="xref" href="GTA.Entity.RotationVelocity.html#GTA_Entity_RotationVelocity">RotationVelocity</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets the rotation velocity of this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_Speed" data-uid="GTA.Entity.Speed">
+          <a class="xref" href="GTA.Entity.Speed.html#GTA_Entity_Speed">Speed</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a>s speed.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_SubmersionLevel" data-uid="GTA.Entity.SubmersionLevel">
+          <a class="xref" href="GTA.Entity.SubmersionLevel.html#GTA_Entity_SubmersionLevel">SubmersionLevel</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets a value indicating how submersed this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a> is, 1.0f means the whole entity is submerged.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_UpVector" data-uid="GTA.Entity.UpVector">
+          <a class="xref" href="../scripting_v2/GTA.Entity.UpVector.html#GTA_Entity_UpVector">UpVector</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_Velocity" data-uid="GTA.Entity.Velocity">
+          <a class="xref" href="../scripting_v2/GTA.Entity.Velocity.html#GTA_Entity_Velocity">Velocity</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="GTA_Entity_AddBlip" data-uid="GTA.Entity.AddBlip">
+          <a class="xref" href="../scripting_v2/GTA.Entity.AddBlip.html#GTA_Entity_AddBlip">AddBlip()</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_ApplyForce_GTA_Math_Vector3_GTA_Math_Vector3_GTA_ForceType_" data-uid="GTA.Entity.ApplyForce(GTA.Math.Vector3,GTA.Math.Vector3,GTA.ForceType)">
+          <a class="xref" href="../scripting_v2/GTA.Entity.ApplyForce.html#GTA_Entity_ApplyForce_GTA_Math_Vector3_GTA_Math_Vector3_GTA_ForceType_">ApplyForce(Vector3, Vector3, ForceType)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_ApplyForceRelative_GTA_Math_Vector3_GTA_Math_Vector3_GTA_ForceType_" data-uid="GTA.Entity.ApplyForceRelative(GTA.Math.Vector3,GTA.Math.Vector3,GTA.ForceType)">
+          <a class="xref" href="../scripting_v2/GTA.Entity.ApplyForceRelative.html#GTA_Entity_ApplyForceRelative_GTA_Math_Vector3_GTA_Math_Vector3_GTA_ForceType_">ApplyForceRelative(Vector3, Vector3, ForceType)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_AttachTo_GTA_Entity_GTA_Math_Vector3_GTA_Math_Vector3_" data-uid="GTA.Entity.AttachTo(GTA.Entity,GTA.Math.Vector3,GTA.Math.Vector3)">
+          <a class="xref" href="GTA.Entity.AttachTo.html#GTA_Entity_AttachTo_GTA_Entity_GTA_Math_Vector3_GTA_Math_Vector3_">AttachTo(Entity, Vector3, Vector3)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Attaches this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a> to a different <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a></p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_AttachTo_GTA_EntityBone_GTA_Math_Vector3_GTA_Math_Vector3_" data-uid="GTA.Entity.AttachTo(GTA.EntityBone,GTA.Math.Vector3,GTA.Math.Vector3)">
+          <a class="xref" href="GTA.Entity.AttachTo.html#GTA_Entity_AttachTo_GTA_EntityBone_GTA_Math_Vector3_GTA_Math_Vector3_">AttachTo(EntityBone, Vector3, Vector3)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Attaches this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a> to a different <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a></p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_ClearLastWeaponDamage" data-uid="GTA.Entity.ClearLastWeaponDamage">
+          <a class="xref" href="GTA.Entity.ClearLastWeaponDamage.html#GTA_Entity_ClearLastWeaponDamage">ClearLastWeaponDamage()</a>
+        </td>
+        <td class="markdown level1 summary"><p>Clears the last weapon damage this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a> received.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_Delete" data-uid="GTA.Entity.Delete">
+          <a class="xref" href="../scripting_v2/GTA.Entity.Delete.html#GTA_Entity_Delete">Delete()</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_Detach" data-uid="GTA.Entity.Detach">
+          <a class="xref" href="../scripting_v2/GTA.Entity.Detach.html#GTA_Entity_Detach">Detach()</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_Equals_System_Object_" data-uid="GTA.Entity.Equals(System.Object)">
+          <a class="xref" href="../scripting_v2/GTA.Entity.Equals.html#GTA_Entity_Equals_System_Object_">Equals(Object)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_Exists" data-uid="GTA.Entity.Exists">
+          <a class="xref" href="../scripting_v2/GTA.Entity.Exists.html#GTA_Entity_Exists">Exists()</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_FromHandle_System_Int32_" data-uid="GTA.Entity.FromHandle(System.Int32)">
+          <a class="xref" href="GTA.Entity.FromHandle.html#GTA_Entity_FromHandle_System_Int32_">FromHandle(Int32)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Creates a new instance of an <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a> from the given handle.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_GetHashCode" data-uid="GTA.Entity.GetHashCode">
+          <a class="xref" href="../scripting_v2/GTA.Entity.GetHashCode.html#GTA_Entity_GetHashCode">GetHashCode()</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_GetOffsetPosition_GTA_Math_Vector3_" data-uid="GTA.Entity.GetOffsetPosition(GTA.Math.Vector3)">
+          <a class="xref" href="GTA.Entity.GetOffsetPosition.html#GTA_Entity_GetOffsetPosition_GTA_Math_Vector3_">GetOffsetPosition(Vector3)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets the position in world coordinates of an offset relative this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a></p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_GetPositionOffset_GTA_Math_Vector3_" data-uid="GTA.Entity.GetPositionOffset(GTA.Math.Vector3)">
+          <a class="xref" href="GTA.Entity.GetPositionOffset.html#GTA_Entity_GetPositionOffset_GTA_Math_Vector3_">GetPositionOffset(Vector3)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets the relative offset of this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a> from a world coordinates position</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_HasBeenDamagedBy_GTA_Entity_" data-uid="GTA.Entity.HasBeenDamagedBy(GTA.Entity)">
+          <a class="xref" href="../scripting_v2/GTA.Entity.HasBeenDamagedBy.html#GTA_Entity_HasBeenDamagedBy_GTA_Entity_">HasBeenDamagedBy(Entity)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_HasBeenDamagedBy_GTA_WeaponHash_" data-uid="GTA.Entity.HasBeenDamagedBy(GTA.WeaponHash)">
+          <a class="xref" href="GTA.Entity.HasBeenDamagedBy.html#GTA_Entity_HasBeenDamagedBy_GTA_WeaponHash_">HasBeenDamagedBy(WeaponHash)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Determines whether this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a> has been damaged by a specific weapon].</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_HasBeenDamagedByAnyMeleeWeapon" data-uid="GTA.Entity.HasBeenDamagedByAnyMeleeWeapon">
+          <a class="xref" href="GTA.Entity.HasBeenDamagedByAnyMeleeWeapon.html#GTA_Entity_HasBeenDamagedByAnyMeleeWeapon">HasBeenDamagedByAnyMeleeWeapon()</a>
+        </td>
+        <td class="markdown level1 summary"><p>Determines whether this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a> has been damaged by any melee weapon.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_HasBeenDamagedByAnyWeapon" data-uid="GTA.Entity.HasBeenDamagedByAnyWeapon">
+          <a class="xref" href="GTA.Entity.HasBeenDamagedByAnyWeapon.html#GTA_Entity_HasBeenDamagedByAnyWeapon">HasBeenDamagedByAnyWeapon()</a>
+        </td>
+        <td class="markdown level1 summary"><p>Determines whether this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a> has been damaged by any weapon.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsAttached" data-uid="GTA.Entity.IsAttached">
+          <a class="xref" href="../scripting_v2/GTA.Entity.IsAttached.html#GTA_Entity_IsAttached">IsAttached()</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsAttachedTo_GTA_Entity_" data-uid="GTA.Entity.IsAttachedTo(GTA.Entity)">
+          <a class="xref" href="../scripting_v2/GTA.Entity.IsAttachedTo.html#GTA_Entity_IsAttachedTo_GTA_Entity_">IsAttachedTo(Entity)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsInAngledArea_GTA_Math_Vector3_GTA_Math_Vector3_System_Single_" data-uid="GTA.Entity.IsInAngledArea(GTA.Math.Vector3,GTA.Math.Vector3,System.Single)">
+          <a class="xref" href="../scripting_v2/GTA.Entity.IsInAngledArea.html#GTA_Entity_IsInAngledArea_GTA_Math_Vector3_GTA_Math_Vector3_System_Single_">IsInAngledArea(Vector3, Vector3, Single)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsInArea_GTA_Math_Vector3_GTA_Math_Vector3_" data-uid="GTA.Entity.IsInArea(GTA.Math.Vector3,GTA.Math.Vector3)">
+          <a class="xref" href="../scripting_v2/GTA.Entity.IsInArea.html#GTA_Entity_IsInArea_GTA_Math_Vector3_GTA_Math_Vector3_">IsInArea(Vector3, Vector3)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsInRange_GTA_Math_Vector3_System_Single_" data-uid="GTA.Entity.IsInRange(GTA.Math.Vector3,System.Single)">
+          <a class="xref" href="GTA.Entity.IsInRange.html#GTA_Entity_IsInRange_GTA_Math_Vector3_System_Single_">IsInRange(Vector3, Single)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Determines whether this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a> is in range of a specified position</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsNearEntity_GTA_Entity_GTA_Math_Vector3_" data-uid="GTA.Entity.IsNearEntity(GTA.Entity,GTA.Math.Vector3)">
+          <a class="xref" href="../scripting_v2/GTA.Entity.IsNearEntity.html#GTA_Entity_IsNearEntity_GTA_Entity_GTA_Math_Vector3_">IsNearEntity(Entity, Vector3)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsTouching_GTA_Entity_" data-uid="GTA.Entity.IsTouching(GTA.Entity)">
+          <a class="xref" href="../scripting_v2/GTA.Entity.IsTouching.html#GTA_Entity_IsTouching_GTA_Entity_">IsTouching(Entity)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_IsTouching_GTA_Model_" data-uid="GTA.Entity.IsTouching(GTA.Model)">
+          <a class="xref" href="../scripting_v2/GTA.Entity.IsTouching.html#GTA_Entity_IsTouching_GTA_Model_">IsTouching(Model)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_MarkAsNoLongerNeeded" data-uid="GTA.Entity.MarkAsNoLongerNeeded">
+          <a class="xref" href="../scripting_v2/GTA.Entity.MarkAsNoLongerNeeded.html#GTA_Entity_MarkAsNoLongerNeeded">MarkAsNoLongerNeeded()</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_RemoveParticleEffects" data-uid="GTA.Entity.RemoveParticleEffects">
+          <a class="xref" href="GTA.Entity.RemoveParticleEffects.html#GTA_Entity_RemoveParticleEffects">RemoveParticleEffects()</a>
+        </td>
+        <td class="markdown level1 summary"><p>Stops all particle effects attached to this <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a></p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_ResetOpacity" data-uid="GTA.Entity.ResetOpacity">
+          <a class="xref" href="GTA.Entity.ResetOpacity.html#GTA_Entity_ResetOpacity">ResetOpacity()</a>
+        </td>
+        <td class="markdown level1 summary"><p>Resets the <a class="xref" href="GTA.Entity.Opacity.html#GTA_Entity_Opacity">Opacity</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_SetNoCollision_GTA_Entity_System_Boolean_" data-uid="GTA.Entity.SetNoCollision(GTA.Entity,System.Boolean)">
+          <a class="xref" href="../scripting_v2/GTA.Entity.SetNoCollision.html#GTA_Entity_SetNoCollision_GTA_Entity_System_Boolean_">SetNoCollision(Entity, Boolean)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="operators">Operators
+  </h3>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="GTA_Entity_op_Equality_GTA_Entity_GTA_Entity_" data-uid="GTA.Entity.op_Equality(GTA.Entity,GTA.Entity)">
+          <a class="xref" href="../scripting_v2/GTA.Entity.op_Equality.html#GTA_Entity_op_Equality_GTA_Entity_GTA_Entity_">Equality(Entity, Entity)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_op_Implicit_GTA_Entity__GTA_Native_InputArgument" data-uid="GTA.Entity.op_Implicit(GTA.Entity)~GTA.Native.InputArgument">
+          <a class="xref" href="GTA.Entity.op_Implicit.html#GTA_Entity_op_Implicit_GTA_Entity__GTA_Native_InputArgument">Implicit(Entity to InputArgument)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Converts an <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a> to a native input argument.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Entity_op_Inequality_GTA_Entity_GTA_Entity_" data-uid="GTA.Entity.op_Inequality(GTA.Entity,GTA.Entity)">
+          <a class="xref" href="../scripting_v2/GTA.Entity.op_Inequality.html#GTA_Entity_op_Inequality_GTA_Entity_GTA_Entity_">Inequality(Entity, Entity)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/crosire/scripthookvdotnet//new/master/apiSpec/new?filename=GTA_Entity.md&amp;value=---%0Auid%3A%20GTA.Entity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/nitanmarcel/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Entities/Entity.cs/#L13" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+                <script type="text/javascript" src="../styles/toggle-theme.js"></script>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

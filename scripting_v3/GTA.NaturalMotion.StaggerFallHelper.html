@@ -1,0 +1,539 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class StaggerFallHelper
+   | ScriptHookVDotNet </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class StaggerFallHelper
+   | ScriptHookVDotNet ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../-" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="GTA.NaturalMotion.StaggerFallHelper">
+  
+  
+  <h1 id="GTA_NaturalMotion_StaggerFallHelper" data-uid="GTA.NaturalMotion.StaggerFallHelper" class="text-break">Class StaggerFallHelper
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="../scripting_v2/GTA.NaturalMotion.CustomHelper.html">CustomHelper</a></div>
+    <div class="level2"><span class="xref">StaggerFallHelper</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="../scripting_v2/GTA.NaturalMotion.CustomHelper.Start.html#GTA_NaturalMotion_CustomHelper_Start">CustomHelper.Start()</a>
+    </div>
+    <div>
+      <a class="xref" href="../scripting_v2/GTA.NaturalMotion.CustomHelper.Start.html#GTA_NaturalMotion_CustomHelper_Start_System_Int32_">CustomHelper.Start(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="../scripting_v2/GTA.NaturalMotion.CustomHelper.Stop.html#GTA_NaturalMotion_CustomHelper_Stop">CustomHelper.Stop()</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.CustomHelper.SetArgument.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Boolean_">CustomHelper.SetArgument(String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.CustomHelper.SetArgument.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Int32_">CustomHelper.SetArgument(String, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.CustomHelper.SetArgument.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_Single_">CustomHelper.SetArgument(String, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.CustomHelper.SetArgument.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_System_String_">CustomHelper.SetArgument(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.CustomHelper.SetArgument.html#GTA_NaturalMotion_CustomHelper_SetArgument_System_String_GTA_Math_Vector3_">CustomHelper.SetArgument(String, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.CustomHelper.ResetArguments.html#GTA_NaturalMotion_CustomHelper_ResetArguments">CustomHelper.ResetArguments()</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.CustomHelper.ToString.html#GTA_NaturalMotion_CustomHelper_ToString">CustomHelper.ToString()</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="../scripting_v2/GTA.NaturalMotion.html">GTA.NaturalMotion</a></h6>
+  <h6><strong>Assembly</strong>: ScriptHookVDotNet3.dll</h6>
+  <h5 id="GTA_NaturalMotion_StaggerFallHelper_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class StaggerFallHelper : CustomHelper</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper__ctor_GTA_Ped_" data-uid="GTA.NaturalMotion.StaggerFallHelper.#ctor(GTA.Ped)">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.-ctor.html#GTA_NaturalMotion_StaggerFallHelper__ctor_GTA_Ped_">StaggerFallHelper(Ped)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Creates a new Instance of the StaggerFallHelper for sending a StaggerFall <a class="xref" href="../scripting_v2/GTA.NaturalMotion.Message.html">Message</a> to a given <a class="xref" href="../scripting_v2/GTA.Ped.html">Ped</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_AlwaysBendForwards" data-uid="GTA.NaturalMotion.StaggerFallHelper.AlwaysBendForwards">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.AlwaysBendForwards.html#GTA_NaturalMotion_StaggerFallHelper_AlwaysBendForwards">AlwaysBendForwards</a>
+        </td>
+        <td class="markdown level1 summary"><p>Bend forwards at the hip (hipBendMult) whether moving backwards or forwards.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_ArmDamping" data-uid="GTA.NaturalMotion.StaggerFallHelper.ArmDamping">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.ArmDamping.html#GTA_NaturalMotion_StaggerFallHelper_ArmDamping">ArmDamping</a>
+        </td>
+        <td class="markdown level1 summary"><p>Sets damping value for the arms.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_ArmDampingStart" data-uid="GTA.NaturalMotion.StaggerFallHelper.ArmDampingStart">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.ArmDampingStart.html#GTA_NaturalMotion_StaggerFallHelper_ArmDampingStart">ArmDampingStart</a>
+        </td>
+        <td class="markdown level1 summary"><p>ArmDamping during the yanked timescale i.e. timeAtStartValues.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_ArmStiffness" data-uid="GTA.NaturalMotion.StaggerFallHelper.ArmStiffness">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.ArmStiffness.html#GTA_NaturalMotion_StaggerFallHelper_ArmStiffness">ArmStiffness</a>
+        </td>
+        <td class="markdown level1 summary"><p>Stiffness of arms. Catch_fall's stiffness scales with this value, but has default values when this is default.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_ArmStiffnessStart" data-uid="GTA.NaturalMotion.StaggerFallHelper.ArmStiffnessStart">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.ArmStiffnessStart.html#GTA_NaturalMotion_StaggerFallHelper_ArmStiffnessStart">ArmStiffnessStart</a>
+        </td>
+        <td class="markdown level1 summary"><p>ArmStiffness during the yanked timescale i.e. timeAtStartValues.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_HeadLookAtVelProb" data-uid="GTA.NaturalMotion.StaggerFallHelper.HeadLookAtVelProb">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.HeadLookAtVelProb.html#GTA_NaturalMotion_StaggerFallHelper_HeadLookAtVelProb">HeadLookAtVelProb</a>
+        </td>
+        <td class="markdown level1 summary"><p>Probability [0-1] that headLook will be looking in the direction of velocity when stepping.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_HeadLookInstanceIndex" data-uid="GTA.NaturalMotion.StaggerFallHelper.HeadLookInstanceIndex">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.HeadLookInstanceIndex.html#GTA_NaturalMotion_StaggerFallHelper_HeadLookInstanceIndex">HeadLookInstanceIndex</a>
+        </td>
+        <td class="markdown level1 summary"><p>Level index of thing to look at.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_HeadLookPos" data-uid="GTA.NaturalMotion.StaggerFallHelper.HeadLookPos">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.HeadLookPos.html#GTA_NaturalMotion_StaggerFallHelper_HeadLookPos">HeadLookPos</a>
+        </td>
+        <td class="markdown level1 summary"><p>Position of thing to look at.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_HipBendMult" data-uid="GTA.NaturalMotion.StaggerFallHelper.HipBendMult">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.HipBendMult.html#GTA_NaturalMotion_StaggerFallHelper_HipBendMult">HipBendMult</a>
+        </td>
+        <td class="markdown level1 summary"><p>HipBend scaled with velocity.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_Lean2multB" data-uid="GTA.NaturalMotion.StaggerFallHelper.Lean2multB">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.Lean2multB.html#GTA_NaturalMotion_StaggerFallHelper_Lean2multB">Lean2multB</a>
+        </td>
+        <td class="markdown level1 summary"><p>Lean of spine to side in side velocity direction when going backwards.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_Lean2multF" data-uid="GTA.NaturalMotion.StaggerFallHelper.Lean2multF">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.Lean2multF.html#GTA_NaturalMotion_StaggerFallHelper_Lean2multF">Lean2multF</a>
+        </td>
+        <td class="markdown level1 summary"><p>Lean of spine to side in side velocity direction when going forwards.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_LeanHipsMaxB" data-uid="GTA.NaturalMotion.StaggerFallHelper.LeanHipsMaxB">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.LeanHipsMaxB.html#GTA_NaturalMotion_StaggerFallHelper_LeanHipsMaxB">LeanHipsMaxB</a>
+        </td>
+        <td class="markdown level1 summary"><p>Max of leanInDirectionHips magnitude when going backwards.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_LeanHipsMaxF" data-uid="GTA.NaturalMotion.StaggerFallHelper.LeanHipsMaxF">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.LeanHipsMaxF.html#GTA_NaturalMotion_StaggerFallHelper_LeanHipsMaxF">LeanHipsMaxF</a>
+        </td>
+        <td class="markdown level1 summary"><p>Max of leanInDirectionHips magnitude when going forwards.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_LeanInDirMaxB" data-uid="GTA.NaturalMotion.StaggerFallHelper.LeanInDirMaxB">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.LeanInDirMaxB.html#GTA_NaturalMotion_StaggerFallHelper_LeanInDirMaxB">LeanInDirMaxB</a>
+        </td>
+        <td class="markdown level1 summary"><p>Max of leanInDirection magnitude when going backwards.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_LeanInDirMaxF" data-uid="GTA.NaturalMotion.StaggerFallHelper.LeanInDirMaxF">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.LeanInDirMaxF.html#GTA_NaturalMotion_StaggerFallHelper_LeanInDirMaxF">LeanInDirMaxF</a>
+        </td>
+        <td class="markdown level1 summary"><p>Max of leanInDirection magnitude when going forwards.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_LeanInDirRate" data-uid="GTA.NaturalMotion.StaggerFallHelper.LeanInDirRate">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.LeanInDirRate.html#GTA_NaturalMotion_StaggerFallHelper_LeanInDirRate">LeanInDirRate</a>
+        </td>
+        <td class="markdown level1 summary"><p>LeanInDirection will be increased from 0 to leanInDirMax linearly at this rate.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_LowerBodyStiffness" data-uid="GTA.NaturalMotion.StaggerFallHelper.LowerBodyStiffness">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.LowerBodyStiffness.html#GTA_NaturalMotion_StaggerFallHelper_LowerBodyStiffness">LowerBodyStiffness</a>
+        </td>
+        <td class="markdown level1 summary"><p>LowerBodyStiffness should be 12.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_LowerBodyStiffnessEnd" data-uid="GTA.NaturalMotion.StaggerFallHelper.LowerBodyStiffnessEnd">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.LowerBodyStiffnessEnd.html#GTA_NaturalMotion_StaggerFallHelper_LowerBodyStiffnessEnd">LowerBodyStiffnessEnd</a>
+        </td>
+        <td class="markdown level1 summary"><p>LowerBodyStiffness at end.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_MaxPushoffVel" data-uid="GTA.NaturalMotion.StaggerFallHelper.MaxPushoffVel">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.MaxPushoffVel.html#GTA_NaturalMotion_StaggerFallHelper_MaxPushoffVel">MaxPushoffVel</a>
+        </td>
+        <td class="markdown level1 summary"><p>Stance leg will only pushOff to increase momentum if the vertical hip velocity is less than this value. 0.4 seems like a good value.
+The higher it is the less this functionality is applied.
+If it is very low or negative this can stop the pushOff altogether.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_PerStepReduction1" data-uid="GTA.NaturalMotion.StaggerFallHelper.PerStepReduction1">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.PerStepReduction1.html#GTA_NaturalMotion_StaggerFallHelper_PerStepReduction1">PerStepReduction1</a>
+        </td>
+        <td class="markdown level1 summary"><p>LowerBody stiffness will be reduced every step to make the character fallover.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_PredictionTime" data-uid="GTA.NaturalMotion.StaggerFallHelper.PredictionTime">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.PredictionTime.html#GTA_NaturalMotion_StaggerFallHelper_PredictionTime">PredictionTime</a>
+        </td>
+        <td class="markdown level1 summary"><p>Amount of time (seconds) into the future that the character tries to step to.
+Bigger values try to recover with fewer, bigger steps.
+Smaller values recover with smaller steps, and generally recover less.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_PushOffDist" data-uid="GTA.NaturalMotion.StaggerFallHelper.PushOffDist">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.PushOffDist.html#GTA_NaturalMotion_StaggerFallHelper_PushOffDist">PushOffDist</a>
+        </td>
+        <td class="markdown level1 summary"><p>Amount stance foot is behind com in the direction of velocity before the leg tries to pushOff to increase momentum.
+Increase to lower the probability of the pushOff making the character bouncy.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_RampTimeFromStartValues" data-uid="GTA.NaturalMotion.StaggerFallHelper.RampTimeFromStartValues">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.RampTimeFromStartValues.html#GTA_NaturalMotion_StaggerFallHelper_RampTimeFromStartValues">RampTimeFromStartValues</a>
+        </td>
+        <td class="markdown level1 summary"><p>Time spent ramping from Start to end values for arms and spine stiffness and damping i.e. for whiplash effect (occurs after timeAtStartValues).</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_RampTimeToEndValues" data-uid="GTA.NaturalMotion.StaggerFallHelper.RampTimeToEndValues">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.RampTimeToEndValues.html#GTA_NaturalMotion_StaggerFallHelper_RampTimeToEndValues">RampTimeToEndValues</a>
+        </td>
+        <td class="markdown level1 summary"><p>Time spent ramping from lowerBodyStiffness to lowerBodyStiffnessEnd.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_SpineBendMult" data-uid="GTA.NaturalMotion.StaggerFallHelper.SpineBendMult">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.SpineBendMult.html#GTA_NaturalMotion_StaggerFallHelper_SpineBendMult">SpineBendMult</a>
+        </td>
+        <td class="markdown level1 summary"><p>Spine bend scaled with velocity.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_SpineDamping" data-uid="GTA.NaturalMotion.StaggerFallHelper.SpineDamping">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.SpineDamping.html#GTA_NaturalMotion_StaggerFallHelper_SpineDamping">SpineDamping</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_SpineDampingStart" data-uid="GTA.NaturalMotion.StaggerFallHelper.SpineDampingStart">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.SpineDampingStart.html#GTA_NaturalMotion_StaggerFallHelper_SpineDampingStart">SpineDampingStart</a>
+        </td>
+        <td class="markdown level1 summary"><p>SpineDamping during the yanked timescale i.e. timeAtStartValues.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_SpineStiffness" data-uid="GTA.NaturalMotion.StaggerFallHelper.SpineStiffness">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.SpineStiffness.html#GTA_NaturalMotion_StaggerFallHelper_SpineStiffness">SpineStiffness</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_SpineStiffnessStart" data-uid="GTA.NaturalMotion.StaggerFallHelper.SpineStiffnessStart">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.SpineStiffnessStart.html#GTA_NaturalMotion_StaggerFallHelper_SpineStiffnessStart">SpineStiffnessStart</a>
+        </td>
+        <td class="markdown level1 summary"><p>SpineStiffness during the yanked timescale i.e. timeAtStartValues.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_StaggerStepProb" data-uid="GTA.NaturalMotion.StaggerFallHelper.StaggerStepProb">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.StaggerStepProb.html#GTA_NaturalMotion_StaggerFallHelper_StaggerStepProb">StaggerStepProb</a>
+        </td>
+        <td class="markdown level1 summary"><p>Probability per step of time spent in a stagger step.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_StepsTillStartEnd" data-uid="GTA.NaturalMotion.StaggerFallHelper.StepsTillStartEnd">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.StepsTillStartEnd.html#GTA_NaturalMotion_StaggerFallHelper_StepsTillStartEnd">StepsTillStartEnd</a>
+        </td>
+        <td class="markdown level1 summary"><p>Steps taken before lowerBodyStiffness starts ramping down by perStepReduction1.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_TimeAtStartValues" data-uid="GTA.NaturalMotion.StaggerFallHelper.TimeAtStartValues">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.TimeAtStartValues.html#GTA_NaturalMotion_StaggerFallHelper_TimeAtStartValues">TimeAtStartValues</a>
+        </td>
+        <td class="markdown level1 summary"><p>Time spent with Start values for arms and spine stiffness and damping i.e. for whiplash effect.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_TimeStartEnd" data-uid="GTA.NaturalMotion.StaggerFallHelper.TimeStartEnd">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.TimeStartEnd.html#GTA_NaturalMotion_StaggerFallHelper_TimeStartEnd">TimeStartEnd</a>
+        </td>
+        <td class="markdown level1 summary"><p>Time from start of behavior before lowerBodyStiffness starts ramping down for rampTimeToEndValues to endValues.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_Turn2TargetProb" data-uid="GTA.NaturalMotion.StaggerFallHelper.Turn2TargetProb">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.Turn2TargetProb.html#GTA_NaturalMotion_StaggerFallHelper_Turn2TargetProb">Turn2TargetProb</a>
+        </td>
+        <td class="markdown level1 summary"><p>Weighted probability of turning towards headLook target.
+This is one of six turn type weights.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_Turn2VelProb" data-uid="GTA.NaturalMotion.StaggerFallHelper.Turn2VelProb">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.Turn2VelProb.html#GTA_NaturalMotion_StaggerFallHelper_Turn2VelProb">Turn2VelProb</a>
+        </td>
+        <td class="markdown level1 summary"><p>Weighted probability of turning towards velocity.
+This is one of six turn type weights.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_TurnAwayProb" data-uid="GTA.NaturalMotion.StaggerFallHelper.TurnAwayProb">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.TurnAwayProb.html#GTA_NaturalMotion_StaggerFallHelper_TurnAwayProb">TurnAwayProb</a>
+        </td>
+        <td class="markdown level1 summary"><p>Weighted probability of turning away from headLook target.
+This is one of six turn type weights.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_TurnLeftProb" data-uid="GTA.NaturalMotion.StaggerFallHelper.TurnLeftProb">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.TurnLeftProb.html#GTA_NaturalMotion_StaggerFallHelper_TurnLeftProb">TurnLeftProb</a>
+        </td>
+        <td class="markdown level1 summary"><p>Weighted probability of turning left.
+This is one of six turn type weights.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_TurnOffProb" data-uid="GTA.NaturalMotion.StaggerFallHelper.TurnOffProb">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.TurnOffProb.html#GTA_NaturalMotion_StaggerFallHelper_TurnOffProb">TurnOffProb</a>
+        </td>
+        <td class="markdown level1 summary"><p>Weighted probability that turn will be off.
+This is one of six turn type weights.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_TurnRightProb" data-uid="GTA.NaturalMotion.StaggerFallHelper.TurnRightProb">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.TurnRightProb.html#GTA_NaturalMotion_StaggerFallHelper_TurnRightProb">TurnRightProb</a>
+        </td>
+        <td class="markdown level1 summary"><p>Weighted probability of turning right.
+This is one of six turn type weights.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_UpperBodyReaction" data-uid="GTA.NaturalMotion.StaggerFallHelper.UpperBodyReaction">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.UpperBodyReaction.html#GTA_NaturalMotion_StaggerFallHelper_UpperBodyReaction">UpperBodyReaction</a>
+        </td>
+        <td class="markdown level1 summary"><p>Enable upper body reaction i.e. blindBrace and armswindmill.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_UseBodyTurn" data-uid="GTA.NaturalMotion.StaggerFallHelper.UseBodyTurn">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.UseBodyTurn.html#GTA_NaturalMotion_StaggerFallHelper_UseBodyTurn">UseBodyTurn</a>
+        </td>
+        <td class="markdown level1 summary"><p>Enable and provide a positive bodyTurnTimeout and provide a look-at target to make the character turn to face it while balancing.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_StaggerFallHelper_UseHeadLook" data-uid="GTA.NaturalMotion.StaggerFallHelper.UseHeadLook">
+          <a class="xref" href="../scripting_v2/GTA.NaturalMotion.StaggerFallHelper.UseHeadLook.html#GTA_NaturalMotion_StaggerFallHelper_UseHeadLook">UseHeadLook</a>
+        </td>
+        <td class="markdown level1 summary"><p>Enable and provide a look-at target to make the character's head turn to face it while balancing, balancer default is 0.2.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/crosire/scripthookvdotnet//new/master/apiSpec/new?filename=GTA_NaturalMotion_StaggerFallHelper.md&amp;value=---%0Auid%3A%20GTA.NaturalMotion.StaggerFallHelper%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/nitanmarcel/scripthookvdotnet/blob/main/source/scripting_v3/GTA.NaturalMotion/EuphoriaHelpers.cs/#L28364" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+                <script type="text/javascript" src="../styles/toggle-theme.js"></script>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

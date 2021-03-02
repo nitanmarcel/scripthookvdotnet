@@ -1,0 +1,1400 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Vehicle
+   | ScriptHookVDotNet </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Vehicle
+   | ScriptHookVDotNet ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../-" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="GTA.Vehicle">
+  
+  
+  <h1 id="GTA_Vehicle" data-uid="GTA.Vehicle" class="text-break">Class Vehicle
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="GTA.Entity.html">Entity</a></div>
+    <div class="level2"><span class="xref">Vehicle</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="GTA.Entity.html">Entity</a>&gt;</div>
+    <div><a class="xref" href="GTA.IHandleable.html">IHandleable</a></div>
+    <div><a class="xref" href="GTA.ISpatial.html">ISpatial</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="GTA.Entity.Handle.html#GTA_Entity_Handle">Entity.Handle</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.MemoryAddress.html#GTA_Entity_MemoryAddress">Entity.MemoryAddress</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.IsDead.html#GTA_Entity_IsDead">Entity.IsDead</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.IsAlive.html#GTA_Entity_IsAlive">Entity.IsAlive</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.Model.html#GTA_Entity_Model">Entity.Model</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.Alpha.html#GTA_Entity_Alpha">Entity.Alpha</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.ResetAlpha.html#GTA_Entity_ResetAlpha">Entity.ResetAlpha()</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.LodDistance.html#GTA_Entity_LodDistance">Entity.LodDistance</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.IsPersistent.html#GTA_Entity_IsPersistent">Entity.IsPersistent</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.FreezePosition.html#GTA_Entity_FreezePosition">Entity.FreezePosition</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.GetBoneIndex.html#GTA_Entity_GetBoneIndex_System_String_">Entity.GetBoneIndex(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.HasBone.html#GTA_Entity_HasBone_System_String_">Entity.HasBone(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.GetBoneCoord.html#GTA_Entity_GetBoneCoord_System_Int32_">Entity.GetBoneCoord(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.GetBoneCoord.html#GTA_Entity_GetBoneCoord_System_String_">Entity.GetBoneCoord(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.Health.html#GTA_Entity_Health">Entity.Health</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.MaxHealth.html#GTA_Entity_MaxHealth">Entity.MaxHealth</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.Position.html#GTA_Entity_Position">Entity.Position</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.PositionNoOffset.html#GTA_Entity_PositionNoOffset">Entity.PositionNoOffset</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.Rotation.html#GTA_Entity_Rotation">Entity.Rotation</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.Heading.html#GTA_Entity_Heading">Entity.Heading</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.HeightAboveGround.html#GTA_Entity_HeightAboveGround">Entity.HeightAboveGround</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.Quaternion.html#GTA_Entity_Quaternion">Entity.Quaternion</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.UpVector.html#GTA_Entity_UpVector">Entity.UpVector</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.RightVector.html#GTA_Entity_RightVector">Entity.RightVector</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.ForwardVector.html#GTA_Entity_ForwardVector">Entity.ForwardVector</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.GetOffsetInWorldCoords.html#GTA_Entity_GetOffsetInWorldCoords_GTA_Math_Vector3_">Entity.GetOffsetInWorldCoords(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.GetOffsetFromWorldCoords.html#GTA_Entity_GetOffsetFromWorldCoords_GTA_Math_Vector3_">Entity.GetOffsetFromWorldCoords(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.MaxSpeed.html#GTA_Entity_MaxSpeed">Entity.MaxSpeed</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.Velocity.html#GTA_Entity_Velocity">Entity.Velocity</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.HasBeenDamagedBy.html#GTA_Entity_HasBeenDamagedBy_GTA_Entity_">Entity.HasBeenDamagedBy(Entity)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.IsFireProof.html#GTA_Entity_IsFireProof">Entity.IsFireProof</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.IsMeleeProof.html#GTA_Entity_IsMeleeProof">Entity.IsMeleeProof</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.IsBulletProof.html#GTA_Entity_IsBulletProof">Entity.IsBulletProof</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.IsExplosionProof.html#GTA_Entity_IsExplosionProof">Entity.IsExplosionProof</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.IsCollisionProof.html#GTA_Entity_IsCollisionProof">Entity.IsCollisionProof</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.IsInvincible.html#GTA_Entity_IsInvincible">Entity.IsInvincible</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.IsOnlyDamagedByPlayer.html#GTA_Entity_IsOnlyDamagedByPlayer">Entity.IsOnlyDamagedByPlayer</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.IsVisible.html#GTA_Entity_IsVisible">Entity.IsVisible</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.IsOccluded.html#GTA_Entity_IsOccluded">Entity.IsOccluded</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.IsOnFire.html#GTA_Entity_IsOnFire">Entity.IsOnFire</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.IsOnScreen.html#GTA_Entity_IsOnScreen">Entity.IsOnScreen</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.IsUpright.html#GTA_Entity_IsUpright">Entity.IsUpright</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.IsUpsideDown.html#GTA_Entity_IsUpsideDown">Entity.IsUpsideDown</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.IsInAir.html#GTA_Entity_IsInAir">Entity.IsInAir</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.IsInWater.html#GTA_Entity_IsInWater">Entity.IsInWater</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.HasGravity.html#GTA_Entity_HasGravity">Entity.HasGravity</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.HasCollision.html#GTA_Entity_HasCollision">Entity.HasCollision</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.HasCollidedWithAnything.html#GTA_Entity_HasCollidedWithAnything">Entity.HasCollidedWithAnything</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.SetNoCollision.html#GTA_Entity_SetNoCollision_GTA_Entity_System_Boolean_">Entity.SetNoCollision(Entity, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.IsInArea.html#GTA_Entity_IsInArea_GTA_Math_Vector3_GTA_Math_Vector3_">Entity.IsInArea(Vector3, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.IsInArea.html#GTA_Entity_IsInArea_GTA_Math_Vector3_GTA_Math_Vector3_System_Single_">Entity.IsInArea(Vector3, Vector3, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.IsInAngledArea.html#GTA_Entity_IsInAngledArea_GTA_Math_Vector3_GTA_Math_Vector3_System_Single_">Entity.IsInAngledArea(Vector3, Vector3, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.IsInRangeOf.html#GTA_Entity_IsInRangeOf_GTA_Math_Vector3_System_Single_">Entity.IsInRangeOf(Vector3, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.IsNearEntity.html#GTA_Entity_IsNearEntity_GTA_Entity_GTA_Math_Vector3_">Entity.IsNearEntity(Entity, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.IsTouching.html#GTA_Entity_IsTouching_GTA_Model_">Entity.IsTouching(Model)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.IsTouching.html#GTA_Entity_IsTouching_GTA_Entity_">Entity.IsTouching(Entity)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.AddBlip.html#GTA_Entity_AddBlip">Entity.AddBlip()</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.CurrentBlip.html#GTA_Entity_CurrentBlip">Entity.CurrentBlip</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.Detach.html#GTA_Entity_Detach">Entity.Detach()</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.AttachTo.html#GTA_Entity_AttachTo_GTA_Entity_System_Int32_">Entity.AttachTo(Entity, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.AttachTo.html#GTA_Entity_AttachTo_GTA_Entity_System_Int32_GTA_Math_Vector3_GTA_Math_Vector3_">Entity.AttachTo(Entity, Int32, Vector3, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.IsAttached.html#GTA_Entity_IsAttached">Entity.IsAttached()</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.IsAttachedTo.html#GTA_Entity_IsAttachedTo_GTA_Entity_">Entity.IsAttachedTo(Entity)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.GetEntityAttachedTo.html#GTA_Entity_GetEntityAttachedTo">Entity.GetEntityAttachedTo()</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.ApplyForce.html#GTA_Entity_ApplyForce_GTA_Math_Vector3_">Entity.ApplyForce(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.ApplyForce.html#GTA_Entity_ApplyForce_GTA_Math_Vector3_GTA_Math_Vector3_">Entity.ApplyForce(Vector3, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.ApplyForce.html#GTA_Entity_ApplyForce_GTA_Math_Vector3_GTA_Math_Vector3_GTA_ForceType_">Entity.ApplyForce(Vector3, Vector3, ForceType)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.ApplyForceRelative.html#GTA_Entity_ApplyForceRelative_GTA_Math_Vector3_">Entity.ApplyForceRelative(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.ApplyForceRelative.html#GTA_Entity_ApplyForceRelative_GTA_Math_Vector3_GTA_Math_Vector3_">Entity.ApplyForceRelative(Vector3, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.ApplyForceRelative.html#GTA_Entity_ApplyForceRelative_GTA_Math_Vector3_GTA_Math_Vector3_GTA_ForceType_">Entity.ApplyForceRelative(Vector3, Vector3, ForceType)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.MarkAsNoLongerNeeded.html#GTA_Entity_MarkAsNoLongerNeeded">Entity.MarkAsNoLongerNeeded()</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.Delete.html#GTA_Entity_Delete">Entity.Delete()</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.Exists.html#GTA_Entity_Exists">Entity.Exists()</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.Exists.html#GTA_Entity_Exists_GTA_Entity_">Entity.Exists(Entity)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.Equals.html#GTA_Entity_Equals_GTA_Entity_">Entity.Equals(Entity)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.Equals.html#GTA_Entity_Equals_System_Object_">Entity.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.Entity.GetHashCode.html#GTA_Entity_GetHashCode">Entity.GetHashCode()</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="GTA.html">GTA</a></h6>
+  <h6><strong>Assembly</strong>: ScriptHookVDotNet2.dll</h6>
+  <h5 id="GTA_Vehicle_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class Vehicle : Entity, IEquatable&lt;Entity&gt;, IHandleable, ISpatial</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="GTA_Vehicle__ctor_System_Int32_" data-uid="GTA.Vehicle.#ctor(System.Int32)">
+          <a class="xref" href="GTA.Vehicle.-ctor.html#GTA_Vehicle__ctor_System_Int32_">Vehicle(Int32)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="GTA_Vehicle_Acceleration" data-uid="GTA.Vehicle.Acceleration">
+          <a class="xref" href="GTA.Vehicle.Acceleration.html#GTA_Vehicle_Acceleration">Acceleration</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets the acceleration of this <a class="xref" href="GTA.Vehicle.html">Vehicle</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_AlarmActive" data-uid="GTA.Vehicle.AlarmActive">
+          <a class="xref" href="GTA.Vehicle.AlarmActive.html#GTA_Vehicle_AlarmActive">AlarmActive</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_BodyHealth" data-uid="GTA.Vehicle.BodyHealth">
+          <a class="xref" href="GTA.Vehicle.BodyHealth.html#GTA_Vehicle_BodyHealth">BodyHealth</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets this <a class="xref" href="GTA.Vehicle.html">Vehicle</a>s body health.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_BrakeLightsOn" data-uid="GTA.Vehicle.BrakeLightsOn">
+          <a class="xref" href="GTA.Vehicle.BrakeLightsOn.html#GTA_Vehicle_BrakeLightsOn">BrakeLightsOn</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_CanBeVisiblyDamaged" data-uid="GTA.Vehicle.CanBeVisiblyDamaged">
+          <a class="xref" href="GTA.Vehicle.CanBeVisiblyDamaged.html#GTA_Vehicle_CanBeVisiblyDamaged">CanBeVisiblyDamaged</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_CanTiresBurst" data-uid="GTA.Vehicle.CanTiresBurst">
+          <a class="xref" href="GTA.Vehicle.CanTiresBurst.html#GTA_Vehicle_CanTiresBurst">CanTiresBurst</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_CanWheelsBreak" data-uid="GTA.Vehicle.CanWheelsBreak">
+          <a class="xref" href="GTA.Vehicle.CanWheelsBreak.html#GTA_Vehicle_CanWheelsBreak">CanWheelsBreak</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_ClassType" data-uid="GTA.Vehicle.ClassType">
+          <a class="xref" href="GTA.Vehicle.ClassType.html#GTA_Vehicle_ClassType">ClassType</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets the class of this <a class="xref" href="GTA.Vehicle.html">Vehicle</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_ColorCombination" data-uid="GTA.Vehicle.ColorCombination">
+          <a class="xref" href="GTA.Vehicle.ColorCombination.html#GTA_Vehicle_ColorCombination">ColorCombination</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_ColorCombinationCount" data-uid="GTA.Vehicle.ColorCombinationCount">
+          <a class="xref" href="GTA.Vehicle.ColorCombinationCount.html#GTA_Vehicle_ColorCombinationCount">ColorCombinationCount</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_CurrentGear" data-uid="GTA.Vehicle.CurrentGear">
+          <a class="xref" href="GTA.Vehicle.CurrentGear.html#GTA_Vehicle_CurrentGear">CurrentGear</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the current gear this <a class="xref" href="GTA.Vehicle.html">Vehicle</a> is using.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_CurrentRPM" data-uid="GTA.Vehicle.CurrentRPM">
+          <a class="xref" href="GTA.Vehicle.CurrentRPM.html#GTA_Vehicle_CurrentRPM">CurrentRPM</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the current RPM of this <a class="xref" href="GTA.Vehicle.html">Vehicle</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_CustomPrimaryColor" data-uid="GTA.Vehicle.CustomPrimaryColor">
+          <a class="xref" href="GTA.Vehicle.CustomPrimaryColor.html#GTA_Vehicle_CustomPrimaryColor">CustomPrimaryColor</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_CustomSecondaryColor" data-uid="GTA.Vehicle.CustomSecondaryColor">
+          <a class="xref" href="GTA.Vehicle.CustomSecondaryColor.html#GTA_Vehicle_CustomSecondaryColor">CustomSecondaryColor</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_DashboardColor" data-uid="GTA.Vehicle.DashboardColor">
+          <a class="xref" href="GTA.Vehicle.DashboardColor.html#GTA_Vehicle_DashboardColor">DashboardColor</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_DirtLevel" data-uid="GTA.Vehicle.DirtLevel">
+          <a class="xref" href="GTA.Vehicle.DirtLevel.html#GTA_Vehicle_DirtLevel">DirtLevel</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_DisplayName" data-uid="GTA.Vehicle.DisplayName">
+          <a class="xref" href="GTA.Vehicle.DisplayName.html#GTA_Vehicle_DisplayName">DisplayName</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets the display name of this <a class="xref" href="GTA.Vehicle.html">Vehicle</a>.
+<remarks>Use <a class="xref" href="../scripting_v3/GTA.Game.GetLocalizedString.html#GTA_Game_GetLocalizedString_System_String_">GetLocalizedString(String)</a> to get the localized name.</remarks></p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_Driver" data-uid="GTA.Vehicle.Driver">
+          <a class="xref" href="GTA.Vehicle.Driver.html#GTA_Vehicle_Driver">Driver</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_DropsMoneyOnExplosion" data-uid="GTA.Vehicle.DropsMoneyOnExplosion">
+          <a class="xref" href="GTA.Vehicle.DropsMoneyOnExplosion.html#GTA_Vehicle_DropsMoneyOnExplosion">DropsMoneyOnExplosion</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets a value indicating whether this <a class="xref" href="GTA.Vehicle.html">Vehicle</a> drops money when destroyed.
+Only works when the vehicle model is a car, quad bikes or trikes (strictly when the internal vehicle class is CAutomobile or derived class from CAutomobile).</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_EngineCanDegrade" data-uid="GTA.Vehicle.EngineCanDegrade">
+          <a class="xref" href="GTA.Vehicle.EngineCanDegrade.html#GTA_Vehicle_EngineCanDegrade">EngineCanDegrade</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_EngineHealth" data-uid="GTA.Vehicle.EngineHealth">
+          <a class="xref" href="GTA.Vehicle.EngineHealth.html#GTA_Vehicle_EngineHealth">EngineHealth</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets this <a class="xref" href="GTA.Vehicle.html">Vehicle</a> engine health.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_EnginePowerMultiplier" data-uid="GTA.Vehicle.EnginePowerMultiplier">
+          <a class="xref" href="GTA.Vehicle.EnginePowerMultiplier.html#GTA_Vehicle_EnginePowerMultiplier">EnginePowerMultiplier</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_EngineRunning" data-uid="GTA.Vehicle.EngineRunning">
+          <a class="xref" href="GTA.Vehicle.EngineRunning.html#GTA_Vehicle_EngineRunning">EngineRunning</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_EngineTorqueMultiplier" data-uid="GTA.Vehicle.EngineTorqueMultiplier">
+          <a class="xref" href="GTA.Vehicle.EngineTorqueMultiplier.html#GTA_Vehicle_EngineTorqueMultiplier">EngineTorqueMultiplier</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_FriendlyName" data-uid="GTA.Vehicle.FriendlyName">
+          <a class="xref" href="GTA.Vehicle.FriendlyName.html#GTA_Vehicle_FriendlyName">FriendlyName</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_FuelLevel" data-uid="GTA.Vehicle.FuelLevel">
+          <a class="xref" href="GTA.Vehicle.FuelLevel.html#GTA_Vehicle_FuelLevel">FuelLevel</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets this <a class="xref" href="GTA.Vehicle.html">Vehicle</a> fuel level.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_HandbrakeOn" data-uid="GTA.Vehicle.HandbrakeOn">
+          <a class="xref" href="GTA.Vehicle.HandbrakeOn.html#GTA_Vehicle_HandbrakeOn">HandbrakeOn</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_HasAlarm" data-uid="GTA.Vehicle.HasAlarm">
+          <a class="xref" href="GTA.Vehicle.HasAlarm.html#GTA_Vehicle_HasAlarm">HasAlarm</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_HasBombBay" data-uid="GTA.Vehicle.HasBombBay">
+          <a class="xref" href="GTA.Vehicle.HasBombBay.html#GTA_Vehicle_HasBombBay">HasBombBay</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_HasForks" data-uid="GTA.Vehicle.HasForks">
+          <a class="xref" href="GTA.Vehicle.HasForks.html#GTA_Vehicle_HasForks">HasForks</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets a value indicating whether this <a class="xref" href="GTA.Vehicle.html">Vehicle</a> has forks.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_HasRoof" data-uid="GTA.Vehicle.HasRoof">
+          <a class="xref" href="GTA.Vehicle.HasRoof.html#GTA_Vehicle_HasRoof">HasRoof</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_HasSiren" data-uid="GTA.Vehicle.HasSiren">
+          <a class="xref" href="GTA.Vehicle.HasSiren.html#GTA_Vehicle_HasSiren">HasSiren</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets a value indicating whether this <a class="xref" href="GTA.Vehicle.html">Vehicle</a> has a siren.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_HasTowArm" data-uid="GTA.Vehicle.HasTowArm">
+          <a class="xref" href="GTA.Vehicle.HasTowArm.html#GTA_Vehicle_HasTowArm">HasTowArm</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_HighBeamsOn" data-uid="GTA.Vehicle.HighBeamsOn">
+          <a class="xref" href="GTA.Vehicle.HighBeamsOn.html#GTA_Vehicle_HighBeamsOn">HighBeamsOn</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_HighGear" data-uid="GTA.Vehicle.HighGear">
+          <a class="xref" href="GTA.Vehicle.HighGear.html#GTA_Vehicle_HighGear">HighGear</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_InteriorLightOn" data-uid="GTA.Vehicle.InteriorLightOn">
+          <a class="xref" href="GTA.Vehicle.InteriorLightOn.html#GTA_Vehicle_InteriorLightOn">InteriorLightOn</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_IsAxlesStrong" data-uid="GTA.Vehicle.IsAxlesStrong">
+          <a class="xref" href="GTA.Vehicle.IsAxlesStrong.html#GTA_Vehicle_IsAxlesStrong">IsAxlesStrong</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_IsConvertible" data-uid="GTA.Vehicle.IsConvertible">
+          <a class="xref" href="GTA.Vehicle.IsConvertible.html#GTA_Vehicle_IsConvertible">IsConvertible</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_IsDamaged" data-uid="GTA.Vehicle.IsDamaged">
+          <a class="xref" href="GTA.Vehicle.IsDamaged.html#GTA_Vehicle_IsDamaged">IsDamaged</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_IsDriveable" data-uid="GTA.Vehicle.IsDriveable">
+          <a class="xref" href="GTA.Vehicle.IsDriveable.html#GTA_Vehicle_IsDriveable">IsDriveable</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_IsFrontBumperBrokenOff" data-uid="GTA.Vehicle.IsFrontBumperBrokenOff">
+          <a class="xref" href="GTA.Vehicle.IsFrontBumperBrokenOff.html#GTA_Vehicle_IsFrontBumperBrokenOff">IsFrontBumperBrokenOff</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_IsInBurnout" data-uid="GTA.Vehicle.IsInBurnout">
+          <a class="xref" href="GTA.Vehicle.IsInBurnout.html#GTA_Vehicle_IsInBurnout">IsInBurnout()</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_IsOnAllWheels" data-uid="GTA.Vehicle.IsOnAllWheels">
+          <a class="xref" href="GTA.Vehicle.IsOnAllWheels.html#GTA_Vehicle_IsOnAllWheels">IsOnAllWheels</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_IsPrimaryColorCustom" data-uid="GTA.Vehicle.IsPrimaryColorCustom">
+          <a class="xref" href="GTA.Vehicle.IsPrimaryColorCustom.html#GTA_Vehicle_IsPrimaryColorCustom">IsPrimaryColorCustom</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_IsRadioEnabled" data-uid="GTA.Vehicle.IsRadioEnabled">
+          <a class="xref" href="GTA.Vehicle.IsRadioEnabled.html#GTA_Vehicle_IsRadioEnabled">IsRadioEnabled</a>
+        </td>
+        <td class="markdown level1 summary"><p>Turns this <a class="xref" href="GTA.Vehicle.html">Vehicle</a>s radio on or off</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_IsRearBumperBrokenOff" data-uid="GTA.Vehicle.IsRearBumperBrokenOff">
+          <a class="xref" href="GTA.Vehicle.IsRearBumperBrokenOff.html#GTA_Vehicle_IsRearBumperBrokenOff">IsRearBumperBrokenOff</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_IsSecondaryColorCustom" data-uid="GTA.Vehicle.IsSecondaryColorCustom">
+          <a class="xref" href="GTA.Vehicle.IsSecondaryColorCustom.html#GTA_Vehicle_IsSecondaryColorCustom">IsSecondaryColorCustom</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_IsSirenSilent" data-uid="GTA.Vehicle.IsSirenSilent">
+          <a class="xref" href="GTA.Vehicle.IsSirenSilent.html#GTA_Vehicle_IsSirenSilent">IsSirenSilent</a>
+        </td>
+        <td class="markdown level1 summary"><p>Sets a value indicating whether the siren on this <a class="xref" href="GTA.Vehicle.html">Vehicle</a> plays sounds.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_IsStolen" data-uid="GTA.Vehicle.IsStolen">
+          <a class="xref" href="GTA.Vehicle.IsStolen.html#GTA_Vehicle_IsStolen">IsStolen</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets a value indicating whether this <a class="xref" href="GTA.Vehicle.html">Vehicle</a> was stolen.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_IsStopped" data-uid="GTA.Vehicle.IsStopped">
+          <a class="xref" href="GTA.Vehicle.IsStopped.html#GTA_Vehicle_IsStopped">IsStopped</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_IsStoppedAtTrafficLights" data-uid="GTA.Vehicle.IsStoppedAtTrafficLights">
+          <a class="xref" href="GTA.Vehicle.IsStoppedAtTrafficLights.html#GTA_Vehicle_IsStoppedAtTrafficLights">IsStoppedAtTrafficLights</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_IsWanted" data-uid="GTA.Vehicle.IsWanted">
+          <a class="xref" href="GTA.Vehicle.IsWanted.html#GTA_Vehicle_IsWanted">IsWanted</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets a value indicating whether this <a class="xref" href="GTA.Vehicle.html">Vehicle</a> is wanted by the police.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_LandingGear" data-uid="GTA.Vehicle.LandingGear">
+          <a class="xref" href="GTA.Vehicle.LandingGear.html#GTA_Vehicle_LandingGear">LandingGear</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_LeftHeadLightBroken" data-uid="GTA.Vehicle.LeftHeadLightBroken">
+          <a class="xref" href="GTA.Vehicle.LeftHeadLightBroken.html#GTA_Vehicle_LeftHeadLightBroken">LeftHeadLightBroken</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_LeftIndicatorLightOn" data-uid="GTA.Vehicle.LeftIndicatorLightOn">
+          <a class="xref" href="GTA.Vehicle.LeftIndicatorLightOn.html#GTA_Vehicle_LeftIndicatorLightOn">LeftIndicatorLightOn</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_LightsMultiplier" data-uid="GTA.Vehicle.LightsMultiplier">
+          <a class="xref" href="GTA.Vehicle.LightsMultiplier.html#GTA_Vehicle_LightsMultiplier">LightsMultiplier</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_LightsOn" data-uid="GTA.Vehicle.LightsOn">
+          <a class="xref" href="GTA.Vehicle.LightsOn.html#GTA_Vehicle_LightsOn">LightsOn</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_Livery" data-uid="GTA.Vehicle.Livery">
+          <a class="xref" href="GTA.Vehicle.Livery.html#GTA_Vehicle_Livery">Livery</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_LiveryCount" data-uid="GTA.Vehicle.LiveryCount">
+          <a class="xref" href="GTA.Vehicle.LiveryCount.html#GTA_Vehicle_LiveryCount">LiveryCount</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_LockStatus" data-uid="GTA.Vehicle.LockStatus">
+          <a class="xref" href="GTA.Vehicle.LockStatus.html#GTA_Vehicle_LockStatus">LockStatus</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_MaxBraking" data-uid="GTA.Vehicle.MaxBraking">
+          <a class="xref" href="GTA.Vehicle.MaxBraking.html#GTA_Vehicle_MaxBraking">MaxBraking</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets the maximum brake power of this <a class="xref" href="GTA.Vehicle.html">Vehicle</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_MaxTraction" data-uid="GTA.Vehicle.MaxTraction">
+          <a class="xref" href="GTA.Vehicle.MaxTraction.html#GTA_Vehicle_MaxTraction">MaxTraction</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets the maximum traction of this <a class="xref" href="GTA.Vehicle.html">Vehicle</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_NeedsToBeHotwired" data-uid="GTA.Vehicle.NeedsToBeHotwired">
+          <a class="xref" href="GTA.Vehicle.NeedsToBeHotwired.html#GTA_Vehicle_NeedsToBeHotwired">NeedsToBeHotwired</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets a value indicating whether this <a class="xref" href="GTA.Vehicle.html">Vehicle</a> needs to be hotwired to start.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_NeonLightsColor" data-uid="GTA.Vehicle.NeonLightsColor">
+          <a class="xref" href="GTA.Vehicle.NeonLightsColor.html#GTA_Vehicle_NeonLightsColor">NeonLightsColor</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_NumberPlate" data-uid="GTA.Vehicle.NumberPlate">
+          <a class="xref" href="GTA.Vehicle.NumberPlate.html#GTA_Vehicle_NumberPlate">NumberPlate</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_NumberPlateMounting" data-uid="GTA.Vehicle.NumberPlateMounting">
+          <a class="xref" href="GTA.Vehicle.NumberPlateMounting.html#GTA_Vehicle_NumberPlateMounting">NumberPlateMounting</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_NumberPlateType" data-uid="GTA.Vehicle.NumberPlateType">
+          <a class="xref" href="GTA.Vehicle.NumberPlateType.html#GTA_Vehicle_NumberPlateType">NumberPlateType</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_Occupants" data-uid="GTA.Vehicle.Occupants">
+          <a class="xref" href="GTA.Vehicle.Occupants.html#GTA_Vehicle_Occupants">Occupants</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_PassengerCount" data-uid="GTA.Vehicle.PassengerCount">
+          <a class="xref" href="GTA.Vehicle.PassengerCount.html#GTA_Vehicle_PassengerCount">PassengerCount</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_Passengers" data-uid="GTA.Vehicle.Passengers">
+          <a class="xref" href="GTA.Vehicle.Passengers.html#GTA_Vehicle_Passengers">Passengers</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_PassengerSeats" data-uid="GTA.Vehicle.PassengerSeats">
+          <a class="xref" href="GTA.Vehicle.PassengerSeats.html#GTA_Vehicle_PassengerSeats">PassengerSeats</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_PearlescentColor" data-uid="GTA.Vehicle.PearlescentColor">
+          <a class="xref" href="GTA.Vehicle.PearlescentColor.html#GTA_Vehicle_PearlescentColor">PearlescentColor</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_PetrolTankHealth" data-uid="GTA.Vehicle.PetrolTankHealth">
+          <a class="xref" href="GTA.Vehicle.PetrolTankHealth.html#GTA_Vehicle_PetrolTankHealth">PetrolTankHealth</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets this <a class="xref" href="GTA.Vehicle.html">Vehicle</a> petrol tank health.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_PreviouslyOwnedByPlayer" data-uid="GTA.Vehicle.PreviouslyOwnedByPlayer">
+          <a class="xref" href="GTA.Vehicle.PreviouslyOwnedByPlayer.html#GTA_Vehicle_PreviouslyOwnedByPlayer">PreviouslyOwnedByPlayer</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets a value indicating whether this <a class="xref" href="GTA.Vehicle.html">Vehicle</a> was previously owned by a <a class="xref" href="GTA.Player.html">Player</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_PrimaryColor" data-uid="GTA.Vehicle.PrimaryColor">
+          <a class="xref" href="GTA.Vehicle.PrimaryColor.html#GTA_Vehicle_PrimaryColor">PrimaryColor</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_ProvidesCover" data-uid="GTA.Vehicle.ProvidesCover">
+          <a class="xref" href="GTA.Vehicle.ProvidesCover.html#GTA_Vehicle_ProvidesCover">ProvidesCover</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets a value indicating whether peds can use this <a class="xref" href="GTA.Vehicle.html">Vehicle</a> for cover.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_RadioStation" data-uid="GTA.Vehicle.RadioStation">
+          <a class="xref" href="GTA.Vehicle.RadioStation.html#GTA_Vehicle_RadioStation">RadioStation</a>
+        </td>
+        <td class="markdown level1 summary"><p>Sets this <a class="xref" href="GTA.Vehicle.html">Vehicle</a>s radio station.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_RightHeadLightBroken" data-uid="GTA.Vehicle.RightHeadLightBroken">
+          <a class="xref" href="GTA.Vehicle.RightHeadLightBroken.html#GTA_Vehicle_RightHeadLightBroken">RightHeadLightBroken</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_RightIndicatorLightOn" data-uid="GTA.Vehicle.RightIndicatorLightOn">
+          <a class="xref" href="GTA.Vehicle.RightIndicatorLightOn.html#GTA_Vehicle_RightIndicatorLightOn">RightIndicatorLightOn</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_RimColor" data-uid="GTA.Vehicle.RimColor">
+          <a class="xref" href="GTA.Vehicle.RimColor.html#GTA_Vehicle_RimColor">RimColor</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_RoofState" data-uid="GTA.Vehicle.RoofState">
+          <a class="xref" href="GTA.Vehicle.RoofState.html#GTA_Vehicle_RoofState">RoofState</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_SearchLightOn" data-uid="GTA.Vehicle.SearchLightOn">
+          <a class="xref" href="GTA.Vehicle.SearchLightOn.html#GTA_Vehicle_SearchLightOn">SearchLightOn</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_SecondaryColor" data-uid="GTA.Vehicle.SecondaryColor">
+          <a class="xref" href="GTA.Vehicle.SecondaryColor.html#GTA_Vehicle_SecondaryColor">SecondaryColor</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_SirenActive" data-uid="GTA.Vehicle.SirenActive">
+          <a class="xref" href="GTA.Vehicle.SirenActive.html#GTA_Vehicle_SirenActive">SirenActive</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_Speed" data-uid="GTA.Vehicle.Speed">
+          <a class="xref" href="GTA.Vehicle.Speed.html#GTA_Vehicle_Speed">Speed</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_Steering" data-uid="GTA.Vehicle.Steering">
+          <a class="xref" href="GTA.Vehicle.Steering.html#GTA_Vehicle_Steering">Steering</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_SteeringAngle" data-uid="GTA.Vehicle.SteeringAngle">
+          <a class="xref" href="GTA.Vehicle.SteeringAngle.html#GTA_Vehicle_SteeringAngle">SteeringAngle</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the steering angle of this <a class="xref" href="GTA.Vehicle.html">Vehicle</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_SteeringScale" data-uid="GTA.Vehicle.SteeringScale">
+          <a class="xref" href="GTA.Vehicle.SteeringScale.html#GTA_Vehicle_SteeringScale">SteeringScale</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the steering scale of this <a class="xref" href="GTA.Vehicle.html">Vehicle</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_TaxiLightOn" data-uid="GTA.Vehicle.TaxiLightOn">
+          <a class="xref" href="GTA.Vehicle.TaxiLightOn.html#GTA_Vehicle_TaxiLightOn">TaxiLightOn</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_TireSmokeColor" data-uid="GTA.Vehicle.TireSmokeColor">
+          <a class="xref" href="GTA.Vehicle.TireSmokeColor.html#GTA_Vehicle_TireSmokeColor">TireSmokeColor</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_TowedVehicle" data-uid="GTA.Vehicle.TowedVehicle">
+          <a class="xref" href="GTA.Vehicle.TowedVehicle.html#GTA_Vehicle_TowedVehicle">TowedVehicle</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_TowingCraneRaisedAmount" data-uid="GTA.Vehicle.TowingCraneRaisedAmount">
+          <a class="xref" href="GTA.Vehicle.TowingCraneRaisedAmount.html#GTA_Vehicle_TowingCraneRaisedAmount">TowingCraneRaisedAmount</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_TrimColor" data-uid="GTA.Vehicle.TrimColor">
+          <a class="xref" href="GTA.Vehicle.TrimColor.html#GTA_Vehicle_TrimColor">TrimColor</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_WheelSpeed" data-uid="GTA.Vehicle.WheelSpeed">
+          <a class="xref" href="GTA.Vehicle.WheelSpeed.html#GTA_Vehicle_WheelSpeed">WheelSpeed</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets the speed the drive wheels are turning at, This is the value used for the dashboard speedometers(after being converted to mph).</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_WheelType" data-uid="GTA.Vehicle.WheelType">
+          <a class="xref" href="GTA.Vehicle.WheelType.html#GTA_Vehicle_WheelType">WheelType</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_WindowTint" data-uid="GTA.Vehicle.WindowTint">
+          <a class="xref" href="GTA.Vehicle.WindowTint.html#GTA_Vehicle_WindowTint">WindowTint</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="GTA_Vehicle_ApplyDamage_GTA_Math_Vector3_System_Single_System_Single_" data-uid="GTA.Vehicle.ApplyDamage(GTA.Math.Vector3,System.Single,System.Single)">
+          <a class="xref" href="GTA.Vehicle.ApplyDamage.html#GTA_Vehicle_ApplyDamage_GTA_Math_Vector3_System_Single_System_Single_">ApplyDamage(Vector3, Single, Single)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_BreakDoor_GTA_VehicleDoor_" data-uid="GTA.Vehicle.BreakDoor(GTA.VehicleDoor)">
+          <a class="xref" href="GTA.Vehicle.BreakDoor.html#GTA_Vehicle_BreakDoor_GTA_VehicleDoor_">BreakDoor(VehicleDoor)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_BurstTire_System_Int32_" data-uid="GTA.Vehicle.BurstTire(System.Int32)">
+          <a class="xref" href="GTA.Vehicle.BurstTire.html#GTA_Vehicle_BurstTire_System_Int32_">BurstTire(Int32)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_CargoBobMagnetGrabVehicle" data-uid="GTA.Vehicle.CargoBobMagnetGrabVehicle">
+          <a class="xref" href="GTA.Vehicle.CargoBobMagnetGrabVehicle.html#GTA_Vehicle_CargoBobMagnetGrabVehicle">CargoBobMagnetGrabVehicle()</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_CargoBobMagnetReleaseVehicle" data-uid="GTA.Vehicle.CargoBobMagnetReleaseVehicle">
+          <a class="xref" href="GTA.Vehicle.CargoBobMagnetReleaseVehicle.html#GTA_Vehicle_CargoBobMagnetReleaseVehicle">CargoBobMagnetReleaseVehicle()</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_ClearCustomPrimaryColor" data-uid="GTA.Vehicle.ClearCustomPrimaryColor">
+          <a class="xref" href="GTA.Vehicle.ClearCustomPrimaryColor.html#GTA_Vehicle_ClearCustomPrimaryColor">ClearCustomPrimaryColor()</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_ClearCustomSecondaryColor" data-uid="GTA.Vehicle.ClearCustomSecondaryColor">
+          <a class="xref" href="GTA.Vehicle.ClearCustomSecondaryColor.html#GTA_Vehicle_ClearCustomSecondaryColor">ClearCustomSecondaryColor()</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_CloseBombBay" data-uid="GTA.Vehicle.CloseBombBay">
+          <a class="xref" href="GTA.Vehicle.CloseBombBay.html#GTA_Vehicle_CloseBombBay">CloseBombBay()</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_CloseDoor_GTA_VehicleDoor_System_Boolean_" data-uid="GTA.Vehicle.CloseDoor(GTA.VehicleDoor,System.Boolean)">
+          <a class="xref" href="GTA.Vehicle.CloseDoor.html#GTA_Vehicle_CloseDoor_GTA_VehicleDoor_System_Boolean_">CloseDoor(VehicleDoor, Boolean)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_CreatePedOnSeat_GTA_VehicleSeat_GTA_Model_" data-uid="GTA.Vehicle.CreatePedOnSeat(GTA.VehicleSeat,GTA.Model)">
+          <a class="xref" href="GTA.Vehicle.CreatePedOnSeat.html#GTA_Vehicle_CreatePedOnSeat_GTA_VehicleSeat_GTA_Model_">CreatePedOnSeat(VehicleSeat, Model)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_CreateRandomPedOnSeat_GTA_VehicleSeat_" data-uid="GTA.Vehicle.CreateRandomPedOnSeat(GTA.VehicleSeat)">
+          <a class="xref" href="GTA.Vehicle.CreateRandomPedOnSeat.html#GTA_Vehicle_CreateRandomPedOnSeat_GTA_VehicleSeat_">CreateRandomPedOnSeat(VehicleSeat)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_DetachFromTowTruck" data-uid="GTA.Vehicle.DetachFromTowTruck">
+          <a class="xref" href="GTA.Vehicle.DetachFromTowTruck.html#GTA_Vehicle_DetachFromTowTruck">DetachFromTowTruck()</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_DetachTowedVehicle" data-uid="GTA.Vehicle.DetachTowedVehicle">
+          <a class="xref" href="GTA.Vehicle.DetachTowedVehicle.html#GTA_Vehicle_DetachTowedVehicle">DetachTowedVehicle()</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_DropCargobobHook_GTA_CargobobHook_" data-uid="GTA.Vehicle.DropCargobobHook(GTA.CargobobHook)">
+          <a class="xref" href="GTA.Vehicle.DropCargobobHook.html#GTA_Vehicle_DropCargobobHook_GTA_CargobobHook_">DropCargobobHook(CargobobHook)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_Explode" data-uid="GTA.Vehicle.Explode">
+          <a class="xref" href="GTA.Vehicle.Explode.html#GTA_Vehicle_Explode">Explode()</a>
+        </td>
+        <td class="markdown level1 summary"><p>Explode this <a class="xref" href="GTA.Vehicle.html">Vehicle</a> instantaneously.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_ExtraExists_System_Int32_" data-uid="GTA.Vehicle.ExtraExists(System.Int32)">
+          <a class="xref" href="GTA.Vehicle.ExtraExists.html#GTA_Vehicle_ExtraExists_System_Int32_">ExtraExists(Int32)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_FixTire_System_Int32_" data-uid="GTA.Vehicle.FixTire(System.Int32)">
+          <a class="xref" href="GTA.Vehicle.FixTire.html#GTA_Vehicle_FixTire_System_Int32_">FixTire(Int32)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_FixWindow_GTA_VehicleWindow_" data-uid="GTA.Vehicle.FixWindow(GTA.VehicleWindow)">
+          <a class="xref" href="GTA.Vehicle.FixWindow.html#GTA_Vehicle_FixWindow_GTA_VehicleWindow_">FixWindow(VehicleWindow)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_GetDoorAngleRatio_GTA_VehicleDoor_" data-uid="GTA.Vehicle.GetDoorAngleRatio(GTA.VehicleDoor)">
+          <a class="xref" href="GTA.Vehicle.GetDoorAngleRatio.html#GTA_Vehicle_GetDoorAngleRatio_GTA_VehicleDoor_">GetDoorAngleRatio(VehicleDoor)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_GetDoors" data-uid="GTA.Vehicle.GetDoors">
+          <a class="xref" href="GTA.Vehicle.GetDoors.html#GTA_Vehicle_GetDoors">GetDoors()</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_GetMod_GTA_VehicleMod_" data-uid="GTA.Vehicle.GetMod(GTA.VehicleMod)">
+          <a class="xref" href="GTA.Vehicle.GetMod.html#GTA_Vehicle_GetMod_GTA_VehicleMod_">GetMod(VehicleMod)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_GetModCount_GTA_VehicleMod_" data-uid="GTA.Vehicle.GetModCount(GTA.VehicleMod)">
+          <a class="xref" href="GTA.Vehicle.GetModCount.html#GTA_Vehicle_GetModCount_GTA_VehicleMod_">GetModCount(VehicleMod)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_GetModName_GTA_VehicleMod_System_Int32_" data-uid="GTA.Vehicle.GetModName(GTA.VehicleMod,System.Int32)">
+          <a class="xref" href="GTA.Vehicle.GetModName.html#GTA_Vehicle_GetModName_GTA_VehicleMod_System_Int32_">GetModName(VehicleMod, Int32)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_GetModTypeName_GTA_VehicleMod_" data-uid="GTA.Vehicle.GetModTypeName(GTA.VehicleMod)">
+          <a class="xref" href="GTA.Vehicle.GetModTypeName.html#GTA_Vehicle_GetModTypeName_GTA_VehicleMod_">GetModTypeName(VehicleMod)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_GetPedOnSeat_GTA_VehicleSeat_" data-uid="GTA.Vehicle.GetPedOnSeat(GTA.VehicleSeat)">
+          <a class="xref" href="GTA.Vehicle.GetPedOnSeat.html#GTA_Vehicle_GetPedOnSeat_GTA_VehicleSeat_">GetPedOnSeat(VehicleSeat)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_GetToggleModTypeName_GTA_VehicleToggleMod_" data-uid="GTA.Vehicle.GetToggleModTypeName(GTA.VehicleToggleMod)">
+          <a class="xref" href="GTA.Vehicle.GetToggleModTypeName.html#GTA_Vehicle_GetToggleModTypeName_GTA_VehicleToggleMod_">GetToggleModTypeName(VehicleToggleMod)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_InstallModKit" data-uid="GTA.Vehicle.InstallModKit">
+          <a class="xref" href="GTA.Vehicle.InstallModKit.html#GTA_Vehicle_InstallModKit">InstallModKit()</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_IsCargobobHookActive" data-uid="GTA.Vehicle.IsCargobobHookActive">
+          <a class="xref" href="GTA.Vehicle.IsCargobobHookActive.html#GTA_Vehicle_IsCargobobHookActive">IsCargobobHookActive()</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_IsCargobobHookActive_GTA_CargobobHook_" data-uid="GTA.Vehicle.IsCargobobHookActive(GTA.CargobobHook)">
+          <a class="xref" href="GTA.Vehicle.IsCargobobHookActive.html#GTA_Vehicle_IsCargobobHookActive_GTA_CargobobHook_">IsCargobobHookActive(CargobobHook)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_IsDoorBroken_GTA_VehicleDoor_" data-uid="GTA.Vehicle.IsDoorBroken(GTA.VehicleDoor)">
+          <a class="xref" href="GTA.Vehicle.IsDoorBroken.html#GTA_Vehicle_IsDoorBroken_GTA_VehicleDoor_">IsDoorBroken(VehicleDoor)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_IsDoorOpen_GTA_VehicleDoor_" data-uid="GTA.Vehicle.IsDoorOpen(GTA.VehicleDoor)">
+          <a class="xref" href="GTA.Vehicle.IsDoorOpen.html#GTA_Vehicle_IsDoorOpen_GTA_VehicleDoor_">IsDoorOpen(VehicleDoor)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_IsExtraOn_System_Int32_" data-uid="GTA.Vehicle.IsExtraOn(System.Int32)">
+          <a class="xref" href="GTA.Vehicle.IsExtraOn.html#GTA_Vehicle_IsExtraOn_System_Int32_">IsExtraOn(Int32)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_IsNeonLightsOn_GTA_VehicleNeonLight_" data-uid="GTA.Vehicle.IsNeonLightsOn(GTA.VehicleNeonLight)">
+          <a class="xref" href="GTA.Vehicle.IsNeonLightsOn.html#GTA_Vehicle_IsNeonLightsOn_GTA_VehicleNeonLight_">IsNeonLightsOn(VehicleNeonLight)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_IsSeatFree_GTA_VehicleSeat_" data-uid="GTA.Vehicle.IsSeatFree(GTA.VehicleSeat)">
+          <a class="xref" href="GTA.Vehicle.IsSeatFree.html#GTA_Vehicle_IsSeatFree_GTA_VehicleSeat_">IsSeatFree(VehicleSeat)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_IsTireBurst_System_Int32_" data-uid="GTA.Vehicle.IsTireBurst(System.Int32)">
+          <a class="xref" href="GTA.Vehicle.IsTireBurst.html#GTA_Vehicle_IsTireBurst_System_Int32_">IsTireBurst(Int32)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_IsToggleModOn_GTA_VehicleToggleMod_" data-uid="GTA.Vehicle.IsToggleModOn(GTA.VehicleToggleMod)">
+          <a class="xref" href="GTA.Vehicle.IsToggleModOn.html#GTA_Vehicle_IsToggleModOn_GTA_VehicleToggleMod_">IsToggleModOn(VehicleToggleMod)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_OpenBombBay" data-uid="GTA.Vehicle.OpenBombBay">
+          <a class="xref" href="GTA.Vehicle.OpenBombBay.html#GTA_Vehicle_OpenBombBay">OpenBombBay()</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_OpenDoor_GTA_VehicleDoor_System_Boolean_System_Boolean_" data-uid="GTA.Vehicle.OpenDoor(GTA.VehicleDoor,System.Boolean,System.Boolean)">
+          <a class="xref" href="GTA.Vehicle.OpenDoor.html#GTA_Vehicle_OpenDoor_GTA_VehicleDoor_System_Boolean_System_Boolean_">OpenDoor(VehicleDoor, Boolean, Boolean)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_PlaceOnGround" data-uid="GTA.Vehicle.PlaceOnGround">
+          <a class="xref" href="GTA.Vehicle.PlaceOnGround.html#GTA_Vehicle_PlaceOnGround">PlaceOnGround()</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_PlaceOnNextStreet" data-uid="GTA.Vehicle.PlaceOnNextStreet">
+          <a class="xref" href="GTA.Vehicle.PlaceOnNextStreet.html#GTA_Vehicle_PlaceOnNextStreet">PlaceOnNextStreet()</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_RemoveCargobobHook" data-uid="GTA.Vehicle.RemoveCargobobHook">
+          <a class="xref" href="GTA.Vehicle.RemoveCargobobHook.html#GTA_Vehicle_RemoveCargobobHook">RemoveCargobobHook()</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_RemoveWindow_GTA_VehicleWindow_" data-uid="GTA.Vehicle.RemoveWindow(GTA.VehicleWindow)">
+          <a class="xref" href="GTA.Vehicle.RemoveWindow.html#GTA_Vehicle_RemoveWindow_GTA_VehicleWindow_">RemoveWindow(VehicleWindow)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_Repair" data-uid="GTA.Vehicle.Repair">
+          <a class="xref" href="GTA.Vehicle.Repair.html#GTA_Vehicle_Repair">Repair()</a>
+        </td>
+        <td class="markdown level1 summary"><p>Repair all damage to this <a class="xref" href="GTA.Vehicle.html">Vehicle</a> instantaneously.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_RollDownWindow_GTA_VehicleWindow_" data-uid="GTA.Vehicle.RollDownWindow(GTA.VehicleWindow)">
+          <a class="xref" href="GTA.Vehicle.RollDownWindow.html#GTA_Vehicle_RollDownWindow_GTA_VehicleWindow_">RollDownWindow(VehicleWindow)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_RollDownWindows" data-uid="GTA.Vehicle.RollDownWindows">
+          <a class="xref" href="GTA.Vehicle.RollDownWindows.html#GTA_Vehicle_RollDownWindows">RollDownWindows()</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_RollUpWindow_GTA_VehicleWindow_" data-uid="GTA.Vehicle.RollUpWindow(GTA.VehicleWindow)">
+          <a class="xref" href="GTA.Vehicle.RollUpWindow.html#GTA_Vehicle_RollUpWindow_GTA_VehicleWindow_">RollUpWindow(VehicleWindow)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_SetDoorBreakable_GTA_VehicleDoor_System_Boolean_" data-uid="GTA.Vehicle.SetDoorBreakable(GTA.VehicleDoor,System.Boolean)">
+          <a class="xref" href="GTA.Vehicle.SetDoorBreakable.html#GTA_Vehicle_SetDoorBreakable_GTA_VehicleDoor_System_Boolean_">SetDoorBreakable(VehicleDoor, Boolean)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_SetHeliYawPitchRollMult_System_Single_" data-uid="GTA.Vehicle.SetHeliYawPitchRollMult(System.Single)">
+          <a class="xref" href="GTA.Vehicle.SetHeliYawPitchRollMult.html#GTA_Vehicle_SetHeliYawPitchRollMult_System_Single_">SetHeliYawPitchRollMult(Single)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_SetMod_GTA_VehicleMod_System_Int32_System_Boolean_" data-uid="GTA.Vehicle.SetMod(GTA.VehicleMod,System.Int32,System.Boolean)">
+          <a class="xref" href="GTA.Vehicle.SetMod.html#GTA_Vehicle_SetMod_GTA_VehicleMod_System_Int32_System_Boolean_">SetMod(VehicleMod, Int32, Boolean)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_SetNeonLightsOn_GTA_VehicleNeonLight_System_Boolean_" data-uid="GTA.Vehicle.SetNeonLightsOn(GTA.VehicleNeonLight,System.Boolean)">
+          <a class="xref" href="GTA.Vehicle.SetNeonLightsOn.html#GTA_Vehicle_SetNeonLightsOn_GTA_VehicleNeonLight_System_Boolean_">SetNeonLightsOn(VehicleNeonLight, Boolean)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_SmashWindow_GTA_VehicleWindow_" data-uid="GTA.Vehicle.SmashWindow(GTA.VehicleWindow)">
+          <a class="xref" href="GTA.Vehicle.SmashWindow.html#GTA_Vehicle_SmashWindow_GTA_VehicleWindow_">SmashWindow(VehicleWindow)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_SoundHorn_System_Int32_" data-uid="GTA.Vehicle.SoundHorn(System.Int32)">
+          <a class="xref" href="GTA.Vehicle.SoundHorn.html#GTA_Vehicle_SoundHorn_System_Int32_">SoundHorn(Int32)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Sounds the horn on this <a class="xref" href="GTA.Vehicle.html">Vehicle</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_StartAlarm" data-uid="GTA.Vehicle.StartAlarm">
+          <a class="xref" href="GTA.Vehicle.StartAlarm.html#GTA_Vehicle_StartAlarm">StartAlarm()</a>
+        </td>
+        <td class="markdown level1 summary"><p>Starts sounding the alarm on this <a class="xref" href="GTA.Vehicle.html">Vehicle</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_ToggleExtra_System_Int32_System_Boolean_" data-uid="GTA.Vehicle.ToggleExtra(System.Int32,System.Boolean)">
+          <a class="xref" href="GTA.Vehicle.ToggleExtra.html#GTA_Vehicle_ToggleExtra_System_Int32_System_Boolean_">ToggleExtra(Int32, Boolean)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_ToggleMod_GTA_VehicleToggleMod_System_Boolean_" data-uid="GTA.Vehicle.ToggleMod(GTA.VehicleToggleMod,System.Boolean)">
+          <a class="xref" href="GTA.Vehicle.ToggleMod.html#GTA_Vehicle_ToggleMod_GTA_VehicleToggleMod_System_Boolean_">ToggleMod(VehicleToggleMod, Boolean)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_TowVehicle_GTA_Vehicle_System_Boolean_" data-uid="GTA.Vehicle.TowVehicle(GTA.Vehicle,System.Boolean)">
+          <a class="xref" href="GTA.Vehicle.TowVehicle.html#GTA_Vehicle_TowVehicle_GTA_Vehicle_System_Boolean_">TowVehicle(Vehicle, Boolean)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Vehicle_Wash" data-uid="GTA.Vehicle.Wash">
+          <a class="xref" href="GTA.Vehicle.Wash.html#GTA_Vehicle_Wash">Wash()</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/crosire/scripthookvdotnet//new/master/apiSpec/new?filename=GTA_Vehicle.md&amp;value=---%0Auid%3A%20GTA.Vehicle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/nitanmarcel/scripthookvdotnet/blob/main/source/scripting_v2/GTA/Entities/Vehicles/Vehicle.cs/#L15" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+                <script type="text/javascript" src="../styles/toggle-theme.js"></script>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,543 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ShotConfigureArmsHelper
+   | ScriptHookVDotNet </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ShotConfigureArmsHelper
+   | ScriptHookVDotNet ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../-" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper">
+  
+  
+  <h1 id="GTA_NaturalMotion_ShotConfigureArmsHelper" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper" class="text-break">Class ShotConfigureArmsHelper
+  </h1>
+  <div class="markdown level0 summary"><p>Configure the arm reactions in shot.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="GTA.NaturalMotion.Message.html">Message</a></div>
+    <div class="level2"><a class="xref" href="GTA.NaturalMotion.CustomHelper.html">CustomHelper</a></div>
+    <div class="level3"><span class="xref">ShotConfigureArmsHelper</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.CustomHelper.Start.html#GTA_NaturalMotion_CustomHelper_Start">CustomHelper.Start()</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.CustomHelper.Start.html#GTA_NaturalMotion_CustomHelper_Start_System_Int32_">CustomHelper.Start(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.CustomHelper.Stop.html#GTA_NaturalMotion_CustomHelper_Stop">CustomHelper.Stop()</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.CustomHelper.Abort.html#GTA_NaturalMotion_CustomHelper_Abort">CustomHelper.Abort()</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.Message.Abort.html#GTA_NaturalMotion_Message_Abort_GTA_Ped_">Message.Abort(Ped)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.Message.SendTo.html#GTA_NaturalMotion_Message_SendTo_GTA_Ped_">Message.SendTo(Ped)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.Message.SendTo.html#GTA_NaturalMotion_Message_SendTo_GTA_Ped_System_Int32_">Message.SendTo(Ped, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.Message.SetArgument.html#GTA_NaturalMotion_Message_SetArgument_System_String_System_Boolean_">Message.SetArgument(String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.Message.SetArgument.html#GTA_NaturalMotion_Message_SetArgument_System_String_System_Int32_">Message.SetArgument(String, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.Message.SetArgument.html#GTA_NaturalMotion_Message_SetArgument_System_String_System_Single_">Message.SetArgument(String, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.Message.SetArgument.html#GTA_NaturalMotion_Message_SetArgument_System_String_System_String_">Message.SetArgument(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.Message.SetArgument.html#GTA_NaturalMotion_Message_SetArgument_System_String_GTA_Math_Vector3_">Message.SetArgument(String, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.Message.ResetArguments.html#GTA_NaturalMotion_Message_ResetArguments">Message.ResetArguments()</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.NaturalMotion.Message.ToString.html#GTA_NaturalMotion_Message_ToString">Message.ToString()</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="GTA.NaturalMotion.html">GTA.NaturalMotion</a></h6>
+  <h6><strong>Assembly</strong>: ScriptHookVDotNet2.dll</h6>
+  <h5 id="GTA_NaturalMotion_ShotConfigureArmsHelper_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class ShotConfigureArmsHelper : CustomHelper</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper__ctor_GTA_Ped_" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.#ctor(GTA.Ped)">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.-ctor.html#GTA_NaturalMotion_ShotConfigureArmsHelper__ctor_GTA_Ped_">ShotConfigureArmsHelper(Ped)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Creates a new Instance of the ShotConfigureArmsHelper for sending a ShotConfigureArms <a class="xref" href="GTA.NaturalMotion.Message.html">Message</a> to a given <a class="xref" href="GTA.Ped.html">Ped</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_AllowLeftPistolRFW" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.AllowLeftPistolRFW">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.AllowLeftPistolRFW.html#GTA_NaturalMotion_ShotConfigureArmsHelper_AllowLeftPistolRFW">AllowLeftPistolRFW</a>
+        </td>
+        <td class="markdown level1 summary"><p>Allow character to reach for wound with left hand if holding a pistol.
+It never will for a rifle.
+If pointGun is running this will only happen if the hand cannot point and pointGun:poseUnusedGunArm = false.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_AllowRightPistolRFW" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.AllowRightPistolRFW">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.AllowRightPistolRFW.html#GTA_NaturalMotion_ShotConfigureArmsHelper_AllowRightPistolRFW">AllowRightPistolRFW</a>
+        </td>
+        <td class="markdown level1 summary"><p>Allow character to reach for wound with right hand if holding a pistol.
+It never will for a rifle.
+If pointGun is running this will only happen if the hand cannot point and pointGun:poseUnusedGunArm = false.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_AlwaysReachTime" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.AlwaysReachTime">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.AlwaysReachTime.html#GTA_NaturalMotion_ShotConfigureArmsHelper_AlwaysReachTime">AlwaysReachTime</a>
+        </td>
+        <td class="markdown level1 summary"><p>Inhibit arms brace for this amount of time after reachForWound has begun.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_AWRadiusMult" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.AWRadiusMult">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.AWRadiusMult.html#GTA_NaturalMotion_ShotConfigureArmsHelper_AWRadiusMult">AWRadiusMult</a>
+        </td>
+        <td class="markdown level1 summary"><p>For armsWindmill, multiplier on character speed - increase of radii is proportional to character speed (max radius increase = 0.45).
+E.g. lowering the value increases the range of velocity that the 0-0.45 is applied over.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_AWSpeedMult" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.AWSpeedMult">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.AWSpeedMult.html#GTA_NaturalMotion_ShotConfigureArmsHelper_AWSpeedMult">AWSpeedMult</a>
+        </td>
+        <td class="markdown level1 summary"><p>For armsWindmill, multiplier on character speed - increase of speed of circling is proportional to character speed (max speed of circliing increase = 1.5). Eg. lowering the value increases the range of velocity that the 0-1.5 is applied over.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_AWStiffnessAdd" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.AWStiffnessAdd">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.AWStiffnessAdd.html#GTA_NaturalMotion_ShotConfigureArmsHelper_AWStiffnessAdd">AWStiffnessAdd</a>
+        </td>
+        <td class="markdown level1 summary"><p>For armsWindmill, added arm stiffness ranges from 0 to AWStiffnessAdd.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_Brace" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.Brace">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.Brace.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Brace">Brace</a>
+        </td>
+        <td class="markdown level1 summary"><p>Blind brace with arms if appropriate.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_Bust" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.Bust">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.Bust.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Bust">Bust</a>
+        </td>
+        <td class="markdown level1 summary"><p>Has the character got a bust.
+If so then cupBust (move bust reach targets below bust) or bustElbowLift and cupSize (stop upperArm penetrating bust and move bust targets to surface of bust) are implemented.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_BustElbowLift" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.BustElbowLift">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.BustElbowLift.html#GTA_NaturalMotion_ShotConfigureArmsHelper_BustElbowLift">BustElbowLift</a>
+        </td>
+        <td class="markdown level1 summary"><p>Lift the elbows up this much extra to avoid upper arm penetrating the bust (when target hits spine2 or spine3).</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_CupBust" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.CupBust">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.CupBust.html#GTA_NaturalMotion_ShotConfigureArmsHelper_CupBust">CupBust</a>
+        </td>
+        <td class="markdown level1 summary"><p>All reach targets above or on the bust will cause a reach below the bust.
+(specifically moves spine3 and spine2 targets to spine1).
+BustElbowLift and cupSize are ignored.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_CupSize" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.CupSize">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.CupSize.html#GTA_NaturalMotion_ShotConfigureArmsHelper_CupSize">CupSize</a>
+        </td>
+        <td class="markdown level1 summary"><p>Amount reach target to bust (spine2) will be offset forward by.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2">Fling2</a>
+        </td>
+        <td class="markdown level1 summary"><p>Type of reaction.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2AngleMaxL" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMaxL">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMaxL.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2AngleMaxL">Fling2AngleMaxL</a>
+        </td>
+        <td class="markdown level1 summary"><p>Maximum fling angle for left arm.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2AngleMaxR" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMaxR">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMaxR.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2AngleMaxR">Fling2AngleMaxR</a>
+        </td>
+        <td class="markdown level1 summary"><p>Maximum fling angle for right arm.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2AngleMinL" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMinL">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMinL.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2AngleMinL">Fling2AngleMinL</a>
+        </td>
+        <td class="markdown level1 summary"><p>Minimum fling angle for left arm.
+Fling angle is random in the range fling2AngleMin:fling2AngleMax.
+Angle of fling in radians measured from the body horizontal sideways from shoulder.
+Positive is up, 0 shoulder level, negative down.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2AngleMinR" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMinR">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2AngleMinR.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2AngleMinR">Fling2AngleMinR</a>
+        </td>
+        <td class="markdown level1 summary"><p>Minimum fling angle for right arm.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2Left" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2Left">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2Left.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2Left">Fling2Left</a>
+        </td>
+        <td class="markdown level1 summary"><p>Fling the left arm.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2LengthMaxL" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMaxL">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMaxL.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2LengthMaxL">Fling2LengthMaxL</a>
+        </td>
+        <td class="markdown level1 summary"><p>Maximum left arm length.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2LengthMaxR" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMaxR">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMaxR.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2LengthMaxR">Fling2LengthMaxR</a>
+        </td>
+        <td class="markdown level1 summary"><p>Max right arm length.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2LengthMinL" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMinL">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMinL.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2LengthMinL">Fling2LengthMinL</a>
+        </td>
+        <td class="markdown level1 summary"><p>Minimum left arm length.
+Arm length is random in the range fling2LengthMin:fling2LengthMax.
+Arm length maps one to one with elbow angle.
+These values are scaled internally for the female character.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2LengthMinR" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMinR">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2LengthMinR.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2LengthMinR">Fling2LengthMinR</a>
+        </td>
+        <td class="markdown level1 summary"><p>Min right arm length.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2MStiffL" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2MStiffL">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2MStiffL.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2MStiffL">Fling2MStiffL</a>
+        </td>
+        <td class="markdown level1 summary"><p>Muscle stiffness of the left arm.
+If negative then uses the shots underlying muscle stiffness from controlStiffness (i.e. respects looseness).</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2MStiffR" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2MStiffR">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2MStiffR.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2MStiffR">Fling2MStiffR</a>
+        </td>
+        <td class="markdown level1 summary"><p>Muscle stiffness of the right arm.
+If negative then uses the shots underlying muscle stiffness from controlStiffness (i.e. respects looseness).</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2OverrideStagger" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2OverrideStagger">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2OverrideStagger.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2OverrideStagger">Fling2OverrideStagger</a>
+        </td>
+        <td class="markdown level1 summary"><p>Override stagger arms even if staggerFall:m_upperBodyReaction = true.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2RelaxTimeL" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2RelaxTimeL">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2RelaxTimeL.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2RelaxTimeL">Fling2RelaxTimeL</a>
+        </td>
+        <td class="markdown level1 summary"><p>Maximum time before the left arm relaxes in the fling.
+It will relax automatically when the arm has completed it's bent arm fling.
+This is what causes the arm to straighten.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2RelaxTimeR" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2RelaxTimeR">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2RelaxTimeR.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2RelaxTimeR">Fling2RelaxTimeR</a>
+        </td>
+        <td class="markdown level1 summary"><p>Maximum time before the right arm relaxes in the fling.
+It will relax automatically when the arm has completed it's bent arm fling.
+This is what causes the arm to straighten.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2Right" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2Right">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2Right.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2Right">Fling2Right</a>
+        </td>
+        <td class="markdown level1 summary"><p>Fling the right arm.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2Time" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2Time">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2Time.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2Time">Fling2Time</a>
+        </td>
+        <td class="markdown level1 summary"><p>Duration of the fling behavior.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2TimeBefore" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2TimeBefore">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.Fling2TimeBefore.html#GTA_NaturalMotion_ShotConfigureArmsHelper_Fling2TimeBefore">Fling2TimeBefore</a>
+        </td>
+        <td class="markdown level1 summary"><p>Time after hit that the fling will start (allows for a bit of loose arm movement from bullet impact.snap etc).</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_PointGun" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.PointGun">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.PointGun.html#GTA_NaturalMotion_ShotConfigureArmsHelper_PointGun">PointGun</a>
+        </td>
+        <td class="markdown level1 summary"><p>Point gun if appropriate.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_ReachFalling" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.ReachFalling">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.ReachFalling.html#GTA_NaturalMotion_ShotConfigureArmsHelper_ReachFalling">ReachFalling</a>
+        </td>
+        <td class="markdown level1 summary"><p>Reach for wound when falling.
+0 = false,
+1 = true,
+2 = once per shot performance.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_ReachFallingWithOneHand" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.ReachFallingWithOneHand">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.ReachFallingWithOneHand.html#GTA_NaturalMotion_ShotConfigureArmsHelper_ReachFallingWithOneHand">ReachFallingWithOneHand</a>
+        </td>
+        <td class="markdown level1 summary"><p>Force character to reach for wound with only one hand when falling or fallen.
+0 = allow two-handed reach,
+1 = left only if two-handed possible,
+2 = right only if two-handed possible,
+3 = one handed but automatic (allows switching of hands).</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_ReachOnFloor" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.ReachOnFloor">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.ReachOnFloor.html#GTA_NaturalMotion_ShotConfigureArmsHelper_ReachOnFloor">ReachOnFloor</a>
+        </td>
+        <td class="markdown level1 summary"><p>ReachForWound when on floor - 0 = false, 1 = true, 2 = once per shot performance.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_ReachWithOneHand" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.ReachWithOneHand">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.ReachWithOneHand.html#GTA_NaturalMotion_ShotConfigureArmsHelper_ReachWithOneHand">ReachWithOneHand</a>
+        </td>
+        <td class="markdown level1 summary"><p>Force character to reach for wound with only one hand.
+0 = allow two-handed reach,
+1 = left only if two-handed possible,
+2 = right only if two-handed possible.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_ReleaseWound" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.ReleaseWound">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.ReleaseWound.html#GTA_NaturalMotion_ShotConfigureArmsHelper_ReleaseWound">ReleaseWound</a>
+        </td>
+        <td class="markdown level1 summary"><p>Release wound if going sideways/forward fast enough.
+0 = don't.
+1 = only if bracing.
+2 = any default arm reaction.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_RfwWithPistol" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.RfwWithPistol">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.RfwWithPistol.html#GTA_NaturalMotion_ShotConfigureArmsHelper_RfwWithPistol">RfwWithPistol</a>
+        </td>
+        <td class="markdown level1 summary"><p>Override pointGun and reachForWound if desired if holding a pistol.
+It never will for a rifle.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_NaturalMotion_ShotConfigureArmsHelper_UseArmsWindmill" data-uid="GTA.NaturalMotion.ShotConfigureArmsHelper.UseArmsWindmill">
+          <a class="xref" href="GTA.NaturalMotion.ShotConfigureArmsHelper.UseArmsWindmill.html#GTA_NaturalMotion_ShotConfigureArmsHelper_UseArmsWindmill">UseArmsWindmill</a>
+        </td>
+        <td class="markdown level1 summary"><p>ArmsWindmill if going backwards fast enough.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/crosire/scripthookvdotnet//new/master/apiSpec/new?filename=GTA_NaturalMotion_ShotConfigureArmsHelper.md&amp;value=---%0Auid%3A%20GTA.NaturalMotion.ShotConfigureArmsHelper%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/nitanmarcel/scripthookvdotnet/blob/main/source/scripting_v2/GTA.NaturalMotion/EuphoriaHelpers.cs/#L20589" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+                <script type="text/javascript" src="../styles/toggle-theme.js"></script>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

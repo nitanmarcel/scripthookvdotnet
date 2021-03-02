@@ -1,0 +1,543 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Blip
+   | ScriptHookVDotNet </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Blip
+   | ScriptHookVDotNet ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../-" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="GTA.Blip">
+  
+  
+  <h1 id="GTA_Blip" data-uid="GTA.Blip" class="text-break">Class Blip
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="GTA.PoolObject.html">PoolObject</a></div>
+    <div class="level2"><span class="xref">Blip</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="GTA.Native.INativeValue.html">INativeValue</a></div>
+    <div><a class="xref" href="GTA.IDeletable.html">IDeletable</a></div>
+    <div><a class="xref" href="GTA.IExistable.html">IExistable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="GTA.PoolObject.Handle.html#GTA_PoolObject_Handle">PoolObject.Handle</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.PoolObject.NativeValue.html#GTA_PoolObject_NativeValue">PoolObject.NativeValue</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="../scripting_v2/GTA.html">GTA</a></h6>
+  <h6><strong>Assembly</strong>: ScriptHookVDotNet3.dll</h6>
+  <h5 id="GTA_Blip_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class Blip : PoolObject, INativeValue, IDeletable, IExistable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="GTA_Blip__ctor_System_Int32_" data-uid="GTA.Blip.#ctor(System.Int32)">
+          <a class="xref" href="../scripting_v2/GTA.Blip.-ctor.html#GTA_Blip__ctor_System_Int32_">Blip(Int32)</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="GTA_Blip_Alpha" data-uid="GTA.Blip.Alpha">
+          <a class="xref" href="../scripting_v2/GTA.Blip.Alpha.html#GTA_Blip_Alpha">Alpha</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the alpha of this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a> on the map.
+The value is up to 255.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_CategoryType" data-uid="GTA.Blip.CategoryType">
+          <a class="xref" href="GTA.Blip.CategoryType.html#GTA_Blip_CategoryType">CategoryType</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the category type of this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_Color" data-uid="GTA.Blip.Color">
+          <a class="xref" href="../scripting_v2/GTA.Blip.Color.html#GTA_Blip_Color">Color</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the color of this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_DisplayNameHash" data-uid="GTA.Blip.DisplayNameHash">
+          <a class="xref" href="GTA.Blip.DisplayNameHash.html#GTA_Blip_DisplayNameHash">DisplayNameHash</a>
+        </td>
+        <td class="markdown level1 summary"><p>Get or sets this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a>s display name hash.
+When <a class="xref" href="../scripting_v2/GTA.Blip.Name.html#GTA_Blip_Name">Name</a> is not set, the game will show the localized <span class="xref">System.String</span> from the games language files with a specified GXT key hash.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_DisplayType" data-uid="GTA.Blip.DisplayType">
+          <a class="xref" href="GTA.Blip.DisplayType.html#GTA_Blip_DisplayType">DisplayType</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the display type of this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_Entity" data-uid="GTA.Blip.Entity">
+          <a class="xref" href="GTA.Blip.Entity.html#GTA_Blip_Entity">Entity</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets the <a class="xref" href="GTA.Blip.Entity.html#GTA_Blip_Entity">Entity</a> this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a> is attached to.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_FlashInterval" data-uid="GTA.Blip.FlashInterval">
+          <a class="xref" href="GTA.Blip.FlashInterval.html#GTA_Blip_FlashInterval">FlashInterval</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the interval in ms between each blip flashing.
+The value is up to 65535.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_FlashTimeLeft" data-uid="GTA.Blip.FlashTimeLeft">
+          <a class="xref" href="GTA.Blip.FlashTimeLeft.html#GTA_Blip_FlashTimeLeft">FlashTimeLeft</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the flash time left in ms before this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a> stops flashing.
+The max value is up to 65534.
+Set <code>-1</code> to let the <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a> flash forever.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_IsFlashing" data-uid="GTA.Blip.IsFlashing">
+          <a class="xref" href="../scripting_v2/GTA.Blip.IsFlashing.html#GTA_Blip_IsFlashing">IsFlashing</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets a value indicating whether this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a> is flashing.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_IsFriendly" data-uid="GTA.Blip.IsFriendly">
+          <a class="xref" href="../scripting_v2/GTA.Blip.IsFriendly.html#GTA_Blip_IsFriendly">IsFriendly</a>
+        </td>
+        <td class="markdown level1 summary"><p>Sets a value indicating whether this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a> is friendly.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_IsHiddenOnLegend" data-uid="GTA.Blip.IsHiddenOnLegend">
+          <a class="xref" href="GTA.Blip.IsHiddenOnLegend.html#GTA_Blip_IsHiddenOnLegend">IsHiddenOnLegend</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets a value indicating whether this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a> is hidden on the map legend.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_IsOnMinimap" data-uid="GTA.Blip.IsOnMinimap">
+          <a class="xref" href="../scripting_v2/GTA.Blip.IsOnMinimap.html#GTA_Blip_IsOnMinimap">IsOnMinimap</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets a value indicating whether this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a> is on minimap.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_IsShortRange" data-uid="GTA.Blip.IsShortRange">
+          <a class="xref" href="../scripting_v2/GTA.Blip.IsShortRange.html#GTA_Blip_IsShortRange">IsShortRange</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets a value indicating whether this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a> is short range.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_MemoryAddress" data-uid="GTA.Blip.MemoryAddress">
+          <a class="xref" href="GTA.Blip.MemoryAddress.html#GTA_Blip_MemoryAddress">MemoryAddress</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets the memory address where the <a class="xref" href="../scripting_v2/GTA.Entity.html">Entity</a> is stored in memory.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_Name" data-uid="GTA.Blip.Name">
+          <a class="xref" href="../scripting_v2/GTA.Blip.Name.html#GTA_Blip_Name">Name</a>
+        </td>
+        <td class="markdown level1 summary"><p>Get or sets the custom name of this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a>.
+The custom name appears in the legends list on the map.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_NumberLabel" data-uid="GTA.Blip.NumberLabel">
+          <a class="xref" href="GTA.Blip.NumberLabel.html#GTA_Blip_NumberLabel">NumberLabel</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a>s label to the given number.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_Position" data-uid="GTA.Blip.Position">
+          <a class="xref" href="../scripting_v2/GTA.Blip.Position.html#GTA_Blip_Position">Position</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the position of this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_Priority" data-uid="GTA.Blip.Priority">
+          <a class="xref" href="GTA.Blip.Priority.html#GTA_Blip_Priority">Priority</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the priority of this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a>.
+Overlapping <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a>s with a higher priority cover those with a smaller one.
+The value is up to 255.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_Rotation" data-uid="GTA.Blip.Rotation">
+          <a class="xref" href="../scripting_v2/GTA.Blip.Rotation.html#GTA_Blip_Rotation">Rotation</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the rotation of this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a> on the map as an <span class="xref">System.Int32</span>.</p>
+<p>Use <a class="xref" href="GTA.Blip.RotationFloat.html#GTA_Blip_RotationFloat">RotationFloat</a> instead if you need to get or set the value strictly, since a rotation value of a <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a> are stored as a <span class="xref">System.Single</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_RotationFloat" data-uid="GTA.Blip.RotationFloat">
+          <a class="xref" href="GTA.Blip.RotationFloat.html#GTA_Blip_RotationFloat">RotationFloat</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the rotation of this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a> on the map as a <span class="xref">System.Single</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_Scale" data-uid="GTA.Blip.Scale">
+          <a class="xref" href="../scripting_v2/GTA.Blip.Scale.html#GTA_Blip_Scale">Scale</a>
+        </td>
+        <td class="markdown level1 summary"><p>Sets the scale of this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a> on the map.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_ScaleX" data-uid="GTA.Blip.ScaleX">
+          <a class="xref" href="GTA.Blip.ScaleX.html#GTA_Blip_ScaleX">ScaleX</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the x-axis scale of this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a> on the map.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_ScaleY" data-uid="GTA.Blip.ScaleY">
+          <a class="xref" href="GTA.Blip.ScaleY.html#GTA_Blip_ScaleY">ScaleY</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the y-axis scale of this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a> on the map.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_SecondaryColor" data-uid="GTA.Blip.SecondaryColor">
+          <a class="xref" href="GTA.Blip.SecondaryColor.html#GTA_Blip_SecondaryColor">SecondaryColor</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the secondary color of this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_ShowRoute" data-uid="GTA.Blip.ShowRoute">
+          <a class="xref" href="../scripting_v2/GTA.Blip.ShowRoute.html#GTA_Blip_ShowRoute">ShowRoute</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets a value indicating whether the route to this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a> should be shown on the map.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_ShowsCrewIndicator" data-uid="GTA.Blip.ShowsCrewIndicator">
+          <a class="xref" href="GTA.Blip.ShowsCrewIndicator.html#GTA_Blip_ShowsCrewIndicator">ShowsCrewIndicator</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets a value indicating whether this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a> shows crew member indicator, which highlights the <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a> by a left half cyan circle.
+The right half cyan circle indicator is used to indicate crew members in GTA: Online.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_ShowsDollarSign" data-uid="GTA.Blip.ShowsDollarSign">
+          <a class="xref" href="GTA.Blip.ShowsDollarSign.html#GTA_Blip_ShowsDollarSign">ShowsDollarSign</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets a value indicating whether this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a> shows the dollar sign at the top left corner of the <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_ShowsFriendIndicator" data-uid="GTA.Blip.ShowsFriendIndicator">
+          <a class="xref" href="GTA.Blip.ShowsFriendIndicator.html#GTA_Blip_ShowsFriendIndicator">ShowsFriendIndicator</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets a value indicating whether this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a> shows friend indicator, which highlights the <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a> by a right half cyan circle.
+The right half cyan circle indicator is used to indicate friends in GTA: Online.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_ShowsHeadingIndicator" data-uid="GTA.Blip.ShowsHeadingIndicator">
+          <a class="xref" href="GTA.Blip.ShowsHeadingIndicator.html#GTA_Blip_ShowsHeadingIndicator">ShowsHeadingIndicator</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets a value indicating whether this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a> shows the heading indicator used for normal players in GTA: Online.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_ShowsOutlineIndicator" data-uid="GTA.Blip.ShowsOutlineIndicator">
+          <a class="xref" href="GTA.Blip.ShowsOutlineIndicator.html#GTA_Blip_ShowsOutlineIndicator">ShowsOutlineIndicator</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets a value indicating whether this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a> shows outline.
+The outline color can be changed by setting <a class="xref" href="GTA.Blip.SecondaryColor.html#GTA_Blip_SecondaryColor">SecondaryColor</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_Sprite" data-uid="GTA.Blip.Sprite">
+          <a class="xref" href="../scripting_v2/GTA.Blip.Sprite.html#GTA_Blip_Sprite">Sprite</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the sprite of this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_Type" data-uid="GTA.Blip.Type">
+          <a class="xref" href="../scripting_v2/GTA.Blip.Type.html#GTA_Blip_Type">Type</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets the type of this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="GTA_Blip_Delete" data-uid="GTA.Blip.Delete">
+          <a class="xref" href="GTA.Blip.Delete.html#GTA_Blip_Delete">Delete()</a>
+        </td>
+        <td class="markdown level1 summary"><p>Removes this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_Equals_System_Object_" data-uid="GTA.Blip.Equals(System.Object)">
+          <a class="xref" href="../scripting_v2/GTA.Blip.Equals.html#GTA_Blip_Equals_System_Object_">Equals(Object)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Determines if an <span class="xref">System.Object</span> refers to the same blip as this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_Exists" data-uid="GTA.Blip.Exists">
+          <a class="xref" href="../scripting_v2/GTA.Blip.Exists.html#GTA_Blip_Exists">Exists()</a>
+        </td>
+        <td class="markdown level1 summary"><p>Determines if this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a> exists.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_GetAppropriateName" data-uid="GTA.Blip.GetAppropriateName">
+          <a class="xref" href="GTA.Blip.GetAppropriateName.html#GTA_Blip_GetAppropriateName">GetAppropriateName()</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets the appropriate name of this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a> in the same way the game does.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_GetHashCode" data-uid="GTA.Blip.GetHashCode">
+          <a class="xref" href="../scripting_v2/GTA.Blip.GetHashCode.html#GTA_Blip_GetHashCode">GetHashCode()</a>
+        </td>
+        <td class="markdown level1 summary"></td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_RemoveNumberLabel" data-uid="GTA.Blip.RemoveNumberLabel">
+          <a class="xref" href="GTA.Blip.RemoveNumberLabel.html#GTA_Blip_RemoveNumberLabel">RemoveNumberLabel()</a>
+        </td>
+        <td class="markdown level1 summary"><p>Removes the number label from this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_ResetName" data-uid="GTA.Blip.ResetName">
+          <a class="xref" href="GTA.Blip.ResetName.html#GTA_Blip_ResetName">ResetName()</a>
+        </td>
+        <td class="markdown level1 summary"><p>Sets the name of this <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a> based on its current <a class="xref" href="../scripting_v2/GTA.Blip.Sprite.html#GTA_Blip_Sprite">Sprite</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="operators">Operators
+  </h3>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="GTA_Blip_op_Equality_GTA_Blip_GTA_Blip_" data-uid="GTA.Blip.op_Equality(GTA.Blip,GTA.Blip)">
+          <a class="xref" href="../scripting_v2/GTA.Blip.op_Equality.html#GTA_Blip_op_Equality_GTA_Blip_GTA_Blip_">Equality(Blip, Blip)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Determines if two <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a>s refer to the same blip.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_op_Implicit_GTA_Blip__GTA_Native_InputArgument" data-uid="GTA.Blip.op_Implicit(GTA.Blip)~GTA.Native.InputArgument">
+          <a class="xref" href="GTA.Blip.op_Implicit.html#GTA_Blip_op_Implicit_GTA_Blip__GTA_Native_InputArgument">Implicit(Blip to InputArgument)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Converts a <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a> to a native input argument.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Blip_op_Inequality_GTA_Blip_GTA_Blip_" data-uid="GTA.Blip.op_Inequality(GTA.Blip,GTA.Blip)">
+          <a class="xref" href="../scripting_v2/GTA.Blip.op_Inequality.html#GTA_Blip_op_Inequality_GTA_Blip_GTA_Blip_">Inequality(Blip, Blip)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Determines if two <a class="xref" href="../scripting_v2/GTA.Blip.html">Blip</a>s don't refer to the same blip.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/crosire/scripthookvdotnet//new/master/apiSpec/new?filename=GTA_Blip.md&amp;value=---%0Auid%3A%20GTA.Blip%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/nitanmarcel/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Blip.cs/#L13" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+                <script type="text/javascript" src="../styles/toggle-theme.js"></script>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

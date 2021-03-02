@@ -1,0 +1,646 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Struct Matrix
+   | ScriptHookVDotNet </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Struct Matrix
+   | ScriptHookVDotNet ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../-" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="GTA.Math.Matrix">
+  
+  
+  <h1 id="GTA_Math_Matrix" data-uid="GTA.Math.Matrix" class="text-break">Struct Matrix
+  </h1>
+  <div class="markdown level0 summary"><p>Defines a 4x4 matrix.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="GTA.Math.Matrix.html">Matrix</a>&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="GTA.Math.html">GTA.Math</a></h6>
+  <h6><strong>Assembly</strong>: ScriptHookVDotNet2.dll</h6>
+  <h5 id="GTA_Math_Matrix_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public struct Matrix : IEquatable&lt;Matrix&gt;</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="GTA_Math_Matrix__ctor_System_Single___" data-uid="GTA.Math.Matrix.#ctor(System.Single[])">
+          <a class="xref" href="GTA.Math.Matrix.-ctor.html#GTA_Math_Matrix__ctor_System_Single___">Matrix(Single[])</a>
+        </td>
+        <td class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="GTA.Math.Matrix.html">Matrix</a> structure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="GTA_Math_Matrix_M11" data-uid="GTA.Math.Matrix.M11">
+          <a class="xref" href="GTA.Math.Matrix.M11.html">M11</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the element of the matrix that exists in the first row and first column.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_M12" data-uid="GTA.Math.Matrix.M12">
+          <a class="xref" href="GTA.Math.Matrix.M12.html">M12</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the element of the matrix that exists in the first row and second column.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_M13" data-uid="GTA.Math.Matrix.M13">
+          <a class="xref" href="GTA.Math.Matrix.M13.html">M13</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the element of the matrix that exists in the first row and third column.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_M14" data-uid="GTA.Math.Matrix.M14">
+          <a class="xref" href="GTA.Math.Matrix.M14.html">M14</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the element of the matrix that exists in the first row and fourth column.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_M21" data-uid="GTA.Math.Matrix.M21">
+          <a class="xref" href="GTA.Math.Matrix.M21.html">M21</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the element of the matrix that exists in the second row and first column.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_M22" data-uid="GTA.Math.Matrix.M22">
+          <a class="xref" href="GTA.Math.Matrix.M22.html">M22</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the element of the matrix that exists in the second row and second column.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_M23" data-uid="GTA.Math.Matrix.M23">
+          <a class="xref" href="GTA.Math.Matrix.M23.html">M23</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the element of the matrix that exists in the second row and third column.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_M24" data-uid="GTA.Math.Matrix.M24">
+          <a class="xref" href="GTA.Math.Matrix.M24.html">M24</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the element of the matrix that exists in the second row and fourth column.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_M31" data-uid="GTA.Math.Matrix.M31">
+          <a class="xref" href="GTA.Math.Matrix.M31.html">M31</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the element of the matrix that exists in the third row and first column.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_M32" data-uid="GTA.Math.Matrix.M32">
+          <a class="xref" href="GTA.Math.Matrix.M32.html">M32</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the element of the matrix that exists in the third row and second column.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_M33" data-uid="GTA.Math.Matrix.M33">
+          <a class="xref" href="GTA.Math.Matrix.M33.html">M33</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the element of the matrix that exists in the third row and third column.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_M34" data-uid="GTA.Math.Matrix.M34">
+          <a class="xref" href="GTA.Math.Matrix.M34.html">M34</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the element of the matrix that exists in the third row and fourth column.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_M41" data-uid="GTA.Math.Matrix.M41">
+          <a class="xref" href="GTA.Math.Matrix.M41.html">M41</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the element of the matrix that exists in the fourth row and first column.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_M42" data-uid="GTA.Math.Matrix.M42">
+          <a class="xref" href="GTA.Math.Matrix.M42.html">M42</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the element of the matrix that exists in the fourth row and second column.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_M43" data-uid="GTA.Math.Matrix.M43">
+          <a class="xref" href="GTA.Math.Matrix.M43.html">M43</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the element of the matrix that exists in the fourth row and third column.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_M44" data-uid="GTA.Math.Matrix.M44">
+          <a class="xref" href="GTA.Math.Matrix.M44.html">M44</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the element of the matrix that exists in the fourth row and fourth column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="GTA_Math_Matrix_HasInverse" data-uid="GTA.Math.Matrix.HasInverse">
+          <a class="xref" href="GTA.Math.Matrix.HasInverse.html#GTA_Math_Matrix_HasInverse">HasInverse</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets a value indicating whether this instance has an inverse matrix.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_Identity" data-uid="GTA.Math.Matrix.Identity">
+          <a class="xref" href="GTA.Math.Matrix.Identity.html#GTA_Math_Matrix_Identity">Identity</a>
+        </td>
+        <td class="markdown level1 summary"><p>The identity <a class="xref" href="GTA.Math.Matrix.html">Matrix</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_IsIdentity" data-uid="GTA.Math.Matrix.IsIdentity">
+          <a class="xref" href="GTA.Math.Matrix.IsIdentity.html#GTA_Math_Matrix_IsIdentity">IsIdentity</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets a value indicating whether this instance is an identity matrix.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_Item_System_Int32_System_Int32_" data-uid="GTA.Math.Matrix.Item(System.Int32,System.Int32)">
+          <a class="xref" href="GTA.Math.Matrix.Item.html#GTA_Math_Matrix_Item_System_Int32_System_Int32_">Item[Int32, Int32]</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets or sets the component at the specified index.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="GTA_Math_Matrix_Add_GTA_Math_Matrix_GTA_Math_Matrix_" data-uid="GTA.Math.Matrix.Add(GTA.Math.Matrix,GTA.Math.Matrix)">
+          <a class="xref" href="GTA.Math.Matrix.Add.html#GTA_Math_Matrix_Add_GTA_Math_Matrix_GTA_Math_Matrix_">Add(Matrix, Matrix)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Determines the sum of two matrices.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_Determinant" data-uid="GTA.Math.Matrix.Determinant">
+          <a class="xref" href="GTA.Math.Matrix.Determinant.html#GTA_Math_Matrix_Determinant">Determinant()</a>
+        </td>
+        <td class="markdown level1 summary"><p>Calculates the determinant of the matrix.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_Divide_GTA_Math_Matrix_GTA_Math_Matrix_" data-uid="GTA.Math.Matrix.Divide(GTA.Math.Matrix,GTA.Math.Matrix)">
+          <a class="xref" href="GTA.Math.Matrix.Divide.html#GTA_Math_Matrix_Divide_GTA_Math_Matrix_GTA_Math_Matrix_">Divide(Matrix, Matrix)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Determines the quotient of two matrices.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_Divide_GTA_Math_Matrix_System_Single_" data-uid="GTA.Math.Matrix.Divide(GTA.Math.Matrix,System.Single)">
+          <a class="xref" href="GTA.Math.Matrix.Divide.html#GTA_Math_Matrix_Divide_GTA_Math_Matrix_System_Single_">Divide(Matrix, Single)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Scales a matrix by the given value.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_Equals_GTA_Math_Matrix_" data-uid="GTA.Math.Matrix.Equals(GTA.Math.Matrix)">
+          <a class="xref" href="GTA.Math.Matrix.Equals.html#GTA_Math_Matrix_Equals_GTA_Math_Matrix_">Equals(Matrix)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Returns a value that indicates whether the current instance is equal to the specified object.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_Equals_GTA_Math_Matrix__GTA_Math_Matrix__" data-uid="GTA.Math.Matrix.Equals(GTA.Math.Matrix@,GTA.Math.Matrix@)">
+          <a class="xref" href="GTA.Math.Matrix.Equals.html#GTA_Math_Matrix_Equals_GTA_Math_Matrix__GTA_Math_Matrix__">Equals(ref Matrix, ref Matrix)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Determines whether the specified object instances are considered equal.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_Equals_System_Object_" data-uid="GTA.Math.Matrix.Equals(System.Object)">
+          <a class="xref" href="GTA.Math.Matrix.Equals.html#GTA_Math_Matrix_Equals_System_Object_">Equals(Object)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Returns a value that indicates whether the current instance is equal to a specified object.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_FromArray_System_Single___" data-uid="GTA.Math.Matrix.FromArray(System.Single[])">
+          <a class="xref" href="GTA.Math.Matrix.FromArray.html#GTA_Math_Matrix_FromArray_System_Single___">FromArray(Single[])</a>
+        </td>
+        <td class="markdown level1 summary"><p>Converts the matrix to an array of floats.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_GetHashCode" data-uid="GTA.Math.Matrix.GetHashCode">
+          <a class="xref" href="GTA.Math.Matrix.GetHashCode.html#GTA_Math_Matrix_GetHashCode">GetHashCode()</a>
+        </td>
+        <td class="markdown level1 summary"><p>Returns the hash code for this instance.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_Inverse" data-uid="GTA.Math.Matrix.Inverse">
+          <a class="xref" href="GTA.Math.Matrix.Inverse.html#GTA_Math_Matrix_Inverse">Inverse()</a>
+        </td>
+        <td class="markdown level1 summary"><p>Inverts the matrix.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_Inverse_GTA_Math_Matrix_" data-uid="GTA.Math.Matrix.Inverse(GTA.Math.Matrix)">
+          <a class="xref" href="GTA.Math.Matrix.Inverse.html#GTA_Math_Matrix_Inverse_GTA_Math_Matrix_">Inverse(Matrix)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Calculates the inverse of a matrix if it exists.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_Lerp_GTA_Math_Matrix_GTA_Math_Matrix_System_Single_" data-uid="GTA.Math.Matrix.Lerp(GTA.Math.Matrix,GTA.Math.Matrix,System.Single)">
+          <a class="xref" href="GTA.Math.Matrix.Lerp.html#GTA_Math_Matrix_Lerp_GTA_Math_Matrix_GTA_Math_Matrix_System_Single_">Lerp(Matrix, Matrix, Single)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Performs a linear interpolation between two matrices.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_Multiply_GTA_Math_Matrix_GTA_Math_Matrix_" data-uid="GTA.Math.Matrix.Multiply(GTA.Math.Matrix,GTA.Math.Matrix)">
+          <a class="xref" href="GTA.Math.Matrix.Multiply.html#GTA_Math_Matrix_Multiply_GTA_Math_Matrix_GTA_Math_Matrix_">Multiply(Matrix, Matrix)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Determines the product of two matrices.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_Multiply_GTA_Math_Matrix_System_Single_" data-uid="GTA.Math.Matrix.Multiply(GTA.Math.Matrix,System.Single)">
+          <a class="xref" href="GTA.Math.Matrix.Multiply.html#GTA_Math_Matrix_Multiply_GTA_Math_Matrix_System_Single_">Multiply(Matrix, Single)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Scales a matrix by the given value.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_Negate_GTA_Math_Matrix_" data-uid="GTA.Math.Matrix.Negate(GTA.Math.Matrix)">
+          <a class="xref" href="GTA.Math.Matrix.Negate.html#GTA_Math_Matrix_Negate_GTA_Math_Matrix_">Negate(Matrix)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Negates a matrix.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_RotationAxis_GTA_Math_Vector3_System_Single_" data-uid="GTA.Math.Matrix.RotationAxis(GTA.Math.Vector3,System.Single)">
+          <a class="xref" href="GTA.Math.Matrix.RotationAxis.html#GTA_Math_Matrix_RotationAxis_GTA_Math_Vector3_System_Single_">RotationAxis(Vector3, Single)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Creates a matrix that rotates around an arbitrary axis.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_RotationQuaternion_GTA_Math_Quaternion_" data-uid="GTA.Math.Matrix.RotationQuaternion(GTA.Math.Quaternion)">
+          <a class="xref" href="GTA.Math.Matrix.RotationQuaternion.html#GTA_Math_Matrix_RotationQuaternion_GTA_Math_Quaternion_">RotationQuaternion(Quaternion)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Creates a rotation matrix from a rotation.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_RotationX_System_Single_" data-uid="GTA.Math.Matrix.RotationX(System.Single)">
+          <a class="xref" href="GTA.Math.Matrix.RotationX.html#GTA_Math_Matrix_RotationX_System_Single_">RotationX(Single)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Creates a matrix that rotates around the x-axis.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_RotationY_System_Single_" data-uid="GTA.Math.Matrix.RotationY(System.Single)">
+          <a class="xref" href="GTA.Math.Matrix.RotationY.html#GTA_Math_Matrix_RotationY_System_Single_">RotationY(Single)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Creates a matrix that rotates around the y-axis.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_RotationYawPitchRoll_System_Single_System_Single_System_Single_" data-uid="GTA.Math.Matrix.RotationYawPitchRoll(System.Single,System.Single,System.Single)">
+          <a class="xref" href="GTA.Math.Matrix.RotationYawPitchRoll.html#GTA_Math_Matrix_RotationYawPitchRoll_System_Single_System_Single_System_Single_">RotationYawPitchRoll(Single, Single, Single)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Creates a rotation matrix with a specified yaw, pitch, and roll.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_RotationZ_System_Single_" data-uid="GTA.Math.Matrix.RotationZ(System.Single)">
+          <a class="xref" href="GTA.Math.Matrix.RotationZ.html#GTA_Math_Matrix_RotationZ_System_Single_">RotationZ(Single)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Creates a matrix that rotates around the z-axis.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_Scaling_GTA_Math_Vector3_" data-uid="GTA.Math.Matrix.Scaling(GTA.Math.Vector3)">
+          <a class="xref" href="GTA.Math.Matrix.Scaling.html#GTA_Math_Matrix_Scaling_GTA_Math_Vector3_">Scaling(Vector3)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Creates a matrix that scales along the x-axis, y-axis, and y-axis.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_Scaling_System_Single_System_Single_System_Single_" data-uid="GTA.Math.Matrix.Scaling(System.Single,System.Single,System.Single)">
+          <a class="xref" href="GTA.Math.Matrix.Scaling.html#GTA_Math_Matrix_Scaling_System_Single_System_Single_System_Single_">Scaling(Single, Single, Single)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Creates a matrix that scales along the x-axis, y-axis, and y-axis.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_Subtract_GTA_Math_Matrix_GTA_Math_Matrix_" data-uid="GTA.Math.Matrix.Subtract(GTA.Math.Matrix,GTA.Math.Matrix)">
+          <a class="xref" href="GTA.Math.Matrix.Subtract.html#GTA_Math_Matrix_Subtract_GTA_Math_Matrix_GTA_Math_Matrix_">Subtract(Matrix, Matrix)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Determines the difference between two matrices.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_ToArray" data-uid="GTA.Math.Matrix.ToArray">
+          <a class="xref" href="GTA.Math.Matrix.ToArray.html#GTA_Math_Matrix_ToArray">ToArray()</a>
+        </td>
+        <td class="markdown level1 summary"><p>Converts the matrix to an array of floats.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_ToString" data-uid="GTA.Math.Matrix.ToString">
+          <a class="xref" href="GTA.Math.Matrix.ToString.html#GTA_Math_Matrix_ToString">ToString()</a>
+        </td>
+        <td class="markdown level1 summary"><p>Converts the value of the object to its equivalent string representation.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_Translation_GTA_Math_Vector3_" data-uid="GTA.Math.Matrix.Translation(GTA.Math.Vector3)">
+          <a class="xref" href="GTA.Math.Matrix.Translation.html#GTA_Math_Matrix_Translation_GTA_Math_Vector3_">Translation(Vector3)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Creates a translation matrix using the specified offsets.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_Translation_System_Single_System_Single_System_Single_" data-uid="GTA.Math.Matrix.Translation(System.Single,System.Single,System.Single)">
+          <a class="xref" href="GTA.Math.Matrix.Translation.html#GTA_Math_Matrix_Translation_System_Single_System_Single_System_Single_">Translation(Single, Single, Single)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Creates a translation matrix using the specified offsets.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_Transpose_GTA_Math_Matrix_" data-uid="GTA.Math.Matrix.Transpose(GTA.Math.Matrix)">
+          <a class="xref" href="GTA.Math.Matrix.Transpose.html#GTA_Math_Matrix_Transpose_GTA_Math_Matrix_">Transpose(Matrix)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Calculates the transpose of the specified matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="operators">Operators
+  </h3>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="GTA_Math_Matrix_op_Addition_GTA_Math_Matrix_GTA_Math_Matrix_" data-uid="GTA.Math.Matrix.op_Addition(GTA.Math.Matrix,GTA.Math.Matrix)">
+          <a class="xref" href="GTA.Math.Matrix.op_Addition.html#GTA_Math_Matrix_op_Addition_GTA_Math_Matrix_GTA_Math_Matrix_">Addition(Matrix, Matrix)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Adds two matrices.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_op_Division_GTA_Math_Matrix_GTA_Math_Matrix_" data-uid="GTA.Math.Matrix.op_Division(GTA.Math.Matrix,GTA.Math.Matrix)">
+          <a class="xref" href="GTA.Math.Matrix.op_Division.html#GTA_Math_Matrix_op_Division_GTA_Math_Matrix_GTA_Math_Matrix_">Division(Matrix, Matrix)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Divides two matrices.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_op_Division_GTA_Math_Matrix_System_Single_" data-uid="GTA.Math.Matrix.op_Division(GTA.Math.Matrix,System.Single)">
+          <a class="xref" href="GTA.Math.Matrix.op_Division.html#GTA_Math_Matrix_op_Division_GTA_Math_Matrix_System_Single_">Division(Matrix, Single)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Scales a matrix by a given value.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_op_Equality_GTA_Math_Matrix_GTA_Math_Matrix_" data-uid="GTA.Math.Matrix.op_Equality(GTA.Math.Matrix,GTA.Math.Matrix)">
+          <a class="xref" href="GTA.Math.Matrix.op_Equality.html#GTA_Math_Matrix_op_Equality_GTA_Math_Matrix_GTA_Math_Matrix_">Equality(Matrix, Matrix)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Tests for equality between two objects.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_op_Inequality_GTA_Math_Matrix_GTA_Math_Matrix_" data-uid="GTA.Math.Matrix.op_Inequality(GTA.Math.Matrix,GTA.Math.Matrix)">
+          <a class="xref" href="GTA.Math.Matrix.op_Inequality.html#GTA_Math_Matrix_op_Inequality_GTA_Math_Matrix_GTA_Math_Matrix_">Inequality(Matrix, Matrix)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Tests for inequality between two objects.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_op_Multiply_GTA_Math_Matrix_GTA_Math_Matrix_" data-uid="GTA.Math.Matrix.op_Multiply(GTA.Math.Matrix,GTA.Math.Matrix)">
+          <a class="xref" href="GTA.Math.Matrix.op_Multiply.html#GTA_Math_Matrix_op_Multiply_GTA_Math_Matrix_GTA_Math_Matrix_">Multiply(Matrix, Matrix)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Multiplies two matrices.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_op_Multiply_GTA_Math_Matrix_System_Single_" data-uid="GTA.Math.Matrix.op_Multiply(GTA.Math.Matrix,System.Single)">
+          <a class="xref" href="GTA.Math.Matrix.op_Multiply.html#GTA_Math_Matrix_op_Multiply_GTA_Math_Matrix_System_Single_">Multiply(Matrix, Single)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Scales a matrix by a given value.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_op_Multiply_System_Single_GTA_Math_Matrix_" data-uid="GTA.Math.Matrix.op_Multiply(System.Single,GTA.Math.Matrix)">
+          <a class="xref" href="GTA.Math.Matrix.op_Multiply.html#GTA_Math_Matrix_op_Multiply_System_Single_GTA_Math_Matrix_">Multiply(Single, Matrix)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Scales a matrix by a given value.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_op_Subtraction_GTA_Math_Matrix_GTA_Math_Matrix_" data-uid="GTA.Math.Matrix.op_Subtraction(GTA.Math.Matrix,GTA.Math.Matrix)">
+          <a class="xref" href="GTA.Math.Matrix.op_Subtraction.html#GTA_Math_Matrix_op_Subtraction_GTA_Math_Matrix_GTA_Math_Matrix_">Subtraction(Matrix, Matrix)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Subtracts two matrices.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="GTA_Math_Matrix_op_UnaryNegation_GTA_Math_Matrix_" data-uid="GTA.Math.Matrix.op_UnaryNegation(GTA.Math.Matrix)">
+          <a class="xref" href="GTA.Math.Matrix.op_UnaryNegation.html#GTA_Math_Matrix_op_UnaryNegation_GTA_Math_Matrix_">UnaryNegation(Matrix)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Negates a matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/crosire/scripthookvdotnet//new/master/apiSpec/new?filename=GTA_Math_Matrix.md&amp;value=---%0Auid%3A%20GTA.Math.Matrix%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/nitanmarcel/scripthookvdotnet/blob/main/source/scripting_v2/GTA.Math/Matrix.cs/#L29" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+                <script type="text/javascript" src="../styles/toggle-theme.js"></script>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
